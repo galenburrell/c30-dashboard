@@ -1,0 +1,50 @@
+# Transformation log
+
+- Census release (vintage): 2026-10-01
+- Read `privtime.xlsx` sheet `Private NSA`: header row 4, 67 columns, 404 monthly rows (1993-01 to 2026-08). SHA-256 ff77dfdd4617c2a2…
+- Read `privsatime.xlsx` sheet `Private SA`: header row 4, 67 columns, 404 monthly rows (1993-01 to 2026-08). SHA-256 e9faea98ea4fc9c5…
+- Read `pubtime.xlsx` sheet `Public NSA`: header row 4, 43 columns, 404 monthly rows (1993-01 to 2026-08). SHA-256 83a753292e327767…
+- Read `pubsatime.xlsx` sheet `Public SA`: header row 4, 43 columns, 404 monthly rows (1993-01 to 2026-08). SHA-256 dc9fb363307e24ff…
+- Read `sltime.xlsx` sheet `State NSA`: header row 4, 66 columns, 404 monthly rows (1993-01 to 2026-08). SHA-256 4afff10eef20053b…
+- Read `slsatime.xlsx` sheet `State SA`: header row 4, 66 columns, 404 monthly rows (1993-01 to 2026-08). SHA-256 b2c8aaac7a17967e…
+- Window: 2016-01 to 2026-08 (128 months). Preliminary/revised flags: {'2026-06': 'r', '2026-07': 'r', '2026-08': 'p'}
+- Extracted 44 source columns × 2 adjustments × 128 months = 11264 source cells.
+- Segment **Data centers** = private:"Data center" — Census subcategory of private Office, published from Jan 2014. Public office has no data-center breakout.
+-   Pie breakdown of Data centers: Data centers [private]. Slices sum exactly to the segment.
+- Segment **Health care** = private:"Health care" + public:"Public Health care" — Private hospital, medical building and special care, plus total public health care.
+-   Pie breakdown of Health care: Hospital [private]; Medical building [private]; Special care [private]; Other / rounding [private]; Hospital (state & local) [public]; Medical building (state & local) [public]; Special care (state & local) [public]; Other (state & local) [public]; Federal [public]. Slices sum exactly to the segment.
+-   Subsegments of Health care: Hospital (private); Medical building (private); Special care (private); Public health care. Residual (parent − Σ subs) is reported as 'Other / not shown separately'.
+- Segment **Aviation** = private:"Air" + statelocal:"Air passenger terminal" — Private Transportation > Air (terminals, hangars, airfield work; Census publishes no further private breakout) plus state-and-local Air passenger terminal from sltime.xlsx. State-and-local runway and other air work, and federal air, are excluded.
+-   Pie breakdown of Aviation: Private air (all types) [private]; Air passenger terminal (state & local) [public]. Slices sum exactly to the segment.
+-   Subsegments of Aviation: Air passenger terminal (state & local); Private air (all types). Residual (parent − Σ subs) is reported as 'Other / not shown separately'.
+- Segment **Office (excl. data centers)** = private:"Office" − private:"Data center" + public:"Public Office" — Private Office minus private Data center, plus public Office.
+-   Subsegments of Office (excl. data centers): General office (private); Financial (private); Public office. Residual (parent − Σ subs) is reported as 'Other / not shown separately'.
+- Segment **Commercial (incl. farm)** = private:"Commercial (inc. Farm)" + public:"Public Commercial"
+-   Subsegments of Commercial (incl. farm): Warehouse (private); Multi-retail (private); Food/beverage (private); Automotive (private); Other commercial (private); Public commercial. Residual (parent − Σ subs) is reported as 'Other / not shown separately'.
+- Segment **Manufacturing** = private:"Manufacturing" — Private only; public manufacturing is not shown separately by Census.
+-   Subsegments of Manufacturing: Computer/electronic/electrical; Chemical; Transportation equipment; Food/beverage/tobacco. Residual (parent − Σ subs) is reported as 'Other / not shown separately'.
+- Segment **Educational** = private:"Educational" + public:"Public Educational"
+-   Pie breakdown of Educational: Higher education [private]; Primary/secondary [private]; Other educational [private]; Primary/secondary (state & local) [public]; Higher education (state & local) [public]; Other educational (state & local) [public]; Federal [public]. Slices sum exactly to the segment.
+-   Subsegments of Educational: Higher education (private); Primary/secondary (private); Public educational. Residual (parent − Σ subs) is reported as 'Other / not shown separately'.
+- Segment **Amusement & recreation** = private:"Amusement and Recreation" + public:"Public Amusement and recreation"
+- Segment **Lodging** = private:"Lodging" — Private only; public lodging is not shown separately by Census.
+- Segment **Public safety** = public:"Public Public safety" — Public only; private public-safety is not shown separately by Census.
+- Segment **Religious** = private:"Religious" — Private only.
+- Excluded private:"Residential (inc. Improvements)" — Residential; out of nonresidential scope
+- Excluded private:"Land" — Transportation > Land (rail and terminals); predominantly non-building infrastructure
+- Excluded private:"Communication" — Non-building infrastructure
+- Excluded private:"Power (inc. Gas and Oil)" — Non-building infrastructure
+- Excluded private:"(not shown separately)" — Private public safety, highway/street, sewage, water, conservation: included in Census private nonresidential total but not published as columns
+- Excluded public:"Public Residential" — Residential; out of nonresidential scope
+- Excluded public:"Public Transportation" — Mixed infrastructure (transit, ports, airports). State-and-local air passenger terminals are added back into Aviation from sltime.xlsx; this column itself is not used.
+- Excluded public:"State & local Air: Runway and other air (sltime Air − Air passenger terminal)" — Airfield infrastructure, not buildings
+- Excluded public:"Federal Air" — Not published as a column; federal transportation is mostly non-building
+- Excluded public:"Public Power" — Non-building infrastructure
+- Excluded public:"Public Highway and street" — Civil infrastructure
+- Excluded public:"Public Sewage and waste disposal" — Water/waste infrastructure
+- Excluded public:"Public Water supply" — Water infrastructure
+- Excluded public:"Public Conservation and development" — Civil infrastructure
+- Excluded public:"(not shown separately)" — Public lodging, religious, communication, manufacturing: not published as columns
+- Annual and YTD figures are computed from NOT seasonally adjusted monthly values (sum of months), consistent with Census annual/YTD methodology. SAAR values are used only for month-level trend views and are never summed.
+- All values are nominal (current) dollars, millions, as published. No inflation adjustment.
+- No previous vintage archived; revision comparison starts with the next update.

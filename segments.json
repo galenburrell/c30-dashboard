@@ -1,0 +1,838 @@
+{
+  "_about": "Segment definitions for the nonresidential BUILDINGS dashboard. Every number shown on the dashboard is a signed sum of the source columns listed here. Columns are matched by header label (row 4 of each Census workbook), not by column letter, so the build survives Census adding or moving columns. Edit this file to change scope; rerun build.py.",
+  "window_start": "2016-01",
+  "sources": {
+    "private": {
+      "nsa": "privtime.xlsx",
+      "sa": "privsatime.xlsx"
+    },
+    "public": {
+      "nsa": "pubtime.xlsx",
+      "sa": "pubsatime.xlsx"
+    },
+    "statelocal": {
+      "sector": "public",
+      "nsa": "sltime.xlsx",
+      "sa": "slsatime.xlsx"
+    }
+  },
+  "segments": [
+    {
+      "id": "data_center",
+      "name": "Data centers",
+      "focus": true,
+      "note": "Census subcategory of private Office, published from Jan 2014. Public office has no data-center breakout.",
+      "components": [
+        {
+          "sector": "private",
+          "col": "Data center",
+          "sign": 1
+        }
+      ],
+      "subsegments": [],
+      "breakdown": [
+        {
+          "id": "bd_dc_priv",
+          "name": "Data centers",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Data center",
+              "sign": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health_care",
+      "name": "Health care",
+      "focus": true,
+      "note": "Private hospital, medical building and special care, plus total public health care.",
+      "components": [
+        {
+          "sector": "private",
+          "col": "Health care",
+          "sign": 1
+        },
+        {
+          "sector": "public",
+          "col": "Public Health care",
+          "sign": 1
+        }
+      ],
+      "subsegments": [
+        {
+          "id": "hc_hospital",
+          "name": "Hospital (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Hospital",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "hc_medical",
+          "name": "Medical building (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Medical building",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "hc_special",
+          "name": "Special care (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Special care",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "hc_public",
+          "name": "Public health care",
+          "components": [
+            {
+              "sector": "public",
+              "col": "Public Health care",
+              "sign": 1
+            }
+          ]
+        }
+      ],
+      "breakdown": [
+        {
+          "id": "bd_hc_p_hosp",
+          "name": "Hospital",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Hospital",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "bd_hc_p_med",
+          "name": "Medical building",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Medical building",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "bd_hc_p_spec",
+          "name": "Special care",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Special care",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "bd_hc_p_oth",
+          "name": "Other / rounding",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Health care",
+              "sign": 1
+            },
+            {
+              "sector": "private",
+              "col": "Hospital",
+              "sign": -1
+            },
+            {
+              "sector": "private",
+              "col": "Medical building",
+              "sign": -1
+            },
+            {
+              "sector": "private",
+              "col": "Special care",
+              "sign": -1
+            }
+          ]
+        },
+        {
+          "id": "bd_hc_s_hosp",
+          "name": "Hospital (state & local)",
+          "components": [
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Hospital",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "bd_hc_s_med",
+          "name": "Medical building (state & local)",
+          "components": [
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Medical building",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "bd_hc_s_spec",
+          "name": "Special care (state & local)",
+          "components": [
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Special care",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "bd_hc_s_oth",
+          "name": "Other (state & local)",
+          "components": [
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Health care",
+              "sign": 1
+            },
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Hospital",
+              "sign": -1
+            },
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Medical building",
+              "sign": -1
+            },
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Special care",
+              "sign": -1
+            }
+          ]
+        },
+        {
+          "id": "bd_hc_fed",
+          "name": "Federal",
+          "components": [
+            {
+              "sector": "public",
+              "col": "Public Health care",
+              "sign": 1
+            },
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Health care",
+              "sign": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aviation",
+      "name": "Aviation",
+      "focus": true,
+      "note": "Private Transportation > Air (terminals, hangars, airfield work; Census publishes no further private breakout) plus state-and-local Air passenger terminal from sltime.xlsx. State-and-local runway and other air work, and federal air, are excluded.",
+      "components": [
+        {
+          "sector": "private",
+          "col": "Air",
+          "sign": 1
+        },
+        {
+          "sector": "public",
+          "source": "statelocal",
+          "col": "Air passenger terminal",
+          "sign": 1
+        }
+      ],
+      "subsegments": [
+        {
+          "id": "av_terminal",
+          "name": "Air passenger terminal (state & local)",
+          "focus": true,
+          "components": [
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Air passenger terminal",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "av_private",
+          "name": "Private air (all types)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Air",
+              "sign": 1
+            }
+          ]
+        }
+      ],
+      "breakdown": [
+        {
+          "id": "bd_av_priv",
+          "name": "Private air (all types)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Air",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "bd_av_term",
+          "name": "Air passenger terminal (state & local)",
+          "components": [
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Air passenger terminal",
+              "sign": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "office_ex_dc",
+      "name": "Office (excl. data centers)",
+      "focus": false,
+      "note": "Private Office minus private Data center, plus public Office.",
+      "components": [
+        {
+          "sector": "private",
+          "col": "Office",
+          "sign": 1
+        },
+        {
+          "sector": "private",
+          "col": "Data center",
+          "sign": -1
+        },
+        {
+          "sector": "public",
+          "col": "Public Office",
+          "sign": 1
+        }
+      ],
+      "subsegments": [
+        {
+          "id": "of_general",
+          "name": "General office (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "General",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "of_financial",
+          "name": "Financial (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Financial",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "of_public",
+          "name": "Public office",
+          "components": [
+            {
+              "sector": "public",
+              "col": "Public Office",
+              "sign": 1
+            }
+          ]
+        }
+      ],
+      "breakdown": []
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial (incl. farm)",
+      "focus": false,
+      "note": "",
+      "components": [
+        {
+          "sector": "private",
+          "col": "Commercial (inc. Farm)",
+          "sign": 1
+        },
+        {
+          "sector": "public",
+          "col": "Public Commercial",
+          "sign": 1
+        }
+      ],
+      "subsegments": [
+        {
+          "id": "cm_warehouse",
+          "name": "Warehouse (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Warehouse",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "cm_multiretail",
+          "name": "Multi-retail (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Multi-retail",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "cm_food",
+          "name": "Food/beverage (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Food/beverage",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "cm_auto",
+          "name": "Automotive (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Automotive",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "cm_other",
+          "name": "Other commercial (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Other commercial",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "cm_public",
+          "name": "Public commercial",
+          "components": [
+            {
+              "sector": "public",
+              "col": "Public Commercial",
+              "sign": 1
+            }
+          ]
+        }
+      ],
+      "breakdown": []
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufacturing",
+      "focus": false,
+      "note": "Private only; public manufacturing is not shown separately by Census.",
+      "components": [
+        {
+          "sector": "private",
+          "col": "Manufacturing",
+          "sign": 1
+        }
+      ],
+      "subsegments": [
+        {
+          "id": "mf_computer",
+          "name": "Computer/electronic/electrical",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Computer/ electronic/ electrical",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "mf_chemical",
+          "name": "Chemical",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Chemical",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "mf_transport",
+          "name": "Transportation equipment",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Transportation equipment",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "mf_food",
+          "name": "Food/beverage/tobacco",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Food/beverage/ tobacco",
+              "sign": 1
+            }
+          ]
+        }
+      ],
+      "breakdown": []
+    },
+    {
+      "id": "educational",
+      "name": "Educational",
+      "focus": false,
+      "note": "",
+      "components": [
+        {
+          "sector": "private",
+          "col": "Educational",
+          "sign": 1
+        },
+        {
+          "sector": "public",
+          "col": "Public Educational",
+          "sign": 1
+        }
+      ],
+      "subsegments": [
+        {
+          "id": "ed_higher",
+          "name": "Higher education (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Higher education",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "ed_k12",
+          "name": "Primary/secondary (private)",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Primary/secondary",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "ed_public",
+          "name": "Public educational",
+          "components": [
+            {
+              "sector": "public",
+              "col": "Public Educational",
+              "sign": 1
+            }
+          ]
+        }
+      ],
+      "breakdown": [
+        {
+          "id": "bd_ed_p_high",
+          "name": "Higher education",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Higher education",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "bd_ed_p_k12",
+          "name": "Primary/secondary",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Primary/secondary",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "bd_ed_p_oth",
+          "name": "Other educational",
+          "components": [
+            {
+              "sector": "private",
+              "col": "Educational",
+              "sign": 1
+            },
+            {
+              "sector": "private",
+              "col": "Higher education",
+              "sign": -1
+            },
+            {
+              "sector": "private",
+              "col": "Primary/secondary",
+              "sign": -1
+            }
+          ]
+        },
+        {
+          "id": "bd_ed_s_k12",
+          "name": "Primary/secondary (state & local)",
+          "components": [
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Primary/secondary",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "bd_ed_s_high",
+          "name": "Higher education (state & local)",
+          "components": [
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Higher education",
+              "sign": 1
+            }
+          ]
+        },
+        {
+          "id": "bd_ed_s_oth",
+          "name": "Other educational (state & local)",
+          "components": [
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Educational",
+              "sign": 1
+            },
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Primary/secondary",
+              "sign": -1
+            },
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Higher education",
+              "sign": -1
+            }
+          ]
+        },
+        {
+          "id": "bd_ed_fed",
+          "name": "Federal",
+          "components": [
+            {
+              "sector": "public",
+              "col": "Public Educational",
+              "sign": 1
+            },
+            {
+              "sector": "public",
+              "source": "statelocal",
+              "col": "Educational",
+              "sign": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amusement",
+      "name": "Amusement & recreation",
+      "focus": false,
+      "note": "",
+      "components": [
+        {
+          "sector": "private",
+          "col": "Amusement and Recreation",
+          "sign": 1
+        },
+        {
+          "sector": "public",
+          "col": "Public Amusement and recreation",
+          "sign": 1
+        }
+      ],
+      "subsegments": [],
+      "breakdown": []
+    },
+    {
+      "id": "lodging",
+      "name": "Lodging",
+      "focus": false,
+      "note": "Private only; public lodging is not shown separately by Census.",
+      "components": [
+        {
+          "sector": "private",
+          "col": "Lodging",
+          "sign": 1
+        }
+      ],
+      "subsegments": [],
+      "breakdown": []
+    },
+    {
+      "id": "public_safety",
+      "name": "Public safety",
+      "focus": false,
+      "note": "Public only; private public-safety is not shown separately by Census.",
+      "components": [
+        {
+          "sector": "public",
+          "col": "Public Public safety",
+          "sign": 1
+        }
+      ],
+      "subsegments": [],
+      "breakdown": []
+    },
+    {
+      "id": "religious",
+      "name": "Religious",
+      "focus": false,
+      "note": "Private only.",
+      "components": [
+        {
+          "sector": "private",
+          "col": "Religious",
+          "sign": 1
+        }
+      ],
+      "subsegments": [],
+      "breakdown": []
+    }
+  ],
+  "excluded": [
+    {
+      "sector": "private",
+      "col": "Residential (inc. Improvements)",
+      "reason": "Residential; out of nonresidential scope"
+    },
+    {
+      "sector": "private",
+      "col": "Land",
+      "reason": "Transportation > Land (rail and terminals); predominantly non-building infrastructure"
+    },
+    {
+      "sector": "private",
+      "col": "Communication",
+      "reason": "Non-building infrastructure"
+    },
+    {
+      "sector": "private",
+      "col": "Power (inc. Gas and Oil)",
+      "reason": "Non-building infrastructure"
+    },
+    {
+      "sector": "private",
+      "col": "(not shown separately)",
+      "reason": "Private public safety, highway/street, sewage, water, conservation: included in Census private nonresidential total but not published as columns"
+    },
+    {
+      "sector": "public",
+      "col": "Public Residential",
+      "reason": "Residential; out of nonresidential scope"
+    },
+    {
+      "sector": "public",
+      "col": "Public Transportation",
+      "reason": "Mixed infrastructure (transit, ports, airports). State-and-local air passenger terminals are added back into Aviation from sltime.xlsx; this column itself is not used."
+    },
+    {
+      "sector": "public",
+      "col": "State & local Air: Runway and other air (sltime Air − Air passenger terminal)",
+      "reason": "Airfield infrastructure, not buildings"
+    },
+    {
+      "sector": "public",
+      "col": "Federal Air",
+      "reason": "Not published as a column; federal transportation is mostly non-building"
+    },
+    {
+      "sector": "public",
+      "col": "Public Power",
+      "reason": "Non-building infrastructure"
+    },
+    {
+      "sector": "public",
+      "col": "Public Highway and street",
+      "reason": "Civil infrastructure"
+    },
+    {
+      "sector": "public",
+      "col": "Public Sewage and waste disposal",
+      "reason": "Water/waste infrastructure"
+    },
+    {
+      "sector": "public",
+      "col": "Public Water supply",
+      "reason": "Water infrastructure"
+    },
+    {
+      "sector": "public",
+      "col": "Public Conservation and development",
+      "reason": "Civil infrastructure"
+    },
+    {
+      "sector": "public",
+      "col": "(not shown separately)",
+      "reason": "Public lodging, religious, communication, manufacturing: not published as columns"
+    }
+  ],
+  "_breakdown_about": "Pie-chart breakdowns. Each slice is a signed sum of source columns; slices of a segment sum exactly to the segment. Public detail comes from the state-and-local workbooks; Federal = Public total − state & local total."
+}

@@ -1,0 +1,683 @@
+<title>Nonresidential Building Spending</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one column of stacked panels — headline numbers, segment table, trend, small multiples, annual history, provenance.
+   Subject cue: construction-document drafting — cool grey sheet, blueprint-blue ink, cell addresses set in mono like drawing references. */
+:root{
+  --bg:#f3f4f2; --surface:#fcfcfb; --surface-2:#f0f1ee; --ink:#121417; --ink-2:#4b4f55; --muted:#7e8288;
+  --grid:#e2e4df; --axis:#c3c6bf; --line:rgba(18,20,23,.10); --accent:#1f4e8c; --accent-wash:rgba(31,78,140,.08);
+  --good:#006300; --bad:#b42f2f; --flag:#8a5a00; --flag-wash:rgba(237,161,0,.14);
+  --g1:#3f4247; --g2:#62666b; --g3:#83878c; --g4:#a2a5a9; --g5:#bcbec1; --g6:#d0d2d4; --g7:#e0e1e2; 
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300; --s7:#4a3aa7; --ref:#3a3d42;
+  --f-ui:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --r:6px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1113; --surface:#17191c; --surface-2:#1e2124; --ink:#f1f2ef; --ink-2:#c3c5bf; --muted:#8b8f93;
+  --grid:#2a2d30; --axis:#3b3f43; --line:rgba(255,255,255,.10); --accent:#7fa8e6; --accent-wash:rgba(127,168,230,.12);
+  --good:#2fbf4a; --bad:#ef7a7a; --flag:#e8b44a; --flag-wash:rgba(232,180,74,.14);
+  --g1:#d2d4d6; --g2:#b2b5b8; --g3:#93969a; --g4:#76797d; --g5:#5d6064; --g6:#4a4d51; --g7:#3a3d40; 
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --ref:#d6d8d3;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1113; --surface:#17191c; --surface-2:#1e2124; --ink:#f1f2ef; --ink-2:#c3c5bf; --muted:#8b8f93;
+  --grid:#2a2d30; --axis:#3b3f43; --line:rgba(255,255,255,.10); --accent:#7fa8e6; --accent-wash:rgba(127,168,230,.12);
+  --good:#2fbf4a; --bad:#ef7a7a; --flag:#e8b44a; --flag-wash:rgba(232,180,74,.14);
+  --g1:#d2d4d6; --g2:#b2b5b8; --g3:#93969a; --g4:#76797d; --g5:#5d6064; --g6:#4a4d51; --g7:#3a3d40; 
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --ref:#d6d8d3;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:14px;line-height:1.45;margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:20px;padding-block:24px 64px;display:grid;gap:20px}
+h1,h2,h3{margin:0;text-wrap:balance}
+h1{font-size:26px;font-weight:800;letter-spacing:-.01em}
+h2{font-size:17px;font-weight:700}
+h3{font-size:13px;font-weight:600}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.mono{font-family:var(--f-mono);font-size:12px}
+.num{font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)} .ink2{color:var(--ink-2)}
+p{margin:0;max-width:72ch}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+
+header.top{display:grid;gap:10px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 16px;color:var(--ink-2);font-size:13px}
+.meta b{color:var(--ink);font-weight:600}
+.chip{display:inline-flex;align-items:center;gap:5px;padding:1px 7px;border-radius:999px;font-size:11px;font-weight:600;letter-spacing:.02em;white-space:nowrap}
+.chip.p,.chip.r{background:var(--flag-wash);color:var(--flag)}
+.chip.focus{background:var(--accent-wash);color:var(--accent)}
+
+.controls{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;z-index:5;background:var(--bg);padding-block:8px;border-bottom:1px solid var(--line)}
+.seg{display:inline-flex;flex-wrap:wrap;max-width:100%;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:none;padding:6px 12px;cursor:pointer;font-size:13px;color:var(--ink-2)}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface);font-weight:600}
+.ctl{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;min-width:0}
+@media (min-width:760px){.controls{position:sticky;top:env(safe-area-inset-top,0px)}}
+.ctl>span{font-size:12px;color:var(--muted)}
+
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px;display:grid;gap:14px;min-width:0}
+.panel-head{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between}
+.panel-head p{font-size:13px;color:var(--ink-2)}
+
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:960px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.kpis{grid-template-columns:1fr}}
+.kpi{border:1px solid var(--line);border-radius:var(--r);padding:14px;display:grid;gap:8px;align-content:start;background:var(--surface)}
+.kpi.total{background:var(--surface-2)}
+.kpi .k-name{display:flex;align-items:center;gap:8px;font-weight:600;font-size:13px}
+.kpi .k-name i{width:14px;height:3px;border-radius:2px;display:inline-block}
+.kpi .k-val{font-size:28px;font-weight:700;letter-spacing:-.01em;line-height:1.1}
+.kpi .k-sub{font-size:12px;color:var(--muted)}
+.kpi dl{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;margin:0;font-size:12.5px}
+.kpi dt{color:var(--muted)} .kpi dd{margin:0;text-align:right}
+.kpi .na{color:var(--muted);font-size:13px}
+.kpi .spark{height:44px}
+.ksub{display:grid;gap:3px;border-top:1px solid var(--grid);padding-top:8px;font-size:12.5px}
+.ksub-row{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+
+.delta{font-weight:600;white-space:nowrap}
+.delta.up{color:var(--good)} .delta.down{color:var(--bad)} .delta.flat{color:var(--ink-2)}
+
+.trace{background:none;border:0;padding:0;cursor:pointer;font:inherit;color:inherit;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:3px;transition:text-decoration-color .12s}
+.trace:hover,.trace:focus-visible{text-decoration-color:var(--accent);color:var(--accent)}
+
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:7px 10px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--grid)}
+th{font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);background:var(--surface-2);position:sticky;top:0}
+th:first-child,td:first-child{text-align:left;position:sticky;left:0;background:var(--surface);z-index:1}
+th:first-child{background:var(--surface-2);z-index:2}
+tbody tr:hover td{background:var(--surface-2)}
+tr.total td{font-weight:700;background:var(--surface-2)}
+tr.sub td:first-child{padding-left:30px;color:var(--ink-2)}
+tr.sub td{font-size:12.5px;color:var(--ink-2)}
+tr.resid td{color:var(--muted);font-style:italic}
+td .rowname{display:inline-flex;align-items:center;gap:8px}
+.expander{border:0;background:none;cursor:pointer;width:18px;height:18px;display:inline-grid;place-items:center;color:var(--muted);border-radius:3px}
+.expander:hover{background:var(--accent-wash);color:var(--accent)}
+.expander svg{transition:transform .15s}
+.expander[aria-expanded="true"] svg{transform:rotate(90deg)}
+.spacer{display:inline-block;width:18px}
+.col-group{border-left:1px solid var(--grid)}
+
+.legend{display:flex;flex-wrap:wrap;gap:6px 8px}
+.legend button{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:3px 10px 3px 8px;cursor:pointer;font-size:12.5px;color:var(--ink-2)}
+.legend button[aria-pressed="false"]{opacity:.55}
+.legend button[aria-pressed="false"] i{background:transparent!important;border:1.5px solid var(--muted)}
+.legend i{width:14px;height:3px;border-radius:2px;display:inline-block}
+.legend i.dash{background:repeating-linear-gradient(90deg,var(--ref) 0 4px,transparent 4px 7px)!important}
+
+.chart{position:relative;min-width:0}
+.chart svg{display:block;width:100%;overflow:visible}
+.chart svg:focus{outline:none}
+.chart svg:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--line);box-shadow:0 4px 18px rgba(0,0,0,.12);border-radius:var(--r);padding:8px 10px;font-size:12px;min-width:160px;z-index:3}
+.tip .t-h{font-weight:600;margin-bottom:4px;color:var(--ink-2)}
+.tip .t-r{display:grid;grid-template-columns:12px 1fr auto;gap:8px;align-items:center}
+.tip .t-r i{height:2px;border-radius:1px}
+.tip .t-r b{font-variant-numeric:tabular-nums}
+.tip .t-r span{color:var(--muted)}
+
+.multiples{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.mult{border:1px solid var(--line);border-radius:var(--r);padding:12px;display:grid;gap:4px;min-width:0}
+.mult .m-head{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.mult .m-head h3{font-size:13px}
+.mult .m-val{font-size:12.5px}
+.mult.na{color:var(--muted);font-size:12.5px}
+
+.mix{display:grid;gap:14px}
+.mix-total{display:grid;grid-template-columns:auto minmax(0,1fr);gap:20px 28px;align-items:center;border:1px solid var(--line);border-radius:var(--r);padding:16px}
+@media (max-width:640px){.mix-total{grid-template-columns:1fr;justify-items:center}}
+.mix-segs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:1060px){.mix-segs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.mix-segs{grid-template-columns:1fr}}
+.mix-card{border:1px solid var(--line);border-radius:var(--r);padding:14px;display:grid;gap:10px;align-content:start;min-width:0}
+.mix-card .pie-wrap{justify-self:center}
+.mix-card h3,.mix-total h3{display:flex;align-items:center;gap:8px}
+.mix-card h3 i,.mix-total h3 i{width:14px;height:3px;border-radius:2px;display:inline-block}
+.pie-wrap{position:relative;width:max-content;max-width:100%}
+.pie-wrap svg{display:block;max-width:100%;height:auto}
+.pie-wrap path{cursor:pointer;transition:transform .12s}
+.pie-wrap path:focus{outline:none}
+.pie-wrap path:hover,.pie-wrap path:focus-visible,.pie-wrap path.on{filter:brightness(1.08)}
+.plist{display:grid;gap:2px;min-width:0;font-size:12.5px}
+.plist.cols{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px}
+@media (max-width:900px){.plist.cols{grid-template-columns:1fr}}
+.plist .grp{grid-column:1/-1;font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.plist .pr{display:grid;grid-template-columns:12px minmax(0,1fr) auto auto;gap:8px;align-items:center;padding:2px 4px;border-radius:4px}
+.plist .pr.on{background:var(--accent-wash)}
+.plist .pr .sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.plist .pr .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink-2)}
+.plist .pr.focus .nm{color:var(--ink);font-weight:600}
+.plist .pr .sh{color:var(--muted);min-width:44px;text-align:right}
+.mix-head{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between}
+.keyrow{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--ink-2);align-items:center}
+.keyrow span{display:inline-flex;align-items:center;gap:6px}
+.note{font-size:12.5px;color:var(--ink-2);border-left:2px solid var(--axis);padding-left:10px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:860px){.grid2{grid-template-columns:1fr}}
+.defs{display:grid;gap:10px;min-width:0}
+.defs>*{min-width:0}
+.def{display:grid;gap:4px;min-width:0;overflow-wrap:anywhere;padding:10px 12px;border:1px solid var(--grid);border-radius:var(--r)}
+.def .f{font-family:var(--f-mono);font-size:12px;color:var(--ink-2);overflow-wrap:anywhere}
+ol.steps{margin:0;padding-left:20px;display:grid;gap:6px;max-width:80ch}
+ul.log{margin:0;padding-left:18px;display:grid;gap:4px;font-size:12.5px;color:var(--ink-2);max-width:110ch}
+ul.log code,.def code{font-family:var(--f-mono);font-size:11.5px}
+
+.drawer-bg{position:fixed;inset:0;background:rgba(0,0,0,.28);z-index:20}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(640px,100%);background:var(--surface);border-left:1px solid var(--line);z-index:21;display:grid;grid-template-rows:auto 1fr;box-shadow:-10px 0 30px rgba(0,0,0,.15)}
+.drawer .d-head{padding:calc(16px + env(safe-area-inset-top,0px)) 18px 12px;border-bottom:1px solid var(--line);display:grid;gap:6px}
+.drawer .d-head .row{display:flex;justify-content:space-between;align-items:start;gap:12px}
+.drawer .d-body{overflow:auto;padding:14px 18px calc(24px + env(safe-area-inset-bottom,0px));display:grid;gap:18px;align-content:start}
+.drawer .close{border:1px solid var(--line);background:var(--surface-2);border-radius:var(--r);padding:4px 10px;cursor:pointer}
+.drawer .formula{font-family:var(--f-mono);font-size:12px;background:var(--surface-2);border-radius:var(--r);padding:10px 12px;overflow-wrap:anywhere;color:var(--ink)}
+.drawer table td,.drawer table th{padding:5px 8px;font-size:12px}
+.drawer table td:first-child,.drawer table th:first-child{position:static}
+.drawer .sumrow td{font-weight:700;border-top:1px solid var(--axis)}
+.copy{border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:3px 9px;cursor:pointer;font-size:12px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">US Census Bureau · Value of Construction Put in Place (C30)</div>
+    <h1>Nonresidential Building Spending</h1>
+    <p class="ink2">Buildings only: civil, water, power, communication and transportation infrastructure removed. Data centers, health care and aviation (with air passenger terminals broken out) are isolated from their parent categories. Click any figure to see the source cells behind it.</p>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <div class="controls" role="toolbar" aria-label="Filters">
+    <div class="ctl"><span>Ownership</span>
+      <div class="seg" id="sectorCtl">
+        <button data-v="total" aria-pressed="true">Private + public</button><button data-v="private" aria-pressed="false">Private</button><button data-v="public" aria-pressed="false">Public</button>
+      </div>
+    </div>
+    <div class="ctl"><span>Trend basis</span>
+      <div class="seg" id="freqCtl">
+        <button data-v="t12" aria-pressed="true">Trailing 12-mo</button><button data-v="annual" aria-pressed="false">Annual</button><button data-v="saar" aria-pressed="false">Monthly SAAR</button><button data-v="nsa" aria-pressed="false">Monthly NSA</button>
+      </div>
+    </div>
+    <div class="ctl"><span>Measure</span>
+      <div class="seg" id="measureCtl">
+        <button data-v="usd" aria-pressed="true">$</button><button data-v="index" aria-pressed="false">Index 2016 = 100</button><button data-v="share" aria-pressed="false">% of buildings</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="panel" aria-labelledby="h-cy">
+    <div class="panel-head"><h2 id="h-cy">Current year</h2><p id="cyNote"></p></div>
+    <div class="kpis" id="kpis"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-mix">
+    <div class="mix-head"><h2 id="h-mix">Spending mix</h2>
+      <div class="ctl"><span>Period</span><div class="seg" id="mixPeriodCtl"></div></div></div>
+    <p class="ink2" id="mixNote" style="font-size:13px"></p>
+    <div class="keyrow" id="mixKey"></div>
+    <div class="mix">
+      <div class="mix-total" id="mixTotal"></div>
+      <div class="mix-segs" id="mixSegs"></div>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-seg">
+    <div class="panel-head"><h2 id="h-seg">Year-to-date by segment</h2><p>Expand a segment to see its Census subcategories. "Other / not shown separately" is the parent minus its listed subcategories.</p></div>
+    <div class="tablewrap"><table id="ytdTable"></table></div>
+    <p class="note" id="saNote" hidden></p>
+  </section>
+
+  <section class="panel" aria-labelledby="h-trend">
+    <div class="panel-head"><h2 id="h-trend">Ten-year trend</h2><p id="trendNote"></p></div>
+    <div class="legend" id="trendLegend" aria-label="Series shown"></div>
+    <div class="chart" id="trendChart"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-mult">
+    <div class="panel-head"><h2 id="h-mult">Every building segment</h2><p>Each panel has its own vertical scale. Same basis and measure as the trend above.</p></div>
+    <div class="multiples" id="multiples"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-ann">
+    <div class="panel-head"><h2 id="h-ann">Annual history</h2><p>Calendar-year sums of not-seasonally-adjusted months, $ billions. CAGR covers 2016 to the last full year.</p></div>
+    <div class="tablewrap"><table id="annTable"></table></div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-src">
+    <div class="panel-head"><h2 id="h-src">Source, transformations and checks</h2></div>
+    <div class="grid2">
+      <div class="defs"><h3>Source files for this release</h3><div id="files"></div></div>
+      <div class="defs"><h3>Reconciliation, latest month</h3><div id="recon"></div></div>
+    </div>
+    <div class="defs"><h3>Segment definitions</h3><div class="grid2" id="segdefs"></div></div>
+    <div class="defs"><h3>Excluded from buildings</h3><div class="tablewrap"><table id="exclTable"></table></div></div>
+    <div class="defs"><h3>Revisions since the previous release</h3><div id="revs"></div></div>
+    <div class="defs"><h3>Transformation log</h3><ul class="log" id="log"></ul></div>
+    <div class="defs"><h3>Monthly update</h3>
+      <ol class="steps">
+        <li>Census publishes C30 on about the first business day of each month. Download <code class="mono">privtime.xlsx</code>, <code class="mono">pubtime.xlsx</code>, <code class="mono">privsatime.xlsx</code> and <code class="mono">pubsatime.xlsx</code> from <a href="https://www.census.gov/construction/c30/historical_data.html">census.gov/construction/c30/historical_data.html</a>.</li>
+        <li>Attach the four files in the Claude conversation that built this page and ask for an update, or run <code class="mono">python3 build.py raw && python3 render.py</code> from the pipeline folder.</li>
+        <li>The build stops if any mapped column is missing or renamed, or if the four files come from different releases. It archives the files with SHA-256 hashes under <code class="mono">vintages/&lt;release&gt;/</code> and lists every changed segment-month in the revisions table above.</li>
+        <li>This page is republished to the same link. The prior release's numbers stay reproducible from its archived vintage.</li>
+      </ol>
+    </div>
+  </section>
+</div>
+
+<div id="drawerRoot" hidden>
+  <div class="drawer-bg" id="drawerBg"></div>
+  <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="dTitle">
+    <div class="d-head">
+      <div class="row"><div><div class="eyebrow">Trace to source</div><h2 id="dTitle"></h2></div><button class="close" id="dClose">Close</button></div>
+      <div class="ink2" id="dSub" style="font-size:13px"></div>
+    </div>
+    <div class="d-body" id="dBody"></div>
+  </aside>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+(function(){
+"use strict";
+const D = DATA, M = D.months, N = M.length;
+const LATEST = D.meta.latest, LY = +LATEST.slice(0,4), LM = +LATEST.slice(5,7);
+const START_Y = +M[0].slice(0,4), LAST_FULL = LY - 1;
+const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const idx = {}; M.forEach((m,i)=>idx[m]=i);
+const mi = (y,m)=>idx[`${y}-${String(m).padStart(2,"0")}`];
+const mlab = m=>`${MON[+m.slice(5,7)-1]} ${m.slice(0,4)}`;
+const range = (a,b)=>{const r=[];for(let i=a;i<=b;i++)r.push(i);return r;};
+const ytdIdx = y=>range(1,LM).map(m=>mi(y,m)).filter(i=>i!==undefined);
+const yearIdxAll = ()=>range(START_Y,LAST_FULL);
+const yearIdx = y=>range(1,12).map(m=>mi(y,m)).filter(i=>i!==undefined);
+const STATE = {mixPeriod:"ytd", sector:"total", freq:"t12", measure:"usd", open:new Set(["aviation"]), annOpen:new Set(["aviation"]),
+  shown:new Set(["data_center","health_care","aviation"])};
+try{const s=JSON.parse(localStorage.getItem("c30dash")||"null"); if(s){Object.assign(STATE,{sector:s.sector||"total",freq:s.freq||"t12",measure:s.measure||"usd"}); if(s.shown) STATE.shown=new Set(s.shown);}}catch(e){}
+const save=()=>{try{localStorage.setItem("c30dash",JSON.stringify({sector:STATE.sector,freq:STATE.freq,measure:STATE.measure,shown:[...STATE.shown]}));}catch(e){}};
+
+/* ---------- series algebra: every number is a signed sum of raw source cells ---------- */
+function merge(comps){const m=new Map();for(const c of comps){const k=(c.source||c.sector)+"|"+c.sector+"|"+c.col;m.set(k,(m.get(k)||0)+c.sign);}
+  return [...m].filter(([,s])=>s!==0).map(([k,s])=>{const [source,sector,col]=k.split("|");return {source,sector,col,sign:s};});}
+const RK=(c,adj)=>D.raw[`${c.source||c.sector}|${adj}|${c.col}`];
+const srcName=(c,adj)=>RK(c,adj).file||`no ${adj==="sa"?"seasonally adjusted":"NSA"} workbook supplied`;
+const scoped = comps => merge(comps.filter(c=>STATE.sector==="total"||c.sector===STATE.sector));
+function val(comps,adj,i){let t=0;for(const c of comps){const v=D.raw[`${c.source||c.sector}|${adj}|${c.col}`].values[i];if(v==null)return null;t+=c.sign*v;}return t;}
+function sum(comps,adj,idxs){if(!comps.length)return null;let t=0;for(const i of idxs){const v=val(comps,adj,i);if(v==null)return null;t+=v;}return t;}
+function seriesOf(comps,adj){return M.map((_,i)=>comps.length?val(comps,adj,i):null);}
+
+const SEGS = D.segments;
+const ALL_COMPS = merge(SEGS.flatMap(s=>s.components));
+const ENT = {}; // id -> {name, comps(raw), level, parent}
+ENT.total = {id:"total",name:"Total buildings",comps:ALL_COMPS,level:"total"};
+for(const s of SEGS){ENT[s.id]={id:s.id,name:s.name,comps:s.components,level:"segment",seg:s};
+  for(const ss of s.subsegments) ENT[ss.id]={id:ss.id,name:ss.name,comps:ss.components,level:"sub",parent:s.id};
+  for(const b of (s.breakdown||[])) ENT[b.id]={id:b.id,name:`${s.name}: ${b.name}`,short:b.name,comps:b.components,level:"slice",parent:s.id};
+  if(s.subsegments.length){ENT[s.id+"_resid"]={id:s.id+"_resid",name:"Other / not shown separately",level:"resid",parent:s.id,
+    comps:merge([...s.components,...s.subsegments.flatMap(ss=>ss.components.map(c=>({...c,sign:-c.sign})))])};}}
+const C = id=>scoped(ENT[id].comps);
+const COLORS = {total:"var(--ref)",data_center:"var(--s1)",health_care:"var(--s2)",aviation:"var(--s3)",office_ex_dc:"var(--s4)",commercial:"var(--s5)",manufacturing:"var(--s6)",educational:"var(--s7)"};
+const TREND_IDS = ["data_center","health_care","aviation","office_ex_dc","commercial","manufacturing","educational","total"];
+
+/* ---------- formatting ---------- */
+const fB = v=>v==null?"—":(Math.abs(v)>=1000?`$${(v/1000).toLocaleString(undefined,{minimumFractionDigits:1,maximumFractionDigits:1})}B`:`$${Math.round(v).toLocaleString()}M`);
+const fM = v=>v==null?"—":Math.round(v).toLocaleString();
+const pct = (a,b)=>(a==null||b==null||b<=0)?null:(a/b-1)*100;
+function dHTML(p,unit="%"){if(p==null)return `<span class="delta flat">—</span>`;const up=p>0.05,dn=p<-0.05;
+  return `<span class="delta ${up?"up":dn?"down":"flat"}">${up?"▲":dn?"▼":"■"} ${p>0?"+":""}${p.toFixed(1)}${unit}</span>`;}
+const esc = s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+/* ---------- trace registry ---------- */
+const TRACES=[];
+function tr(html,desc){TRACES.push(desc);return `<button class="trace" data-t="${TRACES.length-1}">${html}</button>`;}
+function part(label,id,adj,idxs){return {label,comps:C(id),adj,idxs};}
+function openTrace(t){
+  const d=TRACES[t]; if(!d)return;
+  document.getElementById("dTitle").textContent=d.title;
+  document.getElementById("dSub").textContent=d.sub||"";
+  const body=document.getElementById("dBody"); body.innerHTML="";
+  if(d.formula){const f=document.createElement("div");f.className="formula";f.textContent=d.formula;body.appendChild(f);}
+  for(const p of d.parts){
+    const box=document.createElement("div");box.style.display="grid";box.style.gap="8px";
+    const comps=p.comps; const total=sum(comps,p.adj,p.idxs);
+    const h=document.createElement("div");h.innerHTML=`<h3>${esc(p.label)}</h3><div class="mono ink2" style="margin-top:4px">${esc(comps.map(c=>`${c.sign>0?"+":"−"}${Math.abs(c.sign)>1?Math.abs(c.sign)+"×":""} ${srcName(c,p.adj)}${RK(c,p.adj).letter?` › column ${RK(c,p.adj).letter}`:""} “${c.col}”`).join("  "))} · ${p.adj==="nsa"?"not seasonally adjusted":"seasonally adjusted annual rate"} · ${p.idxs.length} month${p.idxs.length>1?"s":""}</div>`;
+    box.appendChild(h);
+    const rows=[]; const tsv=[["month","file","sheet","cell","column","sign","value"]];
+    for(const i of p.idxs) for(const c of comps){const r=RK(c,p.adj);const v=r.values[i];const fl=D.meta.flags[M[i]]||"";
+      if(!r.file){rows.push(`<tr><td>${mlab(M[i])}</td><td style="text-align:left;white-space:normal" class="muted">Not available: ${p.adj==="sa"?"no seasonally adjusted workbook supplied for this source":"no workbook supplied"}</td><td style="text-align:left">${esc(c.col)}</td><td>${c.sign>0?"+":"−"}${Math.abs(c.sign)}</td><td class="num">—</td></tr>`);tsv.push([M[i],"","","",c.col,c.sign,""]);continue;}
+      rows.push(`<tr><td>${mlab(M[i])}${fl?` <span class="chip ${fl}">${fl==="p"?"prelim":"revised"}</span>`:""}</td><td class="mono" style="text-align:left">${esc(r.file)} › ${esc(r.sheet)} › <b>${r.letter}${r.rows[i]}</b></td><td style="text-align:left">${esc(c.col)}</td><td>${c.sign>0?"+":"−"}${Math.abs(c.sign)}</td><td class="num">${fM(v)}</td></tr>`);
+      tsv.push([M[i],r.file,r.sheet,`${r.letter}${r.rows[i]}`,c.col,c.sign,v]);}
+    const w=document.createElement("div");w.className="tablewrap";
+    w.innerHTML=`<table><thead><tr><th>Month</th><th style="text-align:left">Source cell</th><th style="text-align:left">Census column</th><th>Sign</th><th>$M</th></tr></thead><tbody>${rows.join("")}<tr class="sumrow"><td colspan="4">Signed sum</td><td class="num">${fM(total)}</td></tr></tbody></table>`;
+    box.appendChild(w);
+    const cp=document.createElement("button");cp.className="copy";cp.textContent="Copy cells as TSV";cp.style.justifySelf="start";
+    cp.addEventListener("click",()=>{const txt=tsv.map(r=>r.join("\t")).join("\n");
+      navigator.clipboard.writeText(txt).then(()=>{cp.textContent="Copied";},()=>{const ta=document.createElement("textarea");ta.value=txt;ta.rows=6;ta.style.width="100%";box.appendChild(ta);ta.select();cp.textContent="Select and copy below";});});
+    box.appendChild(cp); body.appendChild(box);
+  }
+  const root=document.getElementById("drawerRoot"); root.hidden=false; document.getElementById("dClose").focus();
+}
+const closeTrace=()=>{document.getElementById("drawerRoot").hidden=true;};
+document.addEventListener("click",e=>{const b=e.target.closest(".trace");if(b)openTrace(+b.dataset.t);});
+document.getElementById("dClose").addEventListener("click",closeTrace);
+document.getElementById("drawerBg").addEventListener("click",closeTrace);
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeTrace();});
+
+/* ---------- derived measures ---------- */
+const ytd = (id,y)=>sum(C(id),"nsa",ytdIdx(y));
+function ytdTrace(id,y){return {title:`${ENT[id].name}: YTD ${MON[0]}–${MON[LM-1]} ${y}`,sub:sectorLabel(),formula:`Σ ${MON[0]}–${MON[LM-1]} ${y} of signed source cells (NSA, $ millions) = ${fM(ytd(id,y))}`,parts:[part(`YTD ${y}`,id,"nsa",ytdIdx(y))]};}
+function growthTrace(id,kind){
+  if(kind==="ytd"){const a=ytd(id,LY),b=ytd(id,LY-1);return {title:`${ENT[id].name}: YTD growth`,sub:sectorLabel(),formula:`(YTD ${LY} ÷ YTD ${LY-1} − 1) × 100 = (${fM(a)} ÷ ${fM(b)} − 1) × 100 = ${pct(a,b)?.toFixed(2)}%`,parts:[part(`YTD ${LY}`,id,"nsa",ytdIdx(LY)),part(`YTD ${LY-1}`,id,"nsa",ytdIdx(LY-1))]};}
+  if(kind==="mon"){const i1=mi(LY,LM),i0=mi(LY-1,LM);const a=sum(C(id),"nsa",[i1]),b=sum(C(id),"nsa",[i0]);return {title:`${ENT[id].name}: ${MON[LM-1]} year-over-year`,sub:sectorLabel(),formula:`(${mlab(M[i1])} ÷ ${mlab(M[i0])} − 1) × 100, NSA = ${pct(a,b)?.toFixed(2)}%`,parts:[part(mlab(M[i1]),id,"nsa",[i1]),part(mlab(M[i0]),id,"nsa",[i0])]};}
+  if(kind==="saar"){const i1=N-1,i0=N-2;const a=sum(C(id),"sa",[i1]),b=sum(C(id),"sa",[i0]);return {title:`${ENT[id].name}: SAAR month-over-month`,sub:sectorLabel(),formula:`(${mlab(M[i1])} SAAR ÷ ${mlab(M[i0])} SAAR − 1) × 100 = ${pct(a,b)?.toFixed(2)}%`,parts:[part(`${mlab(M[i1])} SAAR`,id,"sa",[i1]),part(`${mlab(M[i0])} SAAR`,id,"sa",[i0])]};}
+}
+const sectorLabel=()=>({total:"Private + public",private:"Private only",public:"Public only"})[STATE.sector];
+
+function trendSeries(id){
+  const comps=C(id); if(!comps.length) return null;
+  let x,v;
+  if(STATE.freq==="annual"){x=range(START_Y,LAST_FULL).map(String);v=x.map(y=>sum(comps,"nsa",yearIdx(+y)));}
+  else{x=M.slice(); const adj=STATE.freq==="saar"?"sa":"nsa";
+    if(STATE.freq==="t12") v=M.map((_,i)=>i<11?null:sum(comps,"nsa",range(i-11,i)));
+    else v=seriesOf(comps,adj);}
+  if(STATE.measure==="index"){let base;
+    if(STATE.freq==="annual")base=v[0]; else if(STATE.freq==="t12")base=v[11]; else {const b=v.slice(0,12).filter(z=>z!=null);base=b.reduce((a,c)=>a+c,0)/b.length;}
+    v=v.map(z=>z==null||!base?null:z/base*100);}
+  if(STATE.measure==="share"){const tot=trendSeriesRaw("total",x);v=v.map((z,i)=>z==null||!tot[i]?null:z/tot[i]*100);}
+  return {x,v};
+}
+function trendSeriesRaw(id,x){const s=STATE.measure;STATE.measure="usd";const r=trendSeries(id);STATE.measure=s;return r.v;}
+const measureFmt=v=>v==null?"—":STATE.measure==="usd"?fB(v):STATE.measure==="index"?v.toFixed(1):v.toFixed(1)+"%";
+const basisLabel=()=>({t12:"trailing 12-month sum, NSA",annual:"calendar-year sum, NSA",saar:"monthly, seasonally adjusted annual rate",nsa:"monthly, not seasonally adjusted"})[STATE.freq];
+
+/* ---------- SVG line chart ---------- */
+function nice(max,n){if(max<=0)return [0,1];const raw=max/n,p=Math.pow(10,Math.floor(Math.log10(raw))),s=[1,2,2.5,5,10].find(k=>k*p>=raw)*p;const t=[];for(let v=0;v<=max+s*0.001;v+=s)t.push(v);if(t[t.length-1]<max)t.push(t[t.length-1]+s);return t;}
+function lineChart(host,{x,series,height=320,compact=false,area=false,ariaLabel}){
+  host.innerHTML="";
+  const W=Math.max(host.clientWidth,260),H=height;
+  const ml=compact?40:56, mr=compact?10:(series.length<=4?118:16), mt=10, mb=compact?20:28;
+  const vals=series.flatMap(s=>s.v).filter(v=>v!=null);
+  const ticks=nice(Math.max(...vals,0)*1.04,compact?2:4);const ymax=ticks[ticks.length-1];
+  const xs=i=>ml+(x.length===1?0:i*(W-ml-mr)/(x.length-1)), ys=v=>mt+(H-mt-mb)*(1-v/ymax);
+  const NS="http://www.w3.org/2000/svg";
+  const svg=document.createElementNS(NS,"svg");svg.setAttribute("viewBox",`0 0 ${W} ${H}`);svg.setAttribute("height",H);svg.setAttribute("tabindex","0");svg.setAttribute("role","img");svg.setAttribute("aria-label",ariaLabel||"Line chart");
+  const el=(t,a,p=svg)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);p.appendChild(e);return e;};
+  const fmtTick=v=>STATE.measure==="usd"?(v>=1000?`$${(v/1000).toLocaleString(undefined,{maximumFractionDigits:ymax<10000?1:0})}B`:`$${v}M`):STATE.measure==="share"?v+"%":String(v);
+  for(const t of ticks){el("line",{x1:ml,x2:W-mr,y1:ys(t),y2:ys(t),stroke:t===0?"var(--axis)":"var(--grid)","stroke-width":1});
+    const tx=el("text",{x:ml-6,y:ys(t)+4,"text-anchor":"end","font-size":compact?10:11,fill:"var(--muted)"});tx.textContent=fmtTick(t);}
+  // x ticks
+  const monthly=x[0].length===7;
+  x.forEach((lab,i)=>{let show,txt;
+    if(monthly){show=lab.endsWith("-01")&&(!compact||(+lab.slice(0,4)-START_Y)%3===0);txt=lab.slice(0,4);}
+    else{show=!compact||i===0||i===x.length-1||i%3===0;txt=lab;}
+    if(!show)return; el("line",{x1:xs(i),x2:xs(i),y1:H-mb,y2:H-mb+4,stroke:"var(--axis)"});
+    const t=el("text",{x:xs(i),y:H-mb+(compact?14:17),"text-anchor":"middle","font-size":compact?10:11,fill:"var(--muted)"});t.textContent=txt;});
+  // lines
+  const ends=[];
+  for(const s of series){let d="",pen=false,last=null;
+    s.v.forEach((v,i)=>{if(v==null){pen=false;return;}d+=(pen?"L":"M")+xs(i).toFixed(1)+","+ys(v).toFixed(1);pen=true;last=i;});
+    if(area&&last!=null){const first=s.v.findIndex(v=>v!=null);el("path",{d:d+`L${xs(last)},${ys(0)}L${xs(first)},${ys(0)}Z`,fill:s.color,"fill-opacity":.10,stroke:"none"});}
+    el("path",{d,fill:"none",stroke:s.color,"stroke-width":compact?1.75:2,"stroke-linejoin":"round","stroke-linecap":"round","stroke-dasharray":s.dash?"5 4":"none"});
+    if(!monthly)s.v.forEach((v,i)=>{if(v!=null)el("circle",{cx:xs(i),cy:ys(v),r:3,fill:s.color,stroke:"var(--surface)","stroke-width":1.5});});
+    if(last!=null){el("circle",{cx:xs(last),cy:ys(s.v[last]),r:compact?3:4,fill:s.color,stroke:"var(--surface)","stroke-width":2});ends.push({s,y:ys(s.v[last]),v:s.v[last]});}}
+  if(!compact&&series.length<=4){ends.sort((a,b)=>a.y-b.y);for(let k=1;k<ends.length;k++)if(ends[k].y-ends[k-1].y<26)ends[k].y=ends[k-1].y+26;
+    for(const e of ends){const t1=el("text",{x:W-mr+10,y:e.y-2,"font-size":11.5,"font-weight":600,fill:"var(--ink)"});t1.textContent=measureFmt(e.v);
+      const t2=el("text",{x:W-mr+10,y:e.y+11,"font-size":11,fill:"var(--muted)"});t2.textContent=e.s.name.length>16?e.s.name.slice(0,15)+"…":e.s.name;}}
+  // hover layer
+  const cross=el("line",{y1:mt,y2:H-mb,stroke:"var(--ink-2)","stroke-width":1,"stroke-dasharray":"2 3",visibility:"hidden"});
+  const dots=series.map(s=>el("circle",{r:4.5,fill:s.color,stroke:"var(--surface)","stroke-width":2,visibility:"hidden"}));
+  const hit=el("rect",{x:ml,y:mt,width:W-ml-mr,height:H-mt-mb,fill:"transparent"});
+  host.appendChild(svg);
+  const tip=document.createElement("div");tip.className="tip";tip.hidden=true;host.appendChild(tip);
+  let cur=null;
+  function show(i){cur=Math.max(0,Math.min(x.length-1,i));const cx=xs(cur);cross.setAttribute("x1",cx);cross.setAttribute("x2",cx);cross.setAttribute("visibility","visible");
+    series.forEach((s,k)=>{const v=s.v[cur];if(v==null){dots[k].setAttribute("visibility","hidden");return;}dots[k].setAttribute("cx",cx);dots[k].setAttribute("cy",ys(v));dots[k].setAttribute("visibility","visible");});
+    tip.innerHTML="";const hd=document.createElement("div");hd.className="t-h";hd.textContent=monthly?mlab(x[cur])+(D.meta.flags[x[cur]]?(D.meta.flags[x[cur]]==="p"?" · preliminary":" · revised"):""):x[cur];tip.appendChild(hd);
+    series.map((s,k)=>({s,v:s.v[cur]})).sort((a,b)=>(b.v??-1)-(a.v??-1)).forEach(({s,v})=>{const r=document.createElement("div");r.className="t-r";const i_=document.createElement("i");i_.style.background=s.color;const n=document.createElement("span");n.textContent=s.name;const b=document.createElement("b");b.textContent=measureFmt(v);r.append(i_,n,b);tip.appendChild(r);});
+    tip.hidden=false;const scale=svg.getBoundingClientRect().width/W;const px=cx*scale;const tw=tip.offsetWidth;
+    tip.style.left=(px+14+tw>host.clientWidth?px-14-tw:px+14)+"px";tip.style.top="6px";}
+  function hide(){cross.setAttribute("visibility","hidden");dots.forEach(d=>d.setAttribute("visibility","hidden"));tip.hidden=true;}
+  svg.addEventListener("pointermove",e=>{const r=svg.getBoundingClientRect();const px=(e.clientX-r.left)*W/r.width;show(Math.round((px-ml)/((W-ml-mr)/(Math.max(x.length-1,1)))));});
+  svg.addEventListener("pointerleave",hide);svg.addEventListener("blur",hide);
+  svg.addEventListener("focus",()=>show(x.length-1));
+  svg.addEventListener("keydown",e=>{if(e.key==="ArrowLeft"){show((cur??x.length)-1);e.preventDefault();}if(e.key==="ArrowRight"){show((cur??-1)+1);e.preventDefault();}});
+}
+
+/* ---------- render: header ---------- */
+function renderMeta(){
+  const fl=Object.entries(D.meta.flags);const prelim=fl.filter(([,f])=>f==="p").map(([m])=>mlab(m)),rev=fl.filter(([,f])=>f==="r").map(([m])=>mlab(m));
+  const rel=new Date(D.meta.release+"T12:00:00");
+  document.getElementById("meta").innerHTML=`<span>Census release <b>${rel.toLocaleDateString(undefined,{month:"long",day:"numeric",year:"numeric"})}</b></span><span>Data through <b>${mlab(LATEST)}</b> ${prelim.length?`<span class="chip p">preliminary</span>`:""}</span>${rev.length?`<span>Revised this release: <b>${rev.join(", ")}</b></span>`:""}<span>Nominal dollars, millions as published</span>`;
+}
+/* ---------- render: KPIs ---------- */
+function renderKPIs(){
+  document.getElementById("cyNote").textContent=`${MON[0]}–${MON[LM-1]} ${LY} vs the same months of ${LY-1}. ${sectorLabel()}.`;
+  const ids=["total","data_center","health_care","aviation"];
+  document.getElementById("kpis").innerHTML=ids.map(id=>{
+    const comps=C(id);const color=COLORS[id];
+    if(!comps.length)return `<div class="kpi"><div class="k-name"><i style="background:${color}"></i>${esc(ENT[id].name)}</div><div class="na">Census does not publish this category for the public sector. Switch ownership to Private or Private + public.</div></div>`;
+    const a=ytd(id,LY),b=ytd(id,LY-1),i1=mi(LY,LM),i0=mi(LY-1,LM);
+    const mon=pct(sum(comps,"nsa",[i1]),sum(comps,"nsa",[i0])),saar=pct(sum(comps,"sa",[N-1]),sum(comps,"sa",[N-2]));
+    const share=id==="total"?null:a/ytd("total",LY)*100;
+    return `<div class="kpi ${id==="total"?"total":""}">
+      <div class="k-name"><i style="background:${color}"></i>${esc(ENT[id].name)}</div>
+      <div><div class="k-val num">${tr(fB(a),ytdTrace(id,LY))}</div><div class="k-sub">YTD ${LY} · ${tr(fB(b),ytdTrace(id,LY-1))} in ${LY-1}</div></div>
+      <dl><dt>YTD vs ${LY-1}</dt><dd>${tr(dHTML(pct(a,b)),growthTrace(id,"ytd"))}</dd>
+      <dt>${MON[LM-1]} vs ${MON[LM-1]} ${LY-1}</dt><dd>${tr(dHTML(mon),growthTrace(id,"mon"))}</dd>
+      <dt>SAAR vs prior month</dt><dd>${tr(dHTML(saar),growthTrace(id,"saar"))}</dd>
+      ${share!=null?`<dt>Share of buildings</dt><dd class="num">${share.toFixed(1)}%</dd>`:""}</dl>
+      ${focusSubs(id)}
+      <div class="chart spark" data-spark="${id}"></div></div>`;}).join("");
+  document.querySelectorAll("[data-spark]").forEach(h=>{const id=h.dataset.spark;const comps=C(id);
+    const v=M.map((_,i)=>i<11?null:sum(comps,"nsa",range(i-11,i)));
+    sparkline(h,v,COLORS[id],`${ENT[id].name}, trailing 12-month spending`);});
+}
+function focusSubs(id){const seg=ENT[id].seg;if(!seg)return "";
+  return seg.subsegments.filter(ss=>ss.focus&&C(ss.id).length).map(ss=>{const a=ytd(ss.id,LY),b=ytd(ss.id,LY-1);
+    return `<div class="ksub"><div class="eyebrow">Of which</div><div class="ksub-row"><span>${esc(ss.name)}</span><b class="num">${tr(fB(a),ytdTrace(ss.id,LY))}</b></div><div class="ksub-row"><span class="muted">YTD vs ${LY-1}</span>${tr(dHTML(pct(a,b)),growthTrace(ss.id,"ytd"))}</div><div class="ksub-row"><span class="muted">Share of segment</span><span class="num">${a!=null&&ytd(id,LY)?(a/ytd(id,LY)*100).toFixed(0)+"%":"—"}</span></div></div>`;}).join("");}
+const missingSA=id=>C(id).some(c=>!RK(c,"sa").file);
+function sparkline(host,v,color,label){
+  const W=Math.max(host.clientWidth,120),H=44;const vv=v.filter(z=>z!=null);const mx=Math.max(...vv),mn=Math.min(...vv);
+  const xs=i=>2+i*(W-8)/(v.length-1),ys=z=>4+(H-8)*(1-(z-mn)/((mx-mn)||1));
+  let d="";v.forEach((z,i)=>{if(z!=null)d+=(d?"L":"M")+xs(i).toFixed(1)+","+ys(z).toFixed(1);});
+  const first=v.findIndex(z=>z!=null),last=v.length-1;
+  host.innerHTML=`<svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="${esc(label)}"><path d="${d}L${xs(last)},${H}L${xs(first)},${H}Z" fill="${color}" fill-opacity=".10"/><path d="${d}" fill="none" stroke="${color}" stroke-width="1.75" stroke-linejoin="round"/><circle cx="${xs(last)}" cy="${ys(v[last])}" r="3.5" fill="${color}" stroke="var(--surface)" stroke-width="2"/></svg><div class="k-sub" style="margin-top:2px">Trailing 12-month spending, ${M[11].slice(0,4)}–${LY}</div>`;
+}
+
+/* ---------- render: YTD table ---------- */
+const chev=`<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M3 1.5 6.5 5 3 8.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`;
+function orderedSegs(){const act=SEGS.filter(s=>C(s.id).length);const f=act.filter(s=>s.focus),o=act.filter(s=>!s.focus).sort((a,b)=>(ytd(b.id,LY)||0)-(ytd(a.id,LY)||0));return [...f,...o];}
+function ytdRow(id,cls,lead){
+  const comps=C(id);if(!comps.length)return "";
+  const a=ytd(id,LY),b=ytd(id,LY-1),i1=mi(LY,LM),i0=mi(LY-1,LM),tot=ytd("total",LY);
+  const mon=pct(sum(comps,"nsa",[i1]),sum(comps,"nsa",[i0]));const s1=sum(comps,"sa",[N-1]),s0=sum(comps,"sa",[N-2]);
+  const dp=a!=null&&b!=null?a-b:null;
+  return `<tr class="${cls}"><td>${lead}</td><td class="num">${tr(fB(a),ytdTrace(id,LY))}</td><td class="num">${tr(fB(b),ytdTrace(id,LY-1))}</td>
+   <td class="num">${dp==null?"—":(dp>=0?"+":"−")+fB(Math.abs(dp))}</td><td>${tr(dHTML(pct(a,b)),growthTrace(id,"ytd"))}</td>
+   <td class="col-group">${tr(dHTML(mon),growthTrace(id,"mon"))}</td>
+   <td class="num col-group">${tr(fB(s1),{title:`${ENT[id].name}: ${mlab(M[N-1])} SAAR`,sub:sectorLabel(),parts:[part(`${mlab(M[N-1])} SAAR`,id,"sa",[N-1])]})}</td><td>${tr(dHTML(pct(s1,s0)),growthTrace(id,"saar"))}</td>
+   <td class="num col-group">${a==null||!tot?"—":(a/tot*100).toFixed(1)+"%"}</td></tr>`;
+}
+function renderYTD(){
+  const flag=D.meta.flags[LATEST]==="p"?` <span class="chip p">p</span>`:"";
+  let h=`<thead><tr><th>Segment</th><th>YTD ${LY}</th><th>YTD ${LY-1}</th><th>Change</th><th>YTD growth</th><th class="col-group">${MON[LM-1]} YoY${flag}</th><th class="col-group">SAAR ${MON[LM-1]}</th><th>SAAR m/m</th><th class="col-group">Share</th></tr></thead><tbody>`;
+  h+=ytdRow("total","total",`<span class="rowname"><span class="spacer"></span>Total buildings</span>`);
+  for(const s of orderedSegs()){
+    const subs=s.subsegments.filter(ss=>C(ss.id).length);const open=STATE.open.has(s.id);
+    const lead=`<span class="rowname">${subs.length?`<button class="expander" data-exp="${s.id}" aria-expanded="${open}" aria-label="Show subcategories of ${esc(s.name)}">${chev}</button>`:`<span class="spacer"></span>`}${esc(s.name)}${s.focus?` <span class="chip focus">Focus</span>`:""}</span>`;
+    h+=ytdRow(s.id,"",lead);
+    if(open&&subs.length){for(const ss of subs)h+=ytdRow(ss.id,"sub",esc(ss.name)+(ss.focus?` <span class="chip focus">Focus</span>`:""));
+      const rid=s.id+"_resid";if(C(rid).length&&Math.abs(ytd(rid,LY)||0)>0.5)h+=ytdRow(rid,"sub resid",ENT[rid].name);}
+  }
+  document.getElementById("ytdTable").innerHTML=h+"</tbody>";
+  const miss=["total",...orderedSegs().map(s=>s.id)].filter(missingSA).map(id=>ENT[id].name);
+  const files=[...new Set(ALL_COMPS.filter(c=>!RK(c,"sa").file).map(c=>RK(c,"nsa").file))];
+  const sn=document.getElementById("saNote");sn.hidden=!miss.length;
+  sn.textContent=miss.length?`SAAR columns show — for ${miss.join(" and ")}: ${files.join(", ")} has no seasonally adjusted counterpart in this build. Year-to-date and year-over-year figures are unaffected because they use not-seasonally-adjusted data.`:"";
+}
+document.getElementById("ytdTable").addEventListener("click",e=>{const b=e.target.closest("[data-exp]");if(!b)return;const id=b.dataset.exp;STATE.open.has(id)?STATE.open.delete(id):STATE.open.add(id);renderYTD();document.querySelector(`#ytdTable [data-exp="${id}"]`)?.focus();});
+
+/* ---------- render: trend ---------- */
+function renderTrend(){
+  const lg=document.getElementById("trendLegend");
+  lg.innerHTML=TREND_IDS.map(id=>{const av=C(id).length>0;return av?`<button data-id="${id}" aria-pressed="${STATE.shown.has(id)}"><i class="${id==="total"?"dash":""}" style="background:${COLORS[id]}"></i>${esc(ENT[id].name)}</button>`:"";}).join("");
+  const series=TREND_IDS.filter(id=>STATE.shown.has(id)).map(id=>{const t=trendSeries(id);return t&&{name:ENT[id].name,color:COLORS[id],dash:id==="total",v:t.v,x:t.x};}).filter(Boolean);
+  document.getElementById("trendNote").textContent=`${basisLabel()[0].toUpperCase()+basisLabel().slice(1)}${STATE.measure==="index"?", indexed to 2016":STATE.measure==="share"?", share of total buildings":""}. ${sectorLabel()}.${STATE.freq==="saar"&&TREND_IDS.filter(id=>STATE.shown.has(id)).some(missingSA)?" Series needing a seasonally adjusted workbook that was not supplied are omitted.":""}${STATE.freq==="annual"?` ${LY} is partial and appears in the YTD table.`:STATE.freq==="t12"?` First full 12-month window ends Dec ${START_Y}.`:""}`;
+  const host=document.getElementById("trendChart");
+  if(!series.length){host.innerHTML=`<p class="muted" style="padding:40px 0">Select at least one series above.</p>`;return;}
+  lineChart(host,{x:series[0].x,series,height:340,ariaLabel:`Ten-year trend: ${series.map(s=>s.name).join(", ")}`});
+}
+document.getElementById("trendLegend").addEventListener("click",e=>{const b=e.target.closest("button[data-id]");if(!b)return;const id=b.dataset.id;STATE.shown.has(id)?STATE.shown.delete(id):STATE.shown.add(id);save();renderTrend();});
+
+/* ---------- render: small multiples ---------- */
+function renderMultiples(){
+  const ids=["total",...orderedSegs().map(s=>s.id)];
+  const box=document.getElementById("multiples");
+  box.innerHTML=ids.map(id=>`<div class="mult"><div class="m-head"><h3>${esc(ENT[id].name)}</h3><span class="m-val num" data-mv="${id}"></span></div><div class="chart" data-m="${id}"></div></div>`).join("");
+  ids.forEach(id=>{const t=trendSeries(id);const host=box.querySelector(`[data-m="${id}"]`);
+    const color=COLORS[id]&&id!=="total"?COLORS[id]:"var(--accent)";
+    lineChart(host,{x:t.x,series:[{name:ENT[id].name,color,v:t.v}],height:120,compact:true,area:true,ariaLabel:`${ENT[id].name} trend`});
+    const vv=t.v.filter(z=>z!=null);const first=vv[0],last=vv[vv.length-1];
+    box.querySelector(`[data-mv="${id}"]`).innerHTML=`${measureFmt(last)} ${STATE.measure==="usd"&&first?dHTML(pct(last,first)):""}`;});
+}
+
+/* ---------- render: annual table ---------- */
+function annRow(id,cls,lead){
+  const comps=C(id);if(!comps.length)return "";const years=range(START_Y,LAST_FULL);
+  const cells=years.map(y=>{const v=sum(comps,"nsa",yearIdx(y));return `<td class="num">${tr(v==null?"—":(v/1000).toFixed(1),{title:`${ENT[id].name}: calendar ${y}`,sub:sectorLabel(),formula:`Σ Jan–Dec ${y}, NSA ($ millions) = ${fM(v)}`,parts:[part(String(y),id,"nsa",yearIdx(y))]})}</td>`;}).join("");
+  const a=ytd(id,LY),b=ytd(id,LY-1);const v0=sum(comps,"nsa",yearIdx(START_Y)),v1=sum(comps,"nsa",yearIdx(LAST_FULL));
+  const n=LAST_FULL-START_Y;const cagr=v0>0&&v1!=null?(Math.pow(v1/v0,1/n)-1)*100:null;
+  return `<tr class="${cls}"><td>${lead}</td>${cells}<td class="num col-group">${tr(a==null?"—":(a/1000).toFixed(1),ytdTrace(id,LY))}</td><td class="num">${tr(b==null?"—":(b/1000).toFixed(1),ytdTrace(id,LY-1))}</td>
+    <td class="col-group">${tr(dHTML(cagr),{title:`${ENT[id].name}: CAGR ${START_Y}–${LAST_FULL}`,sub:sectorLabel(),formula:`((${LAST_FULL} ÷ ${START_Y})^(1/${n}) − 1) × 100 = ((${fM(v1)} ÷ ${fM(v0)})^(1/${n}) − 1) × 100 = ${cagr?.toFixed(2)}%`,parts:[part(String(LAST_FULL),id,"nsa",yearIdx(LAST_FULL)),part(String(START_Y),id,"nsa",yearIdx(START_Y))]})}</td></tr>`;
+}
+function renderAnnual(){
+  const years=range(START_Y,LAST_FULL);
+  let h=`<thead><tr><th>Segment</th>${years.map(y=>`<th>${y}</th>`).join("")}<th class="col-group">YTD ${LY}</th><th>YTD ${LY-1}</th><th class="col-group">CAGR</th></tr></thead><tbody>`;
+  h+=annRow("total","total",`<span class="rowname"><span class="spacer"></span>Total buildings</span>`);
+  for(const s of orderedSegs()){const subs=s.subsegments.filter(ss=>C(ss.id).length);const open=STATE.annOpen.has(s.id);
+    h+=annRow(s.id,"",`<span class="rowname">${subs.length?`<button class="expander" data-aexp="${s.id}" aria-expanded="${open}" aria-label="Show subcategories of ${esc(s.name)}">${chev}</button>`:`<span class="spacer"></span>`}${esc(s.name)}${s.focus?` <span class="chip focus">Focus</span>`:""}</span>`);
+    if(open){for(const ss of subs)h+=annRow(ss.id,"sub",esc(ss.name)+(ss.focus?` <span class="chip focus">Focus</span>`:""));const rid=s.id+"_resid";if(C(rid).length&&yearIdxAll().some(y=>Math.abs(sum(C(rid),"nsa",yearIdx(y))||0)>0.5))h+=annRow(rid,"sub resid",ENT[rid].name);}}
+  document.getElementById("annTable").innerHTML=h+"</tbody>";
+}
+document.getElementById("annTable").addEventListener("click",e=>{const b=e.target.closest("[data-aexp]");if(!b)return;const id=b.dataset.aexp;STATE.annOpen.has(id)?STATE.annOpen.delete(id):STATE.annOpen.add(id);renderAnnual();document.querySelector(`#annTable [data-aexp="${id}"]`)?.focus();});
+
+/* ---------- render: provenance ---------- */
+function renderProvenance(){
+  document.getElementById("files").innerHTML=Object.entries(D.meta.files).map(([f,o])=>`<div class="def"><div><b class="mono">${esc(f)}</b> <span class="muted">sheet “${esc(o.sheet)}”</span></div><div class="f">SHA-256 ${o.sha256}</div></div>`).join("")+`<p class="note">Release ${D.meta.release}. Built ${D.meta.built.replace("T"," ")}. Source page: <a href="${D.meta.source_url}">${D.meta.source_url.replace("https://","")}</a>. Archived copies of these exact files sit in <code class="mono">vintages/${D.meta.release}/</code>.</p>`;
+  const i=N-1;const rec=["private","public"].map(sec=>{
+    const ctx=D.context[sec];const key=`${sec}|nsa|${ctx}`;const r=D.raw[key];const ref=r.values[i];
+    const bt=val(merge(ALL_COMPS.filter(c=>c.sector===sec)),"nsa",i);
+    return `<div class="def"><div><b>${sec==="private"?"Private":"Public"}</b>, ${mlab(M[i])} NSA</div><div class="num">Census “${esc(ctx)}” <span class="mono">${r.file} › ${r.letter}${r.rows[i]}</span> = ${fM(ref)}<br>Buildings in this dashboard = ${fM(bt)} (${(bt/ref*100).toFixed(1)}%)<br>Excluded infrastructure and categories not shown separately = ${fM(ref-bt)}</div></div>`;});
+  const subChecks=SEGS.filter(s=>s.subsegments.length).map(s=>{const rid=s.id+"_resid";const v=val(merge(ENT[rid].comps),"nsa",i);const p=val(merge(s.components),"nsa",i);return `<tr><td>${esc(s.name)}</td><td class="num">${fM(p)}</td><td class="num">${fM(p-v)}</td><td class="num">${fM(v)}</td></tr>`;}).join("");
+  document.getElementById("recon").innerHTML=rec.join("")+`<div class="tablewrap"><table><thead><tr><th>Parent (both sectors)</th><th>Parent</th><th>Σ listed subs</th><th>Other</th></tr></thead><tbody>${subChecks}</tbody></table></div><p class="note">Census notes that detail may not add to totals. Health care subcategories sum to the parent within rounding. Other parents carry categories Census does not publish separately, shown as "Other / not shown separately".</p>`;
+  document.getElementById("segdefs").innerHTML=SEGS.map(s=>`<div class="def"><div><b>${esc(s.name)}</b>${s.focus?` <span class="chip focus">Focus</span>`:""}</div><div class="f">${s.components.map(c=>{const r=RK(c,"nsa"),rs=RK(c,"sa");return `${c.sign>0?"+":"−"} ${esc(r.file)}!${r.letter} / ${rs.file?`${esc(rs.file)}!${rs.letter}`:"<span class=\"muted\">SA not supplied</span>"} “${esc(c.col)}”`;}).join("<br>")}</div>${s.note?`<div class="ink2" style="font-size:12.5px">${esc(s.note)}</div>`:""}${s.subsegments.length?`<div class="muted" style="font-size:12px">Subcategories: ${s.subsegments.map(x=>esc(x.name)).join(" · ")}</div>`:""}</div>`).join("");
+  document.getElementById("exclTable").innerHTML=`<thead><tr><th>Census column</th><th style="text-align:left">Sector</th><th style="text-align:left">Reason</th></tr></thead><tbody>${D.excluded.map(e=>`<tr><td>${esc(e.col)}</td><td style="text-align:left">${e.sector}</td><td style="text-align:left;white-space:normal">${esc(e.reason)}</td></tr>`).join("")}</tbody>`;
+  const rv=D.revision_rows||[];
+  document.getElementById("revs").innerHTML=!D.meta.previous_vintage?`<p class="note">This is the first archived release (${D.meta.release}). Each later update compares every segment-month against the previous release and lists the changes here.</p>`:
+    rv.length?`<div class="tablewrap"><table><thead><tr><th>Segment</th><th>Month</th><th>${D.meta.previous_vintage}</th><th>${D.meta.release}</th><th>Change</th></tr></thead><tbody>${rv.map(r=>`<tr><td>${esc(r[1])}</td><td>${mlab(r[2])}</td><td class="num">${fM(r[4])}</td><td class="num">${fM(r[6])}</td><td class="num">${r[7]>0?"+":""}${fM(r[7])}</td></tr>`).join("")}</tbody></table></div>`:`<p class="note">No segment-month changed versus ${D.meta.previous_vintage}.</p>`;
+  document.getElementById("log").innerHTML=D.log.map(l=>`<li>${esc(l).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/`(.+?)`/g,"<code>$1</code>")}</li>`).join("");
+}
+
+/* ---------- controls ---------- */
+function bindSeg(id,key){const g=document.getElementById(id);
+  const sync=()=>g.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.v===STATE[key])));sync();
+  g.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;STATE[key]=b.dataset.v;sync();save();render();});}
+bindSeg("sectorCtl","sector");bindSeg("freqCtl","freq");bindSeg("measureCtl","measure");
+
+/* ---------- render: spending mix (pies) ---------- */
+const MIX_FOCUS={data_center:"var(--s1)",health_care:"var(--s2)",aviation:"var(--s3)",educational:"var(--s7)"};
+const GRAYS=["var(--g2)","var(--g5)","var(--g3)","var(--g6)","var(--g1)","var(--g4)","var(--g7)"];
+function mixIdx(){return STATE.mixPeriod==="ytd"?ytdIdx(LY):yearIdx(LAST_FULL);}
+function mixLabel(){return STATE.mixPeriod==="ytd"?`YTD ${MON[0]}–${MON[LM-1]} ${LY}`:`Calendar ${LAST_FULL}`;}
+function mixTrace(id){const ix=mixIdx();const v=sum(C(id),"nsa",ix);return {title:`${ENT[id].name}: ${mixLabel()}`,sub:sectorLabel(),formula:`Σ ${mixLabel()} of signed source cells (NSA, $ millions) = ${fM(v)}`,parts:[part(mixLabel(),id,"nsa",ix)]};}
+let PIE_N=0;
+function pieSVG(slices,size,label){
+  const NS="http://www.w3.org/2000/svg",r=size/2-6,cx=size/2,cy=size/2;
+  const svg=document.createElementNS(NS,"svg");svg.setAttribute("viewBox",`0 0 ${size} ${size}`);svg.setAttribute("width",size);svg.setAttribute("role","group");svg.setAttribute("aria-label",label);
+  const defs=document.createElementNS(NS,"defs");svg.appendChild(defs);
+  const tot=slices.reduce((a,b)=>a+b.v,0);let a0=-Math.PI/2;
+  const paths=[];
+  slices.forEach(sl=>{
+    const frac=sl.v/tot,a1=a0+frac*2*Math.PI,mid=(a0+a1)/2;
+    let fill=sl.color;
+    if(sl.hatch){const pid=`h${++PIE_N}`;const pt=document.createElementNS(NS,"pattern");pt.setAttribute("id",pid);pt.setAttribute("patternUnits","userSpaceOnUse");pt.setAttribute("width","6");pt.setAttribute("height","6");pt.setAttribute("patternTransform","rotate(45)");
+      pt.innerHTML=`<rect width="6" height="6" style="fill:${sl.color}"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--surface);stroke-width:2;stroke-opacity:.6"/>`;defs.appendChild(pt);fill=`url(#${pid})`;}
+    const p=document.createElementNS(NS,"path");
+    const d=frac>=0.9999?`M${cx},${cy-r}A${r},${r} 0 1 1 ${cx-0.01},${cy-r}Z`:`M${cx},${cy}L${cx+r*Math.cos(a0)},${cy+r*Math.sin(a0)}A${r},${r} 0 ${frac>0.5?1:0} 1 ${cx+r*Math.cos(a1)},${cy+r*Math.sin(a1)}Z`;
+    p.setAttribute("d",d);p.setAttribute("style",`fill:${fill};stroke:var(--surface);stroke-width:2;stroke-linejoin:round`);
+    p.setAttribute("tabindex","0");p.setAttribute("aria-label",`${sl.name}: ${fB(sl.v)}, ${(frac*100).toFixed(1)}%`);
+    p.dataset.key=sl.key;p._lift=`translate(${(4*Math.cos(mid)).toFixed(2)}px,${(4*Math.sin(mid)).toFixed(2)}px)`;p._sl={...sl,frac};
+    svg.appendChild(p);paths.push(p);a0=a1;});
+  return {svg,paths};
+}
+function pieBlock(host,slices,size,label,listCls,groups){
+  const wrap=document.createElement("div");wrap.className="pie-wrap";
+  const {svg,paths}=pieSVG(slices,size,label);wrap.appendChild(svg);
+  const tip=document.createElement("div");tip.className="tip";tip.hidden=true;wrap.appendChild(tip);
+  const list=document.createElement("div");list.className="plist"+(listCls?" "+listCls:"");
+  const tot=slices.reduce((a,b)=>a+b.v,0);
+  let lastGrp=null;
+  for(const sl of slices){
+    if(groups&&sl.grp!==lastGrp){const g=document.createElement("div");g.className="grp";g.textContent=sl.grp;list.appendChild(g);lastGrp=sl.grp;}
+    const row=document.createElement("div");row.className="pr"+(sl.focus?" focus":"");row.dataset.key=sl.key;
+    const sw=document.createElement("span");sw.className="sw";sw.setAttribute("style",sl.hatch?`background:repeating-linear-gradient(45deg,${sl.color} 0 3px,color-mix(in oklab,${sl.color} 45%,var(--surface)) 3px 5px)`:`background:${sl.color}`);
+    const nm=document.createElement("span");nm.className="nm";nm.textContent=sl.name;nm.title=sl.name;
+    const vv=document.createElement("span");vv.className="num";vv.innerHTML=tr(fB(sl.v),mixTrace(sl.id));
+    const sh=document.createElement("span");sh.className="sh num";sh.textContent=(sl.v/tot*100).toFixed(1)+"%";
+    row.append(sw,nm,vv,sh);list.appendChild(row);}
+  const hl=(key,on)=>{paths.forEach(p=>{const m=p.dataset.key===key&&on;p.classList.toggle("on",m);p.style.transform=m?p._lift:"";});list.querySelectorAll(".pr").forEach(r=>r.classList.toggle("on",r.dataset.key===key&&on));};
+  const showTip=(p,ev)=>{const sl=p._sl;tip.innerHTML="";const h=document.createElement("div");h.className="t-h";h.textContent=sl.name;const r=document.createElement("div");r.className="t-r";r.style.gridTemplateColumns="1fr auto";const b=document.createElement("b");b.textContent=fB(sl.v);const s_=document.createElement("span");s_.textContent=(sl.frac*100).toFixed(1)+"% · "+(sl.grp||"");r.append(b,s_);tip.append(h,r);
+    tip.hidden=false;const wr=wrap.getBoundingClientRect();let x,y;if(ev){x=ev.clientX-wr.left+12;y=ev.clientY-wr.top+12;}else{x=wr.width/2;y=wr.height/2;}
+    tip.style.left=Math.min(x,Math.max(0,wr.width-tip.offsetWidth))+"px";tip.style.top=y+"px";};
+  paths.forEach(p=>{p.addEventListener("pointermove",e=>{hl(p.dataset.key,true);showTip(p,e);});p.addEventListener("pointerleave",()=>{hl(p.dataset.key,false);tip.hidden=true;});
+    p.addEventListener("focus",()=>{hl(p.dataset.key,true);showTip(p);});p.addEventListener("blur",()=>{hl(p.dataset.key,false);tip.hidden=true;});
+    const go=()=>{TRACES.push(mixTrace(p._sl.id));openTrace(TRACES.length-1);};p.addEventListener("click",go);p.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go();}});});
+  list.querySelectorAll(".pr").forEach(r=>{r.addEventListener("pointerenter",()=>hl(r.dataset.key,true));r.addEventListener("pointerleave",()=>hl(r.dataset.key,false));});
+  return {wrap,list};
+}
+function renderMix(){
+  const pc=document.getElementById("mixPeriodCtl");
+  pc.innerHTML=`<button data-v="ytd" aria-pressed="${STATE.mixPeriod==="ytd"}">YTD ${LY}</button><button data-v="year" aria-pressed="${STATE.mixPeriod==="year"}">${LAST_FULL}</button>`;
+  const ix=mixIdx();
+  document.getElementById("mixNote").textContent=`${mixLabel()}, not seasonally adjusted. ${sectorLabel()}. Segment pies split each segment by Census subcategory; public detail comes from the state-and-local workbooks, and Federal is the public total minus state and local.`;
+  document.getElementById("mixKey").innerHTML=`<span><i class="sw" style="width:12px;height:12px;border-radius:3px;background:var(--s2)"></i>Solid = private</span><span><i style="width:12px;height:12px;border-radius:3px;display:inline-block;background:repeating-linear-gradient(45deg,var(--s2) 0 3px,color-mix(in oklab,var(--s2) 45%,var(--surface)) 3px 5px)"></i>Hatched = public</span>`;
+  // total pie
+  const segs=orderedSegs().map(sg=>({id:sg.id,v:sum(C(sg.id),"nsa",ix)})).filter(x=>x.v>0);
+  const foc=["data_center","health_care","aviation","educational"].map(id=>segs.find(x=>x.id===id)).filter(Boolean);
+  const oth=segs.filter(x=>!MIX_FOCUS[x.id]).sort((a,b)=>b.v-a.v);
+  const tslices=[...foc.map(x=>({id:x.id,key:x.id,name:ENT[x.id].name,v:x.v,color:MIX_FOCUS[x.id],focus:true,grp:"Highlighted"})),
+    ...oth.map((x,k)=>({id:x.id,key:x.id,name:ENT[x.id].name,v:x.v,color:GRAYS[k%GRAYS.length],grp:"Other building segments"}))];
+  const th=document.getElementById("mixTotal");th.innerHTML="";
+  const ttot=tslices.reduce((a,b)=>a+b.v,0);
+  const tb=pieBlock(th,tslices,240,`Total buildings by segment, ${mixLabel()}`,"cols",true);
+  const right=document.createElement("div");right.style.display="grid";right.style.gap="8px";right.style.minWidth="0";
+  right.innerHTML=`<h3><i style="background:var(--ref)"></i>Total buildings <span class="muted num" style="font-weight:400">· ${tr(fB(ttot),mixTrace("total"))}</span></h3>`;
+  right.appendChild(tb.list);th.append(tb.wrap,right);
+  // segment pies
+  const sh=document.getElementById("mixSegs");sh.innerHTML="";
+  for(const id of ["data_center","health_care","aviation","educational"]){
+    const seg=ENT[id].seg,col=MIX_FOCUS[id];const card=document.createElement("div");card.className="mix-card";
+    const segv=C(id).length?sum(C(id),"nsa",ix):null;
+    card.innerHTML=`<h3><i style="background:${col}"></i>${esc(seg.name)} <span class="muted num" style="font-weight:400">· ${segv==null?"—":tr(fB(segv),mixTrace(id))}</span></h3>`;
+    const raw=(seg.breakdown||[]).map(b=>({b,v:C(b.id).length?sum(C(b.id),"nsa",ix):null,pub:b.components.every(c=>c.sector==="public")}));
+    const omitted=raw.filter(x=>x.v!=null&&x.v<=0);
+    const sl=raw.filter(x=>x.v!=null&&x.v>0);
+    if(!sl.length){const p=document.createElement("p");p.className="muted";p.style.fontSize="12.5px";p.textContent="Census does not publish this segment for the selected ownership.";card.appendChild(p);sh.appendChild(card);continue;}
+    const priv=sl.filter(x=>!x.pub).sort((a,b)=>b.v-a.v),pub=sl.filter(x=>x.pub).sort((a,b)=>b.v-a.v);
+    const steps=[100,68,44,26];
+    const slices=[...priv.map((x,k)=>({id:x.b.id,key:x.b.id,name:x.b.name,v:x.v,color:`color-mix(in oklab,${col} ${steps[Math.min(k,3)]}%,var(--surface))`,grp:"Private",focus:x.b.focus})),
+      ...pub.map((x,k)=>({id:x.b.id,key:x.b.id,name:x.b.name.replace(" (state & local)",""),v:x.v,color:`color-mix(in oklab,${col} ${steps[Math.min(k,3)]}%,var(--surface))`,hatch:true,grp:"Public · state & local unless noted",focus:/terminal/i.test(x.b.name)}))];
+    const pb=pieBlock(card,slices,170,`${seg.name} by subcategory, ${mixLabel()}`,"",true);
+    card.append(pb.wrap,pb.list);
+    if(omitted.length){const n=document.createElement("div");n.className="muted";n.style.fontSize="11.5px";n.textContent=`Omitted (≤ $0 after rounding): ${omitted.map(x=>x.b.name).join(", ")}.`;card.appendChild(n);}
+    sh.appendChild(card);}
+}
+document.getElementById("mixPeriodCtl").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;STATE.mixPeriod=b.dataset.v;renderMix();});
+
+function render(){TRACES.length=0;renderKPIs();renderMix();renderYTD();renderTrend();renderMultiples();renderAnnual();}
+renderMeta();renderProvenance();render();
+let rt;new ResizeObserver(()=>{clearTimeout(rt);rt=setTimeout(()=>{renderTrend();renderMultiples();document.querySelectorAll("[data-spark]").forEach(h=>{const id=h.dataset.spark;const v=M.map((_,i)=>i<11?null:sum(C(id),"nsa",range(i-11,i)));sparkline(h,v,COLORS[id],ENT[id].name);});},120);}).observe(document.querySelector(".wrap"));
+})();
+</script>
