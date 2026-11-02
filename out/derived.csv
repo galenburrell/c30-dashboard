@@ -125,8 +125,9 @@ data_center,Data centers,segment,private,nsa,2026-03,4781
 data_center,Data centers,segment,private,nsa,2026-04,5198
 data_center,Data centers,segment,private,nsa,2026-05,5627
 data_center,Data centers,segment,private,nsa,2026-06,6244
-data_center,Data centers,segment,private,nsa,2026-07,6898
-data_center,Data centers,segment,private,nsa,2026-08,7535
+data_center,Data centers,segment,private,nsa,2026-07,6988
+data_center,Data centers,segment,private,nsa,2026-08,7909
+data_center,Data centers,segment,private,nsa,2026-09,8517
 data_center,Data centers,segment,total,nsa,2016-01,241
 data_center,Data centers,segment,total,nsa,2016-02,288
 data_center,Data centers,segment,total,nsa,2016-03,328
@@ -253,8 +254,9 @@ data_center,Data centers,segment,total,nsa,2026-03,4781
 data_center,Data centers,segment,total,nsa,2026-04,5198
 data_center,Data centers,segment,total,nsa,2026-05,5627
 data_center,Data centers,segment,total,nsa,2026-06,6244
-data_center,Data centers,segment,total,nsa,2026-07,6898
-data_center,Data centers,segment,total,nsa,2026-08,7535
+data_center,Data centers,segment,total,nsa,2026-07,6988
+data_center,Data centers,segment,total,nsa,2026-08,7909
+data_center,Data centers,segment,total,nsa,2026-09,8517
 data_center,Data centers,segment,private,sa,2016-01,3155
 data_center,Data centers,segment,private,sa,2016-02,3798
 data_center,Data centers,segment,private,sa,2016-03,4118
@@ -381,8 +383,9 @@ data_center,Data centers,segment,private,sa,2026-03,58121
 data_center,Data centers,segment,private,sa,2026-04,61859
 data_center,Data centers,segment,private,sa,2026-05,65688
 data_center,Data centers,segment,private,sa,2026-06,72695
-data_center,Data centers,segment,private,sa,2026-07,79007
-data_center,Data centers,segment,private,sa,2026-08,84950
+data_center,Data centers,segment,private,sa,2026-07,80718
+data_center,Data centers,segment,private,sa,2026-08,88815
+data_center,Data centers,segment,private,sa,2026-09,96462
 data_center,Data centers,segment,total,sa,2016-01,3155
 data_center,Data centers,segment,total,sa,2016-02,3798
 data_center,Data centers,segment,total,sa,2016-03,4118
@@ -509,8 +512,9 @@ data_center,Data centers,segment,total,sa,2026-03,58121
 data_center,Data centers,segment,total,sa,2026-04,61859
 data_center,Data centers,segment,total,sa,2026-05,65688
 data_center,Data centers,segment,total,sa,2026-06,72695
-data_center,Data centers,segment,total,sa,2026-07,79007
-data_center,Data centers,segment,total,sa,2026-08,84950
+data_center,Data centers,segment,total,sa,2026-07,80718
+data_center,Data centers,segment,total,sa,2026-08,88815
+data_center,Data centers,segment,total,sa,2026-09,96462
 bd_dc_priv,Data centers,slice:data_center,private,nsa,2016-01,241
 bd_dc_priv,Data centers,slice:data_center,private,nsa,2016-02,288
 bd_dc_priv,Data centers,slice:data_center,private,nsa,2016-03,328
@@ -637,8 +641,9 @@ bd_dc_priv,Data centers,slice:data_center,private,nsa,2026-03,4781
 bd_dc_priv,Data centers,slice:data_center,private,nsa,2026-04,5198
 bd_dc_priv,Data centers,slice:data_center,private,nsa,2026-05,5627
 bd_dc_priv,Data centers,slice:data_center,private,nsa,2026-06,6244
-bd_dc_priv,Data centers,slice:data_center,private,nsa,2026-07,6898
-bd_dc_priv,Data centers,slice:data_center,private,nsa,2026-08,7535
+bd_dc_priv,Data centers,slice:data_center,private,nsa,2026-07,6988
+bd_dc_priv,Data centers,slice:data_center,private,nsa,2026-08,7909
+bd_dc_priv,Data centers,slice:data_center,private,nsa,2026-09,8517
 bd_dc_priv,Data centers,slice:data_center,total,nsa,2016-01,241
 bd_dc_priv,Data centers,slice:data_center,total,nsa,2016-02,288
 bd_dc_priv,Data centers,slice:data_center,total,nsa,2016-03,328
@@ -765,8 +770,9 @@ bd_dc_priv,Data centers,slice:data_center,total,nsa,2026-03,4781
 bd_dc_priv,Data centers,slice:data_center,total,nsa,2026-04,5198
 bd_dc_priv,Data centers,slice:data_center,total,nsa,2026-05,5627
 bd_dc_priv,Data centers,slice:data_center,total,nsa,2026-06,6244
-bd_dc_priv,Data centers,slice:data_center,total,nsa,2026-07,6898
-bd_dc_priv,Data centers,slice:data_center,total,nsa,2026-08,7535
+bd_dc_priv,Data centers,slice:data_center,total,nsa,2026-07,6988
+bd_dc_priv,Data centers,slice:data_center,total,nsa,2026-08,7909
+bd_dc_priv,Data centers,slice:data_center,total,nsa,2026-09,8517
 bd_dc_priv,Data centers,slice:data_center,private,sa,2016-01,3155
 bd_dc_priv,Data centers,slice:data_center,private,sa,2016-02,3798
 bd_dc_priv,Data centers,slice:data_center,private,sa,2016-03,4118
@@ -893,8 +899,9 @@ bd_dc_priv,Data centers,slice:data_center,private,sa,2026-03,58121
 bd_dc_priv,Data centers,slice:data_center,private,sa,2026-04,61859
 bd_dc_priv,Data centers,slice:data_center,private,sa,2026-05,65688
 bd_dc_priv,Data centers,slice:data_center,private,sa,2026-06,72695
-bd_dc_priv,Data centers,slice:data_center,private,sa,2026-07,79007
-bd_dc_priv,Data centers,slice:data_center,private,sa,2026-08,84950
+bd_dc_priv,Data centers,slice:data_center,private,sa,2026-07,80718
+bd_dc_priv,Data centers,slice:data_center,private,sa,2026-08,88815
+bd_dc_priv,Data centers,slice:data_center,private,sa,2026-09,96462
 bd_dc_priv,Data centers,slice:data_center,total,sa,2016-01,3155
 bd_dc_priv,Data centers,slice:data_center,total,sa,2016-02,3798
 bd_dc_priv,Data centers,slice:data_center,total,sa,2016-03,4118
@@ -1021,8 +1028,9 @@ bd_dc_priv,Data centers,slice:data_center,total,sa,2026-03,58121
 bd_dc_priv,Data centers,slice:data_center,total,sa,2026-04,61859
 bd_dc_priv,Data centers,slice:data_center,total,sa,2026-05,65688
 bd_dc_priv,Data centers,slice:data_center,total,sa,2026-06,72695
-bd_dc_priv,Data centers,slice:data_center,total,sa,2026-07,79007
-bd_dc_priv,Data centers,slice:data_center,total,sa,2026-08,84950
+bd_dc_priv,Data centers,slice:data_center,total,sa,2026-07,80718
+bd_dc_priv,Data centers,slice:data_center,total,sa,2026-08,88815
+bd_dc_priv,Data centers,slice:data_center,total,sa,2026-09,96462
 health_care,Health care,segment,private,nsa,2016-01,2270
 health_care,Health care,segment,private,nsa,2016-02,2405
 health_care,Health care,segment,private,nsa,2016-03,2569
@@ -1149,8 +1157,9 @@ health_care,Health care,segment,private,nsa,2026-03,4625
 health_care,Health care,segment,private,nsa,2026-04,4703
 health_care,Health care,segment,private,nsa,2026-05,4756
 health_care,Health care,segment,private,nsa,2026-06,4851
-health_care,Health care,segment,private,nsa,2026-07,4761
-health_care,Health care,segment,private,nsa,2026-08,4846
+health_care,Health care,segment,private,nsa,2026-07,4841
+health_care,Health care,segment,private,nsa,2026-08,4908
+health_care,Health care,segment,private,nsa,2026-09,4961
 health_care,Health care,segment,public,nsa,2016-01,632
 health_care,Health care,segment,public,nsa,2016-02,686
 health_care,Health care,segment,public,nsa,2016-03,738
@@ -1277,8 +1286,9 @@ health_care,Health care,segment,public,nsa,2026-03,1459
 health_care,Health care,segment,public,nsa,2026-04,1541
 health_care,Health care,segment,public,nsa,2026-05,1550
 health_care,Health care,segment,public,nsa,2026-06,1654
-health_care,Health care,segment,public,nsa,2026-07,1636
-health_care,Health care,segment,public,nsa,2026-08,1603
+health_care,Health care,segment,public,nsa,2026-07,1638
+health_care,Health care,segment,public,nsa,2026-08,1631
+health_care,Health care,segment,public,nsa,2026-09,1679
 health_care,Health care,segment,total,nsa,2016-01,2902
 health_care,Health care,segment,total,nsa,2016-02,3091
 health_care,Health care,segment,total,nsa,2016-03,3307
@@ -1405,8 +1415,9 @@ health_care,Health care,segment,total,nsa,2026-03,6084
 health_care,Health care,segment,total,nsa,2026-04,6244
 health_care,Health care,segment,total,nsa,2026-05,6306
 health_care,Health care,segment,total,nsa,2026-06,6505
-health_care,Health care,segment,total,nsa,2026-07,6397
-health_care,Health care,segment,total,nsa,2026-08,6449
+health_care,Health care,segment,total,nsa,2026-07,6479
+health_care,Health care,segment,total,nsa,2026-08,6539
+health_care,Health care,segment,total,nsa,2026-09,6640
 health_care,Health care,segment,private,sa,2016-01,29990
 health_care,Health care,segment,private,sa,2016-02,30508
 health_care,Health care,segment,private,sa,2016-03,32147
@@ -1533,8 +1544,9 @@ health_care,Health care,segment,private,sa,2026-03,56402
 health_care,Health care,segment,private,sa,2026-04,56108
 health_care,Health care,segment,private,sa,2026-05,56401
 health_care,Health care,segment,private,sa,2026-06,57066
-health_care,Health care,segment,private,sa,2026-07,56702
-health_care,Health care,segment,private,sa,2026-08,57026
+health_care,Health care,segment,private,sa,2026-07,57480
+health_care,Health care,segment,private,sa,2026-08,57667
+health_care,Health care,segment,private,sa,2026-09,57664
 health_care,Health care,segment,public,sa,2016-01,8578
 health_care,Health care,segment,public,sa,2016-02,8518
 health_care,Health care,segment,public,sa,2016-03,8887
@@ -1661,8 +1673,9 @@ health_care,Health care,segment,public,sa,2026-03,18032
 health_care,Health care,segment,public,sa,2026-04,18372
 health_care,Health care,segment,public,sa,2026-05,18500
 health_care,Health care,segment,public,sa,2026-06,18839
-health_care,Health care,segment,public,sa,2026-07,18803
-health_care,Health care,segment,public,sa,2026-08,18761
+health_care,Health care,segment,public,sa,2026-07,18843
+health_care,Health care,segment,public,sa,2026-08,19032
+health_care,Health care,segment,public,sa,2026-09,18792
 health_care,Health care,segment,total,sa,2016-01,38568
 health_care,Health care,segment,total,sa,2016-02,39026
 health_care,Health care,segment,total,sa,2016-03,41034
@@ -1789,8 +1802,9 @@ health_care,Health care,segment,total,sa,2026-03,74434
 health_care,Health care,segment,total,sa,2026-04,74480
 health_care,Health care,segment,total,sa,2026-05,74901
 health_care,Health care,segment,total,sa,2026-06,75905
-health_care,Health care,segment,total,sa,2026-07,75505
-health_care,Health care,segment,total,sa,2026-08,75787
+health_care,Health care,segment,total,sa,2026-07,76323
+health_care,Health care,segment,total,sa,2026-08,76699
+health_care,Health care,segment,total,sa,2026-09,76456
 hc_hospital,Hospital (private),sub:health_care,private,nsa,2016-01,1457
 hc_hospital,Hospital (private),sub:health_care,private,nsa,2016-02,1523
 hc_hospital,Hospital (private),sub:health_care,private,nsa,2016-03,1604
@@ -1917,8 +1931,9 @@ hc_hospital,Hospital (private),sub:health_care,private,nsa,2026-03,2442
 hc_hospital,Hospital (private),sub:health_care,private,nsa,2026-04,2491
 hc_hospital,Hospital (private),sub:health_care,private,nsa,2026-05,2534
 hc_hospital,Hospital (private),sub:health_care,private,nsa,2026-06,2575
-hc_hospital,Hospital (private),sub:health_care,private,nsa,2026-07,2540
-hc_hospital,Hospital (private),sub:health_care,private,nsa,2026-08,2583
+hc_hospital,Hospital (private),sub:health_care,private,nsa,2026-07,2577
+hc_hospital,Hospital (private),sub:health_care,private,nsa,2026-08,2618
+hc_hospital,Hospital (private),sub:health_care,private,nsa,2026-09,2671
 hc_hospital,Hospital (private),sub:health_care,total,nsa,2016-01,1457
 hc_hospital,Hospital (private),sub:health_care,total,nsa,2016-02,1523
 hc_hospital,Hospital (private),sub:health_care,total,nsa,2016-03,1604
@@ -2045,8 +2060,9 @@ hc_hospital,Hospital (private),sub:health_care,total,nsa,2026-03,2442
 hc_hospital,Hospital (private),sub:health_care,total,nsa,2026-04,2491
 hc_hospital,Hospital (private),sub:health_care,total,nsa,2026-05,2534
 hc_hospital,Hospital (private),sub:health_care,total,nsa,2026-06,2575
-hc_hospital,Hospital (private),sub:health_care,total,nsa,2026-07,2540
-hc_hospital,Hospital (private),sub:health_care,total,nsa,2026-08,2583
+hc_hospital,Hospital (private),sub:health_care,total,nsa,2026-07,2577
+hc_hospital,Hospital (private),sub:health_care,total,nsa,2026-08,2618
+hc_hospital,Hospital (private),sub:health_care,total,nsa,2026-09,2671
 hc_hospital,Hospital (private),sub:health_care,private,sa,2016-01,19150
 hc_hospital,Hospital (private),sub:health_care,private,sa,2016-02,18969
 hc_hospital,Hospital (private),sub:health_care,private,sa,2016-03,19968
@@ -2173,8 +2189,9 @@ hc_hospital,Hospital (private),sub:health_care,private,sa,2026-03,29694
 hc_hospital,Hospital (private),sub:health_care,private,sa,2026-04,29777
 hc_hospital,Hospital (private),sub:health_care,private,sa,2026-05,30174
 hc_hospital,Hospital (private),sub:health_care,private,sa,2026-06,30123
-hc_hospital,Hospital (private),sub:health_care,private,sa,2026-07,30343
-hc_hospital,Hospital (private),sub:health_care,private,sa,2026-08,30762
+hc_hospital,Hospital (private),sub:health_care,private,sa,2026-07,30739
+hc_hospital,Hospital (private),sub:health_care,private,sa,2026-08,31144
+hc_hospital,Hospital (private),sub:health_care,private,sa,2026-09,31188
 hc_hospital,Hospital (private),sub:health_care,total,sa,2016-01,19150
 hc_hospital,Hospital (private),sub:health_care,total,sa,2016-02,18969
 hc_hospital,Hospital (private),sub:health_care,total,sa,2016-03,19968
@@ -2301,8 +2318,9 @@ hc_hospital,Hospital (private),sub:health_care,total,sa,2026-03,29694
 hc_hospital,Hospital (private),sub:health_care,total,sa,2026-04,29777
 hc_hospital,Hospital (private),sub:health_care,total,sa,2026-05,30174
 hc_hospital,Hospital (private),sub:health_care,total,sa,2026-06,30123
-hc_hospital,Hospital (private),sub:health_care,total,sa,2026-07,30343
-hc_hospital,Hospital (private),sub:health_care,total,sa,2026-08,30762
+hc_hospital,Hospital (private),sub:health_care,total,sa,2026-07,30739
+hc_hospital,Hospital (private),sub:health_care,total,sa,2026-08,31144
+hc_hospital,Hospital (private),sub:health_care,total,sa,2026-09,31188
 hc_medical,Medical building (private),sub:health_care,private,nsa,2016-01,521
 hc_medical,Medical building (private),sub:health_care,private,nsa,2016-02,569
 hc_medical,Medical building (private),sub:health_care,private,nsa,2016-03,636
@@ -2429,8 +2447,9 @@ hc_medical,Medical building (private),sub:health_care,private,nsa,2026-03,1744
 hc_medical,Medical building (private),sub:health_care,private,nsa,2026-04,1779
 hc_medical,Medical building (private),sub:health_care,private,nsa,2026-05,1817
 hc_medical,Medical building (private),sub:health_care,private,nsa,2026-06,1866
-hc_medical,Medical building (private),sub:health_care,private,nsa,2026-07,1820
-hc_medical,Medical building (private),sub:health_care,private,nsa,2026-08,1859
+hc_medical,Medical building (private),sub:health_care,private,nsa,2026-07,1857
+hc_medical,Medical building (private),sub:health_care,private,nsa,2026-08,1886
+hc_medical,Medical building (private),sub:health_care,private,nsa,2026-09,1857
 hc_medical,Medical building (private),sub:health_care,total,nsa,2016-01,521
 hc_medical,Medical building (private),sub:health_care,total,nsa,2016-02,569
 hc_medical,Medical building (private),sub:health_care,total,nsa,2016-03,636
@@ -2557,8 +2576,9 @@ hc_medical,Medical building (private),sub:health_care,total,nsa,2026-03,1744
 hc_medical,Medical building (private),sub:health_care,total,nsa,2026-04,1779
 hc_medical,Medical building (private),sub:health_care,total,nsa,2026-05,1817
 hc_medical,Medical building (private),sub:health_care,total,nsa,2026-06,1866
-hc_medical,Medical building (private),sub:health_care,total,nsa,2026-07,1820
-hc_medical,Medical building (private),sub:health_care,total,nsa,2026-08,1859
+hc_medical,Medical building (private),sub:health_care,total,nsa,2026-07,1857
+hc_medical,Medical building (private),sub:health_care,total,nsa,2026-08,1886
+hc_medical,Medical building (private),sub:health_care,total,nsa,2026-09,1857
 hc_medical,Medical building (private),sub:health_care,private,sa,2016-01,7081
 hc_medical,Medical building (private),sub:health_care,private,sa,2016-02,7622
 hc_medical,Medical building (private),sub:health_care,private,sa,2016-03,8090
@@ -2685,8 +2705,9 @@ hc_medical,Medical building (private),sub:health_care,private,sa,2026-03,21388
 hc_medical,Medical building (private),sub:health_care,private,sa,2026-04,21073
 hc_medical,Medical building (private),sub:health_care,private,sa,2026-05,21301
 hc_medical,Medical building (private),sub:health_care,private,sa,2026-06,22038
-hc_medical,Medical building (private),sub:health_care,private,sa,2026-07,21585
-hc_medical,Medical building (private),sub:health_care,private,sa,2026-08,21539
+hc_medical,Medical building (private),sub:health_care,private,sa,2026-07,21911
+hc_medical,Medical building (private),sub:health_care,private,sa,2026-08,21770
+hc_medical,Medical building (private),sub:health_care,private,sa,2026-09,21582
 hc_medical,Medical building (private),sub:health_care,total,sa,2016-01,7081
 hc_medical,Medical building (private),sub:health_care,total,sa,2016-02,7622
 hc_medical,Medical building (private),sub:health_care,total,sa,2016-03,8090
@@ -2813,8 +2834,9 @@ hc_medical,Medical building (private),sub:health_care,total,sa,2026-03,21388
 hc_medical,Medical building (private),sub:health_care,total,sa,2026-04,21073
 hc_medical,Medical building (private),sub:health_care,total,sa,2026-05,21301
 hc_medical,Medical building (private),sub:health_care,total,sa,2026-06,22038
-hc_medical,Medical building (private),sub:health_care,total,sa,2026-07,21585
-hc_medical,Medical building (private),sub:health_care,total,sa,2026-08,21539
+hc_medical,Medical building (private),sub:health_care,total,sa,2026-07,21911
+hc_medical,Medical building (private),sub:health_care,total,sa,2026-08,21770
+hc_medical,Medical building (private),sub:health_care,total,sa,2026-09,21582
 hc_special,Special care (private),sub:health_care,private,nsa,2016-01,293
 hc_special,Special care (private),sub:health_care,private,nsa,2016-02,313
 hc_special,Special care (private),sub:health_care,private,nsa,2016-03,330
@@ -2941,8 +2963,9 @@ hc_special,Special care (private),sub:health_care,private,nsa,2026-03,439
 hc_special,Special care (private),sub:health_care,private,nsa,2026-04,433
 hc_special,Special care (private),sub:health_care,private,nsa,2026-05,405
 hc_special,Special care (private),sub:health_care,private,nsa,2026-06,411
-hc_special,Special care (private),sub:health_care,private,nsa,2026-07,402
-hc_special,Special care (private),sub:health_care,private,nsa,2026-08,404
+hc_special,Special care (private),sub:health_care,private,nsa,2026-07,407
+hc_special,Special care (private),sub:health_care,private,nsa,2026-08,405
+hc_special,Special care (private),sub:health_care,private,nsa,2026-09,434
 hc_special,Special care (private),sub:health_care,total,nsa,2016-01,293
 hc_special,Special care (private),sub:health_care,total,nsa,2016-02,313
 hc_special,Special care (private),sub:health_care,total,nsa,2016-03,330
@@ -3069,8 +3092,9 @@ hc_special,Special care (private),sub:health_care,total,nsa,2026-03,439
 hc_special,Special care (private),sub:health_care,total,nsa,2026-04,433
 hc_special,Special care (private),sub:health_care,total,nsa,2026-05,405
 hc_special,Special care (private),sub:health_care,total,nsa,2026-06,411
-hc_special,Special care (private),sub:health_care,total,nsa,2026-07,402
-hc_special,Special care (private),sub:health_care,total,nsa,2026-08,404
+hc_special,Special care (private),sub:health_care,total,nsa,2026-07,407
+hc_special,Special care (private),sub:health_care,total,nsa,2026-08,405
+hc_special,Special care (private),sub:health_care,total,nsa,2026-09,434
 hc_special,Special care (private),sub:health_care,private,sa,2016-01,3760
 hc_special,Special care (private),sub:health_care,private,sa,2016-02,3917
 hc_special,Special care (private),sub:health_care,private,sa,2016-03,4089
@@ -3197,8 +3221,9 @@ hc_special,Special care (private),sub:health_care,private,sa,2026-03,5321
 hc_special,Special care (private),sub:health_care,private,sa,2026-04,5258
 hc_special,Special care (private),sub:health_care,private,sa,2026-05,4925
 hc_special,Special care (private),sub:health_care,private,sa,2026-06,4904
-hc_special,Special care (private),sub:health_care,private,sa,2026-07,4774
-hc_special,Special care (private),sub:health_care,private,sa,2026-08,4725
+hc_special,Special care (private),sub:health_care,private,sa,2026-07,4831
+hc_special,Special care (private),sub:health_care,private,sa,2026-08,4752
+hc_special,Special care (private),sub:health_care,private,sa,2026-09,4894
 hc_special,Special care (private),sub:health_care,total,sa,2016-01,3760
 hc_special,Special care (private),sub:health_care,total,sa,2016-02,3917
 hc_special,Special care (private),sub:health_care,total,sa,2016-03,4089
@@ -3325,8 +3350,9 @@ hc_special,Special care (private),sub:health_care,total,sa,2026-03,5321
 hc_special,Special care (private),sub:health_care,total,sa,2026-04,5258
 hc_special,Special care (private),sub:health_care,total,sa,2026-05,4925
 hc_special,Special care (private),sub:health_care,total,sa,2026-06,4904
-hc_special,Special care (private),sub:health_care,total,sa,2026-07,4774
-hc_special,Special care (private),sub:health_care,total,sa,2026-08,4725
+hc_special,Special care (private),sub:health_care,total,sa,2026-07,4831
+hc_special,Special care (private),sub:health_care,total,sa,2026-08,4752
+hc_special,Special care (private),sub:health_care,total,sa,2026-09,4894
 hc_public,Public health care,sub:health_care,public,nsa,2016-01,632
 hc_public,Public health care,sub:health_care,public,nsa,2016-02,686
 hc_public,Public health care,sub:health_care,public,nsa,2016-03,738
@@ -3453,8 +3479,9 @@ hc_public,Public health care,sub:health_care,public,nsa,2026-03,1459
 hc_public,Public health care,sub:health_care,public,nsa,2026-04,1541
 hc_public,Public health care,sub:health_care,public,nsa,2026-05,1550
 hc_public,Public health care,sub:health_care,public,nsa,2026-06,1654
-hc_public,Public health care,sub:health_care,public,nsa,2026-07,1636
-hc_public,Public health care,sub:health_care,public,nsa,2026-08,1603
+hc_public,Public health care,sub:health_care,public,nsa,2026-07,1638
+hc_public,Public health care,sub:health_care,public,nsa,2026-08,1631
+hc_public,Public health care,sub:health_care,public,nsa,2026-09,1679
 hc_public,Public health care,sub:health_care,total,nsa,2016-01,632
 hc_public,Public health care,sub:health_care,total,nsa,2016-02,686
 hc_public,Public health care,sub:health_care,total,nsa,2016-03,738
@@ -3581,8 +3608,9 @@ hc_public,Public health care,sub:health_care,total,nsa,2026-03,1459
 hc_public,Public health care,sub:health_care,total,nsa,2026-04,1541
 hc_public,Public health care,sub:health_care,total,nsa,2026-05,1550
 hc_public,Public health care,sub:health_care,total,nsa,2026-06,1654
-hc_public,Public health care,sub:health_care,total,nsa,2026-07,1636
-hc_public,Public health care,sub:health_care,total,nsa,2026-08,1603
+hc_public,Public health care,sub:health_care,total,nsa,2026-07,1638
+hc_public,Public health care,sub:health_care,total,nsa,2026-08,1631
+hc_public,Public health care,sub:health_care,total,nsa,2026-09,1679
 hc_public,Public health care,sub:health_care,public,sa,2016-01,8578
 hc_public,Public health care,sub:health_care,public,sa,2016-02,8518
 hc_public,Public health care,sub:health_care,public,sa,2016-03,8887
@@ -3709,8 +3737,9 @@ hc_public,Public health care,sub:health_care,public,sa,2026-03,18032
 hc_public,Public health care,sub:health_care,public,sa,2026-04,18372
 hc_public,Public health care,sub:health_care,public,sa,2026-05,18500
 hc_public,Public health care,sub:health_care,public,sa,2026-06,18839
-hc_public,Public health care,sub:health_care,public,sa,2026-07,18803
-hc_public,Public health care,sub:health_care,public,sa,2026-08,18761
+hc_public,Public health care,sub:health_care,public,sa,2026-07,18843
+hc_public,Public health care,sub:health_care,public,sa,2026-08,19032
+hc_public,Public health care,sub:health_care,public,sa,2026-09,18792
 hc_public,Public health care,sub:health_care,total,sa,2016-01,8578
 hc_public,Public health care,sub:health_care,total,sa,2016-02,8518
 hc_public,Public health care,sub:health_care,total,sa,2016-03,8887
@@ -3837,8 +3866,9 @@ hc_public,Public health care,sub:health_care,total,sa,2026-03,18032
 hc_public,Public health care,sub:health_care,total,sa,2026-04,18372
 hc_public,Public health care,sub:health_care,total,sa,2026-05,18500
 hc_public,Public health care,sub:health_care,total,sa,2026-06,18839
-hc_public,Public health care,sub:health_care,total,sa,2026-07,18803
-hc_public,Public health care,sub:health_care,total,sa,2026-08,18761
+hc_public,Public health care,sub:health_care,total,sa,2026-07,18843
+hc_public,Public health care,sub:health_care,total,sa,2026-08,19032
+hc_public,Public health care,sub:health_care,total,sa,2026-09,18792
 bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2016-01,1457
 bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2016-02,1523
 bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2016-03,1604
@@ -3965,8 +3995,9 @@ bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2026-03,2442
 bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2026-04,2491
 bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2026-05,2534
 bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2026-06,2575
-bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2026-07,2540
-bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2026-08,2583
+bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2026-07,2577
+bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2026-08,2618
+bd_hc_p_hosp,Hospital,slice:health_care,private,nsa,2026-09,2671
 bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2016-01,1457
 bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2016-02,1523
 bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2016-03,1604
@@ -4093,8 +4124,9 @@ bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2026-03,2442
 bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2026-04,2491
 bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2026-05,2534
 bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2026-06,2575
-bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2026-07,2540
-bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2026-08,2583
+bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2026-07,2577
+bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2026-08,2618
+bd_hc_p_hosp,Hospital,slice:health_care,total,nsa,2026-09,2671
 bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2016-01,19150
 bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2016-02,18969
 bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2016-03,19968
@@ -4221,8 +4253,9 @@ bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2026-03,29694
 bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2026-04,29777
 bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2026-05,30174
 bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2026-06,30123
-bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2026-07,30343
-bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2026-08,30762
+bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2026-07,30739
+bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2026-08,31144
+bd_hc_p_hosp,Hospital,slice:health_care,private,sa,2026-09,31188
 bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2016-01,19150
 bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2016-02,18969
 bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2016-03,19968
@@ -4349,8 +4382,9 @@ bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2026-03,29694
 bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2026-04,29777
 bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2026-05,30174
 bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2026-06,30123
-bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2026-07,30343
-bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2026-08,30762
+bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2026-07,30739
+bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2026-08,31144
+bd_hc_p_hosp,Hospital,slice:health_care,total,sa,2026-09,31188
 bd_hc_p_med,Medical building,slice:health_care,private,nsa,2016-01,521
 bd_hc_p_med,Medical building,slice:health_care,private,nsa,2016-02,569
 bd_hc_p_med,Medical building,slice:health_care,private,nsa,2016-03,636
@@ -4477,8 +4511,9 @@ bd_hc_p_med,Medical building,slice:health_care,private,nsa,2026-03,1744
 bd_hc_p_med,Medical building,slice:health_care,private,nsa,2026-04,1779
 bd_hc_p_med,Medical building,slice:health_care,private,nsa,2026-05,1817
 bd_hc_p_med,Medical building,slice:health_care,private,nsa,2026-06,1866
-bd_hc_p_med,Medical building,slice:health_care,private,nsa,2026-07,1820
-bd_hc_p_med,Medical building,slice:health_care,private,nsa,2026-08,1859
+bd_hc_p_med,Medical building,slice:health_care,private,nsa,2026-07,1857
+bd_hc_p_med,Medical building,slice:health_care,private,nsa,2026-08,1886
+bd_hc_p_med,Medical building,slice:health_care,private,nsa,2026-09,1857
 bd_hc_p_med,Medical building,slice:health_care,total,nsa,2016-01,521
 bd_hc_p_med,Medical building,slice:health_care,total,nsa,2016-02,569
 bd_hc_p_med,Medical building,slice:health_care,total,nsa,2016-03,636
@@ -4605,8 +4640,9 @@ bd_hc_p_med,Medical building,slice:health_care,total,nsa,2026-03,1744
 bd_hc_p_med,Medical building,slice:health_care,total,nsa,2026-04,1779
 bd_hc_p_med,Medical building,slice:health_care,total,nsa,2026-05,1817
 bd_hc_p_med,Medical building,slice:health_care,total,nsa,2026-06,1866
-bd_hc_p_med,Medical building,slice:health_care,total,nsa,2026-07,1820
-bd_hc_p_med,Medical building,slice:health_care,total,nsa,2026-08,1859
+bd_hc_p_med,Medical building,slice:health_care,total,nsa,2026-07,1857
+bd_hc_p_med,Medical building,slice:health_care,total,nsa,2026-08,1886
+bd_hc_p_med,Medical building,slice:health_care,total,nsa,2026-09,1857
 bd_hc_p_med,Medical building,slice:health_care,private,sa,2016-01,7081
 bd_hc_p_med,Medical building,slice:health_care,private,sa,2016-02,7622
 bd_hc_p_med,Medical building,slice:health_care,private,sa,2016-03,8090
@@ -4733,8 +4769,9 @@ bd_hc_p_med,Medical building,slice:health_care,private,sa,2026-03,21388
 bd_hc_p_med,Medical building,slice:health_care,private,sa,2026-04,21073
 bd_hc_p_med,Medical building,slice:health_care,private,sa,2026-05,21301
 bd_hc_p_med,Medical building,slice:health_care,private,sa,2026-06,22038
-bd_hc_p_med,Medical building,slice:health_care,private,sa,2026-07,21585
-bd_hc_p_med,Medical building,slice:health_care,private,sa,2026-08,21539
+bd_hc_p_med,Medical building,slice:health_care,private,sa,2026-07,21911
+bd_hc_p_med,Medical building,slice:health_care,private,sa,2026-08,21770
+bd_hc_p_med,Medical building,slice:health_care,private,sa,2026-09,21582
 bd_hc_p_med,Medical building,slice:health_care,total,sa,2016-01,7081
 bd_hc_p_med,Medical building,slice:health_care,total,sa,2016-02,7622
 bd_hc_p_med,Medical building,slice:health_care,total,sa,2016-03,8090
@@ -4861,8 +4898,9 @@ bd_hc_p_med,Medical building,slice:health_care,total,sa,2026-03,21388
 bd_hc_p_med,Medical building,slice:health_care,total,sa,2026-04,21073
 bd_hc_p_med,Medical building,slice:health_care,total,sa,2026-05,21301
 bd_hc_p_med,Medical building,slice:health_care,total,sa,2026-06,22038
-bd_hc_p_med,Medical building,slice:health_care,total,sa,2026-07,21585
-bd_hc_p_med,Medical building,slice:health_care,total,sa,2026-08,21539
+bd_hc_p_med,Medical building,slice:health_care,total,sa,2026-07,21911
+bd_hc_p_med,Medical building,slice:health_care,total,sa,2026-08,21770
+bd_hc_p_med,Medical building,slice:health_care,total,sa,2026-09,21582
 bd_hc_p_spec,Special care,slice:health_care,private,nsa,2016-01,293
 bd_hc_p_spec,Special care,slice:health_care,private,nsa,2016-02,313
 bd_hc_p_spec,Special care,slice:health_care,private,nsa,2016-03,330
@@ -4989,8 +5027,9 @@ bd_hc_p_spec,Special care,slice:health_care,private,nsa,2026-03,439
 bd_hc_p_spec,Special care,slice:health_care,private,nsa,2026-04,433
 bd_hc_p_spec,Special care,slice:health_care,private,nsa,2026-05,405
 bd_hc_p_spec,Special care,slice:health_care,private,nsa,2026-06,411
-bd_hc_p_spec,Special care,slice:health_care,private,nsa,2026-07,402
-bd_hc_p_spec,Special care,slice:health_care,private,nsa,2026-08,404
+bd_hc_p_spec,Special care,slice:health_care,private,nsa,2026-07,407
+bd_hc_p_spec,Special care,slice:health_care,private,nsa,2026-08,405
+bd_hc_p_spec,Special care,slice:health_care,private,nsa,2026-09,434
 bd_hc_p_spec,Special care,slice:health_care,total,nsa,2016-01,293
 bd_hc_p_spec,Special care,slice:health_care,total,nsa,2016-02,313
 bd_hc_p_spec,Special care,slice:health_care,total,nsa,2016-03,330
@@ -5117,8 +5156,9 @@ bd_hc_p_spec,Special care,slice:health_care,total,nsa,2026-03,439
 bd_hc_p_spec,Special care,slice:health_care,total,nsa,2026-04,433
 bd_hc_p_spec,Special care,slice:health_care,total,nsa,2026-05,405
 bd_hc_p_spec,Special care,slice:health_care,total,nsa,2026-06,411
-bd_hc_p_spec,Special care,slice:health_care,total,nsa,2026-07,402
-bd_hc_p_spec,Special care,slice:health_care,total,nsa,2026-08,404
+bd_hc_p_spec,Special care,slice:health_care,total,nsa,2026-07,407
+bd_hc_p_spec,Special care,slice:health_care,total,nsa,2026-08,405
+bd_hc_p_spec,Special care,slice:health_care,total,nsa,2026-09,434
 bd_hc_p_spec,Special care,slice:health_care,private,sa,2016-01,3760
 bd_hc_p_spec,Special care,slice:health_care,private,sa,2016-02,3917
 bd_hc_p_spec,Special care,slice:health_care,private,sa,2016-03,4089
@@ -5245,8 +5285,9 @@ bd_hc_p_spec,Special care,slice:health_care,private,sa,2026-03,5321
 bd_hc_p_spec,Special care,slice:health_care,private,sa,2026-04,5258
 bd_hc_p_spec,Special care,slice:health_care,private,sa,2026-05,4925
 bd_hc_p_spec,Special care,slice:health_care,private,sa,2026-06,4904
-bd_hc_p_spec,Special care,slice:health_care,private,sa,2026-07,4774
-bd_hc_p_spec,Special care,slice:health_care,private,sa,2026-08,4725
+bd_hc_p_spec,Special care,slice:health_care,private,sa,2026-07,4831
+bd_hc_p_spec,Special care,slice:health_care,private,sa,2026-08,4752
+bd_hc_p_spec,Special care,slice:health_care,private,sa,2026-09,4894
 bd_hc_p_spec,Special care,slice:health_care,total,sa,2016-01,3760
 bd_hc_p_spec,Special care,slice:health_care,total,sa,2016-02,3917
 bd_hc_p_spec,Special care,slice:health_care,total,sa,2016-03,4089
@@ -5373,8 +5414,9 @@ bd_hc_p_spec,Special care,slice:health_care,total,sa,2026-03,5321
 bd_hc_p_spec,Special care,slice:health_care,total,sa,2026-04,5258
 bd_hc_p_spec,Special care,slice:health_care,total,sa,2026-05,4925
 bd_hc_p_spec,Special care,slice:health_care,total,sa,2026-06,4904
-bd_hc_p_spec,Special care,slice:health_care,total,sa,2026-07,4774
-bd_hc_p_spec,Special care,slice:health_care,total,sa,2026-08,4725
+bd_hc_p_spec,Special care,slice:health_care,total,sa,2026-07,4831
+bd_hc_p_spec,Special care,slice:health_care,total,sa,2026-08,4752
+bd_hc_p_spec,Special care,slice:health_care,total,sa,2026-09,4894
 bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2016-01,-1
 bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2016-02,0
 bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2016-03,-1
@@ -5501,8 +5543,9 @@ bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2026-03,0
 bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2026-04,0
 bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2026-05,0
 bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2026-06,-1
-bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2026-07,-1
-bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2026-08,0
+bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2026-07,0
+bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2026-08,-1
+bd_hc_p_oth,Other / rounding,slice:health_care,private,nsa,2026-09,-1
 bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2016-01,-1
 bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2016-02,0
 bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2016-03,-1
@@ -5629,8 +5672,9 @@ bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2026-03,0
 bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2026-04,0
 bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2026-05,0
 bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2026-06,-1
-bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2026-07,-1
-bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2026-08,0
+bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2026-07,0
+bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2026-08,-1
+bd_hc_p_oth,Other / rounding,slice:health_care,total,nsa,2026-09,-1
 bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2016-01,-1
 bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2016-02,0
 bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2016-03,0
@@ -5757,8 +5801,9 @@ bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2026-03,-1
 bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2026-04,0
 bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2026-05,1
 bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2026-06,1
-bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2026-07,0
-bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2026-08,0
+bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2026-07,-1
+bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2026-08,1
+bd_hc_p_oth,Other / rounding,slice:health_care,private,sa,2026-09,0
 bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2016-01,-1
 bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2016-02,0
 bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2016-03,0
@@ -5885,8 +5930,9 @@ bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2026-03,-1
 bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2026-04,0
 bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2026-05,1
 bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2026-06,1
-bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2026-07,0
-bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2026-08,0
+bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2026-07,-1
+bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2026-08,1
+bd_hc_p_oth,Other / rounding,slice:health_care,total,sa,2026-09,0
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2016-01,322
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2016-02,353
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2016-03,354
@@ -6013,8 +6059,9 @@ bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2026-03,457
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2026-04,488
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2026-05,499
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2026-06,519
-bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2026-07,521
-bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2026-08,528
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2026-07,522
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2026-08,533
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,nsa,2026-09,520
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2016-01,322
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2016-02,353
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2016-03,354
@@ -6141,8 +6188,9 @@ bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2026-03,457
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2026-04,488
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2026-05,499
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2026-06,519
-bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2026-07,521
-bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2026-08,528
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2026-07,522
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2026-08,533
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,nsa,2026-09,520
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2016-01,4240
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2016-02,4398
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2016-03,4435
@@ -6269,8 +6317,9 @@ bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2026-03,5731
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2026-04,5936
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2026-05,6071
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2026-06,5996
-bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2026-07,5907
-bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2026-08,5992
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2026-07,5915
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2026-08,6037
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,public,sa,2026-09,5989
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2016-01,4240
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2016-02,4398
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2016-03,4435
@@ -6397,8 +6446,9 @@ bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2026-03,5731
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2026-04,5936
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2026-05,6071
 bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2026-06,5996
-bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2026-07,5907
-bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2026-08,5992
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2026-07,5915
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2026-08,6037
+bd_hc_s_hosp,Hospital (state & local),slice:health_care,total,sa,2026-09,5989
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2016-01,61
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2016-02,55
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2016-03,63
@@ -6525,8 +6575,9 @@ bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2026-0
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2026-04,384
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2026-05,389
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2026-06,398
-bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2026-07,384
-bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2026-08,387
+bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2026-07,391
+bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2026-08,394
+bd_hc_s_med,Medical building (state & local),slice:health_care,public,nsa,2026-09,396
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2016-01,61
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2016-02,55
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2016-03,63
@@ -6653,8 +6704,9 @@ bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2026-03
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2026-04,384
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2026-05,389
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2026-06,398
-bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2026-07,384
-bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2026-08,387
+bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2026-07,391
+bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2026-08,394
+bd_hc_s_med,Medical building (state & local),slice:health_care,total,nsa,2026-09,396
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2016-01,816
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2016-02,708
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2016-03,758
@@ -6781,8 +6833,9 @@ bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2026-03
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2026-04,4555
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2026-05,4413
 bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2026-06,4529
-bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2026-07,4505
-bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2026-08,4519
+bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2026-07,4573
+bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2026-08,4596
+bd_hc_s_med,Medical building (state & local),slice:health_care,public,sa,2026-09,4587
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2016-01,816
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2016-02,708
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2016-03,758
@@ -6909,8 +6962,9 @@ bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2026-03,
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2026-04,4555
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2026-05,4413
 bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2026-06,4529
-bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2026-07,4505
-bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2026-08,4519
+bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2026-07,4573
+bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2026-08,4596
+bd_hc_s_med,Medical building (state & local),slice:health_care,total,sa,2026-09,4587
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2016-01,55
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2016-02,44
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2016-03,51
@@ -7037,8 +7091,9 @@ bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2026-03,2
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2026-04,304
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2026-05,317
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2026-06,347
-bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2026-07,336
-bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2026-08,332
+bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2026-07,339
+bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2026-08,338
+bd_hc_s_spec,Special care (state & local),slice:health_care,public,nsa,2026-09,339
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2016-01,55
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2016-02,44
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2016-03,51
@@ -7165,8 +7220,9 @@ bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2026-03,28
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2026-04,304
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2026-05,317
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2026-06,347
-bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2026-07,336
-bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2026-08,332
+bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2026-07,339
+bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2026-08,338
+bd_hc_s_spec,Special care (state & local),slice:health_care,total,nsa,2026-09,339
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2016-01,749
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2016-02,588
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2016-03,606
@@ -7293,8 +7349,9 @@ bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2026-03,35
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2026-04,3560
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2026-05,3717
 bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2026-06,3833
-bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2026-07,3839
-bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2026-08,3870
+bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2026-07,3865
+bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2026-08,3922
+bd_hc_s_spec,Special care (state & local),slice:health_care,public,sa,2026-09,3877
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2016-01,749
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2016-02,588
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2016-03,606
@@ -7421,8 +7478,9 @@ bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2026-03,351
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2026-04,3560
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2026-05,3717
 bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2026-06,3833
-bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2026-07,3839
-bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2026-08,3870
+bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2026-07,3865
+bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2026-08,3922
+bd_hc_s_spec,Special care (state & local),slice:health_care,total,sa,2026-09,3877
 bd_hc_s_oth,Other (state & local),slice:health_care,public,nsa,2016-01,0
 bd_hc_s_oth,Other (state & local),slice:health_care,public,nsa,2016-02,-1
 bd_hc_s_oth,Other (state & local),slice:health_care,public,nsa,2016-03,-1
@@ -7549,8 +7607,9 @@ bd_hc_s_oth,Other (state & local),slice:health_care,public,nsa,2026-03,-1
 bd_hc_s_oth,Other (state & local),slice:health_care,public,nsa,2026-04,0
 bd_hc_s_oth,Other (state & local),slice:health_care,public,nsa,2026-05,-1
 bd_hc_s_oth,Other (state & local),slice:health_care,public,nsa,2026-06,0
-bd_hc_s_oth,Other (state & local),slice:health_care,public,nsa,2026-07,1
+bd_hc_s_oth,Other (state & local),slice:health_care,public,nsa,2026-07,0
 bd_hc_s_oth,Other (state & local),slice:health_care,public,nsa,2026-08,0
+bd_hc_s_oth,Other (state & local),slice:health_care,public,nsa,2026-09,0
 bd_hc_s_oth,Other (state & local),slice:health_care,total,nsa,2016-01,0
 bd_hc_s_oth,Other (state & local),slice:health_care,total,nsa,2016-02,-1
 bd_hc_s_oth,Other (state & local),slice:health_care,total,nsa,2016-03,-1
@@ -7677,8 +7736,9 @@ bd_hc_s_oth,Other (state & local),slice:health_care,total,nsa,2026-03,-1
 bd_hc_s_oth,Other (state & local),slice:health_care,total,nsa,2026-04,0
 bd_hc_s_oth,Other (state & local),slice:health_care,total,nsa,2026-05,-1
 bd_hc_s_oth,Other (state & local),slice:health_care,total,nsa,2026-06,0
-bd_hc_s_oth,Other (state & local),slice:health_care,total,nsa,2026-07,1
+bd_hc_s_oth,Other (state & local),slice:health_care,total,nsa,2026-07,0
 bd_hc_s_oth,Other (state & local),slice:health_care,total,nsa,2026-08,0
+bd_hc_s_oth,Other (state & local),slice:health_care,total,nsa,2026-09,0
 bd_hc_s_oth,Other (state & local),slice:health_care,public,sa,2016-01,-1
 bd_hc_s_oth,Other (state & local),slice:health_care,public,sa,2016-02,0
 bd_hc_s_oth,Other (state & local),slice:health_care,public,sa,2016-03,-1
@@ -7805,8 +7865,9 @@ bd_hc_s_oth,Other (state & local),slice:health_care,public,sa,2026-03,0
 bd_hc_s_oth,Other (state & local),slice:health_care,public,sa,2026-04,0
 bd_hc_s_oth,Other (state & local),slice:health_care,public,sa,2026-05,0
 bd_hc_s_oth,Other (state & local),slice:health_care,public,sa,2026-06,0
-bd_hc_s_oth,Other (state & local),slice:health_care,public,sa,2026-07,-1
+bd_hc_s_oth,Other (state & local),slice:health_care,public,sa,2026-07,0
 bd_hc_s_oth,Other (state & local),slice:health_care,public,sa,2026-08,0
+bd_hc_s_oth,Other (state & local),slice:health_care,public,sa,2026-09,1
 bd_hc_s_oth,Other (state & local),slice:health_care,total,sa,2016-01,-1
 bd_hc_s_oth,Other (state & local),slice:health_care,total,sa,2016-02,0
 bd_hc_s_oth,Other (state & local),slice:health_care,total,sa,2016-03,-1
@@ -7933,8 +7994,9 @@ bd_hc_s_oth,Other (state & local),slice:health_care,total,sa,2026-03,0
 bd_hc_s_oth,Other (state & local),slice:health_care,total,sa,2026-04,0
 bd_hc_s_oth,Other (state & local),slice:health_care,total,sa,2026-05,0
 bd_hc_s_oth,Other (state & local),slice:health_care,total,sa,2026-06,0
-bd_hc_s_oth,Other (state & local),slice:health_care,total,sa,2026-07,-1
+bd_hc_s_oth,Other (state & local),slice:health_care,total,sa,2026-07,0
 bd_hc_s_oth,Other (state & local),slice:health_care,total,sa,2026-08,0
+bd_hc_s_oth,Other (state & local),slice:health_care,total,sa,2026-09,1
 bd_hc_fed,Federal,slice:health_care,public,nsa,2016-01,194
 bd_hc_fed,Federal,slice:health_care,public,nsa,2016-02,235
 bd_hc_fed,Federal,slice:health_care,public,nsa,2016-03,271
@@ -8061,8 +8123,9 @@ bd_hc_fed,Federal,slice:health_care,public,nsa,2026-03,354
 bd_hc_fed,Federal,slice:health_care,public,nsa,2026-04,365
 bd_hc_fed,Federal,slice:health_care,public,nsa,2026-05,346
 bd_hc_fed,Federal,slice:health_care,public,nsa,2026-06,390
-bd_hc_fed,Federal,slice:health_care,public,nsa,2026-07,394
-bd_hc_fed,Federal,slice:health_care,public,nsa,2026-08,356
+bd_hc_fed,Federal,slice:health_care,public,nsa,2026-07,386
+bd_hc_fed,Federal,slice:health_care,public,nsa,2026-08,366
+bd_hc_fed,Federal,slice:health_care,public,nsa,2026-09,424
 bd_hc_fed,Federal,slice:health_care,total,nsa,2016-01,194
 bd_hc_fed,Federal,slice:health_care,total,nsa,2016-02,235
 bd_hc_fed,Federal,slice:health_care,total,nsa,2016-03,271
@@ -8189,8 +8252,9 @@ bd_hc_fed,Federal,slice:health_care,total,nsa,2026-03,354
 bd_hc_fed,Federal,slice:health_care,total,nsa,2026-04,365
 bd_hc_fed,Federal,slice:health_care,total,nsa,2026-05,346
 bd_hc_fed,Federal,slice:health_care,total,nsa,2026-06,390
-bd_hc_fed,Federal,slice:health_care,total,nsa,2026-07,394
-bd_hc_fed,Federal,slice:health_care,total,nsa,2026-08,356
+bd_hc_fed,Federal,slice:health_care,total,nsa,2026-07,386
+bd_hc_fed,Federal,slice:health_care,total,nsa,2026-08,366
+bd_hc_fed,Federal,slice:health_care,total,nsa,2026-09,424
 bd_hc_fed,Federal,slice:health_care,public,sa,2016-01,2774
 bd_hc_fed,Federal,slice:health_care,public,sa,2016-02,2824
 bd_hc_fed,Federal,slice:health_care,public,sa,2016-03,3089
@@ -8317,8 +8381,9 @@ bd_hc_fed,Federal,slice:health_care,public,sa,2026-03,4302
 bd_hc_fed,Federal,slice:health_care,public,sa,2026-04,4321
 bd_hc_fed,Federal,slice:health_care,public,sa,2026-05,4299
 bd_hc_fed,Federal,slice:health_care,public,sa,2026-06,4481
-bd_hc_fed,Federal,slice:health_care,public,sa,2026-07,4553
-bd_hc_fed,Federal,slice:health_care,public,sa,2026-08,4380
+bd_hc_fed,Federal,slice:health_care,public,sa,2026-07,4490
+bd_hc_fed,Federal,slice:health_care,public,sa,2026-08,4477
+bd_hc_fed,Federal,slice:health_care,public,sa,2026-09,4338
 bd_hc_fed,Federal,slice:health_care,total,sa,2016-01,2774
 bd_hc_fed,Federal,slice:health_care,total,sa,2016-02,2824
 bd_hc_fed,Federal,slice:health_care,total,sa,2016-03,3089
@@ -8445,8 +8510,9 @@ bd_hc_fed,Federal,slice:health_care,total,sa,2026-03,4302
 bd_hc_fed,Federal,slice:health_care,total,sa,2026-04,4321
 bd_hc_fed,Federal,slice:health_care,total,sa,2026-05,4299
 bd_hc_fed,Federal,slice:health_care,total,sa,2026-06,4481
-bd_hc_fed,Federal,slice:health_care,total,sa,2026-07,4553
-bd_hc_fed,Federal,slice:health_care,total,sa,2026-08,4380
+bd_hc_fed,Federal,slice:health_care,total,sa,2026-07,4490
+bd_hc_fed,Federal,slice:health_care,total,sa,2026-08,4477
+bd_hc_fed,Federal,slice:health_care,total,sa,2026-09,4338
 aviation,Aviation,segment,private,nsa,2016-01,86
 aviation,Aviation,segment,private,nsa,2016-02,86
 aviation,Aviation,segment,private,nsa,2016-03,99
@@ -8573,8 +8639,9 @@ aviation,Aviation,segment,private,nsa,2026-03,484
 aviation,Aviation,segment,private,nsa,2026-04,519
 aviation,Aviation,segment,private,nsa,2026-05,542
 aviation,Aviation,segment,private,nsa,2026-06,521
-aviation,Aviation,segment,private,nsa,2026-07,515
-aviation,Aviation,segment,private,nsa,2026-08,510
+aviation,Aviation,segment,private,nsa,2026-07,504
+aviation,Aviation,segment,private,nsa,2026-08,499
+aviation,Aviation,segment,private,nsa,2026-09,516
 aviation,Aviation,segment,public,nsa,2016-01,345
 aviation,Aviation,segment,public,nsa,2016-02,392
 aviation,Aviation,segment,public,nsa,2016-03,411
@@ -8701,8 +8768,9 @@ aviation,Aviation,segment,public,nsa,2026-03,1233
 aviation,Aviation,segment,public,nsa,2026-04,1304
 aviation,Aviation,segment,public,nsa,2026-05,1379
 aviation,Aviation,segment,public,nsa,2026-06,1457
-aviation,Aviation,segment,public,nsa,2026-07,1440
-aviation,Aviation,segment,public,nsa,2026-08,1513
+aviation,Aviation,segment,public,nsa,2026-07,1452
+aviation,Aviation,segment,public,nsa,2026-08,1525
+aviation,Aviation,segment,public,nsa,2026-09,1495
 aviation,Aviation,segment,total,nsa,2016-01,431
 aviation,Aviation,segment,total,nsa,2016-02,478
 aviation,Aviation,segment,total,nsa,2016-03,510
@@ -8829,8 +8897,9 @@ aviation,Aviation,segment,total,nsa,2026-03,1717
 aviation,Aviation,segment,total,nsa,2026-04,1823
 aviation,Aviation,segment,total,nsa,2026-05,1921
 aviation,Aviation,segment,total,nsa,2026-06,1978
-aviation,Aviation,segment,total,nsa,2026-07,1955
-aviation,Aviation,segment,total,nsa,2026-08,2023
+aviation,Aviation,segment,total,nsa,2026-07,1956
+aviation,Aviation,segment,total,nsa,2026-08,2024
+aviation,Aviation,segment,total,nsa,2026-09,2011
 aviation,Aviation,segment,private,sa,2016-01,1105
 aviation,Aviation,segment,private,sa,2016-02,1092
 aviation,Aviation,segment,private,sa,2016-03,1155
@@ -8957,8 +9026,9 @@ aviation,Aviation,segment,private,sa,2026-03,6128
 aviation,Aviation,segment,private,sa,2026-04,6134
 aviation,Aviation,segment,private,sa,2026-05,6210
 aviation,Aviation,segment,private,sa,2026-06,6001
-aviation,Aviation,segment,private,sa,2026-07,6012
-aviation,Aviation,segment,private,sa,2026-08,6073
+aviation,Aviation,segment,private,sa,2026-07,5926
+aviation,Aviation,segment,private,sa,2026-08,5987
+aviation,Aviation,segment,private,sa,2026-09,6190
 aviation,Aviation,segment,public,sa,2016-01,4697
 aviation,Aviation,segment,public,sa,2016-02,5094
 aviation,Aviation,segment,public,sa,2016-03,5182
@@ -9085,8 +9155,9 @@ aviation,Aviation,segment,public,sa,2026-03,15609
 aviation,Aviation,segment,public,sa,2026-04,15967
 aviation,Aviation,segment,public,sa,2026-05,16132
 aviation,Aviation,segment,public,sa,2026-06,16609
-aviation,Aviation,segment,public,sa,2026-07,16689
-aviation,Aviation,segment,public,sa,2026-08,16795
+aviation,Aviation,segment,public,sa,2026-07,16803
+aviation,Aviation,segment,public,sa,2026-08,16900
+aviation,Aviation,segment,public,sa,2026-09,16867
 aviation,Aviation,segment,total,sa,2016-01,5802
 aviation,Aviation,segment,total,sa,2016-02,6186
 aviation,Aviation,segment,total,sa,2016-03,6337
@@ -9213,8 +9284,9 @@ aviation,Aviation,segment,total,sa,2026-03,21737
 aviation,Aviation,segment,total,sa,2026-04,22101
 aviation,Aviation,segment,total,sa,2026-05,22342
 aviation,Aviation,segment,total,sa,2026-06,22610
-aviation,Aviation,segment,total,sa,2026-07,22701
-aviation,Aviation,segment,total,sa,2026-08,22868
+aviation,Aviation,segment,total,sa,2026-07,22729
+aviation,Aviation,segment,total,sa,2026-08,22887
+aviation,Aviation,segment,total,sa,2026-09,23057
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2016-01,345
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2016-02,392
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2016-03,411
@@ -9341,8 +9413,9 @@ av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2026-
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2026-04,1304
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2026-05,1379
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2026-06,1457
-av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2026-07,1440
-av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2026-08,1513
+av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2026-07,1452
+av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2026-08,1525
+av_terminal,Air passenger terminal (state & local),sub:aviation,public,nsa,2026-09,1495
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2016-01,345
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2016-02,392
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2016-03,411
@@ -9469,8 +9542,9 @@ av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2026-0
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2026-04,1304
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2026-05,1379
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2026-06,1457
-av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2026-07,1440
-av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2026-08,1513
+av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2026-07,1452
+av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2026-08,1525
+av_terminal,Air passenger terminal (state & local),sub:aviation,total,nsa,2026-09,1495
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2016-01,4697
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2016-02,5094
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2016-03,5182
@@ -9597,8 +9671,9 @@ av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2026-0
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2026-04,15967
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2026-05,16132
 av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2026-06,16609
-av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2026-07,16689
-av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2026-08,16795
+av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2026-07,16803
+av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2026-08,16900
+av_terminal,Air passenger terminal (state & local),sub:aviation,public,sa,2026-09,16867
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2016-01,4697
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2016-02,5094
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2016-03,5182
@@ -9725,8 +9800,9 @@ av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2026-03
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2026-04,15967
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2026-05,16132
 av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2026-06,16609
-av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2026-07,16689
-av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2026-08,16795
+av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2026-07,16803
+av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2026-08,16900
+av_terminal,Air passenger terminal (state & local),sub:aviation,total,sa,2026-09,16867
 av_private,Private air (all types),sub:aviation,private,nsa,2016-01,86
 av_private,Private air (all types),sub:aviation,private,nsa,2016-02,86
 av_private,Private air (all types),sub:aviation,private,nsa,2016-03,99
@@ -9853,8 +9929,9 @@ av_private,Private air (all types),sub:aviation,private,nsa,2026-03,484
 av_private,Private air (all types),sub:aviation,private,nsa,2026-04,519
 av_private,Private air (all types),sub:aviation,private,nsa,2026-05,542
 av_private,Private air (all types),sub:aviation,private,nsa,2026-06,521
-av_private,Private air (all types),sub:aviation,private,nsa,2026-07,515
-av_private,Private air (all types),sub:aviation,private,nsa,2026-08,510
+av_private,Private air (all types),sub:aviation,private,nsa,2026-07,504
+av_private,Private air (all types),sub:aviation,private,nsa,2026-08,499
+av_private,Private air (all types),sub:aviation,private,nsa,2026-09,516
 av_private,Private air (all types),sub:aviation,total,nsa,2016-01,86
 av_private,Private air (all types),sub:aviation,total,nsa,2016-02,86
 av_private,Private air (all types),sub:aviation,total,nsa,2016-03,99
@@ -9981,8 +10058,9 @@ av_private,Private air (all types),sub:aviation,total,nsa,2026-03,484
 av_private,Private air (all types),sub:aviation,total,nsa,2026-04,519
 av_private,Private air (all types),sub:aviation,total,nsa,2026-05,542
 av_private,Private air (all types),sub:aviation,total,nsa,2026-06,521
-av_private,Private air (all types),sub:aviation,total,nsa,2026-07,515
-av_private,Private air (all types),sub:aviation,total,nsa,2026-08,510
+av_private,Private air (all types),sub:aviation,total,nsa,2026-07,504
+av_private,Private air (all types),sub:aviation,total,nsa,2026-08,499
+av_private,Private air (all types),sub:aviation,total,nsa,2026-09,516
 av_private,Private air (all types),sub:aviation,private,sa,2016-01,1105
 av_private,Private air (all types),sub:aviation,private,sa,2016-02,1092
 av_private,Private air (all types),sub:aviation,private,sa,2016-03,1155
@@ -10109,8 +10187,9 @@ av_private,Private air (all types),sub:aviation,private,sa,2026-03,6128
 av_private,Private air (all types),sub:aviation,private,sa,2026-04,6134
 av_private,Private air (all types),sub:aviation,private,sa,2026-05,6210
 av_private,Private air (all types),sub:aviation,private,sa,2026-06,6001
-av_private,Private air (all types),sub:aviation,private,sa,2026-07,6012
-av_private,Private air (all types),sub:aviation,private,sa,2026-08,6073
+av_private,Private air (all types),sub:aviation,private,sa,2026-07,5926
+av_private,Private air (all types),sub:aviation,private,sa,2026-08,5987
+av_private,Private air (all types),sub:aviation,private,sa,2026-09,6190
 av_private,Private air (all types),sub:aviation,total,sa,2016-01,1105
 av_private,Private air (all types),sub:aviation,total,sa,2016-02,1092
 av_private,Private air (all types),sub:aviation,total,sa,2016-03,1155
@@ -10237,8 +10316,9 @@ av_private,Private air (all types),sub:aviation,total,sa,2026-03,6128
 av_private,Private air (all types),sub:aviation,total,sa,2026-04,6134
 av_private,Private air (all types),sub:aviation,total,sa,2026-05,6210
 av_private,Private air (all types),sub:aviation,total,sa,2026-06,6001
-av_private,Private air (all types),sub:aviation,total,sa,2026-07,6012
-av_private,Private air (all types),sub:aviation,total,sa,2026-08,6073
+av_private,Private air (all types),sub:aviation,total,sa,2026-07,5926
+av_private,Private air (all types),sub:aviation,total,sa,2026-08,5987
+av_private,Private air (all types),sub:aviation,total,sa,2026-09,6190
 bd_av_priv,Private air (all types),slice:aviation,private,nsa,2016-01,86
 bd_av_priv,Private air (all types),slice:aviation,private,nsa,2016-02,86
 bd_av_priv,Private air (all types),slice:aviation,private,nsa,2016-03,99
@@ -10365,8 +10445,9 @@ bd_av_priv,Private air (all types),slice:aviation,private,nsa,2026-03,484
 bd_av_priv,Private air (all types),slice:aviation,private,nsa,2026-04,519
 bd_av_priv,Private air (all types),slice:aviation,private,nsa,2026-05,542
 bd_av_priv,Private air (all types),slice:aviation,private,nsa,2026-06,521
-bd_av_priv,Private air (all types),slice:aviation,private,nsa,2026-07,515
-bd_av_priv,Private air (all types),slice:aviation,private,nsa,2026-08,510
+bd_av_priv,Private air (all types),slice:aviation,private,nsa,2026-07,504
+bd_av_priv,Private air (all types),slice:aviation,private,nsa,2026-08,499
+bd_av_priv,Private air (all types),slice:aviation,private,nsa,2026-09,516
 bd_av_priv,Private air (all types),slice:aviation,total,nsa,2016-01,86
 bd_av_priv,Private air (all types),slice:aviation,total,nsa,2016-02,86
 bd_av_priv,Private air (all types),slice:aviation,total,nsa,2016-03,99
@@ -10493,8 +10574,9 @@ bd_av_priv,Private air (all types),slice:aviation,total,nsa,2026-03,484
 bd_av_priv,Private air (all types),slice:aviation,total,nsa,2026-04,519
 bd_av_priv,Private air (all types),slice:aviation,total,nsa,2026-05,542
 bd_av_priv,Private air (all types),slice:aviation,total,nsa,2026-06,521
-bd_av_priv,Private air (all types),slice:aviation,total,nsa,2026-07,515
-bd_av_priv,Private air (all types),slice:aviation,total,nsa,2026-08,510
+bd_av_priv,Private air (all types),slice:aviation,total,nsa,2026-07,504
+bd_av_priv,Private air (all types),slice:aviation,total,nsa,2026-08,499
+bd_av_priv,Private air (all types),slice:aviation,total,nsa,2026-09,516
 bd_av_priv,Private air (all types),slice:aviation,private,sa,2016-01,1105
 bd_av_priv,Private air (all types),slice:aviation,private,sa,2016-02,1092
 bd_av_priv,Private air (all types),slice:aviation,private,sa,2016-03,1155
@@ -10621,8 +10703,9 @@ bd_av_priv,Private air (all types),slice:aviation,private,sa,2026-03,6128
 bd_av_priv,Private air (all types),slice:aviation,private,sa,2026-04,6134
 bd_av_priv,Private air (all types),slice:aviation,private,sa,2026-05,6210
 bd_av_priv,Private air (all types),slice:aviation,private,sa,2026-06,6001
-bd_av_priv,Private air (all types),slice:aviation,private,sa,2026-07,6012
-bd_av_priv,Private air (all types),slice:aviation,private,sa,2026-08,6073
+bd_av_priv,Private air (all types),slice:aviation,private,sa,2026-07,5926
+bd_av_priv,Private air (all types),slice:aviation,private,sa,2026-08,5987
+bd_av_priv,Private air (all types),slice:aviation,private,sa,2026-09,6190
 bd_av_priv,Private air (all types),slice:aviation,total,sa,2016-01,1105
 bd_av_priv,Private air (all types),slice:aviation,total,sa,2016-02,1092
 bd_av_priv,Private air (all types),slice:aviation,total,sa,2016-03,1155
@@ -10749,8 +10832,9 @@ bd_av_priv,Private air (all types),slice:aviation,total,sa,2026-03,6128
 bd_av_priv,Private air (all types),slice:aviation,total,sa,2026-04,6134
 bd_av_priv,Private air (all types),slice:aviation,total,sa,2026-05,6210
 bd_av_priv,Private air (all types),slice:aviation,total,sa,2026-06,6001
-bd_av_priv,Private air (all types),slice:aviation,total,sa,2026-07,6012
-bd_av_priv,Private air (all types),slice:aviation,total,sa,2026-08,6073
+bd_av_priv,Private air (all types),slice:aviation,total,sa,2026-07,5926
+bd_av_priv,Private air (all types),slice:aviation,total,sa,2026-08,5987
+bd_av_priv,Private air (all types),slice:aviation,total,sa,2026-09,6190
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2016-01,345
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2016-02,392
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2016-03,411
@@ -10877,8 +10961,9 @@ bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2026
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2026-04,1304
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2026-05,1379
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2026-06,1457
-bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2026-07,1440
-bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2026-08,1513
+bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2026-07,1452
+bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2026-08,1525
+bd_av_term,Air passenger terminal (state & local),slice:aviation,public,nsa,2026-09,1495
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2016-01,345
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2016-02,392
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2016-03,411
@@ -11005,8 +11090,9 @@ bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2026-
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2026-04,1304
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2026-05,1379
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2026-06,1457
-bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2026-07,1440
-bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2026-08,1513
+bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2026-07,1452
+bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2026-08,1525
+bd_av_term,Air passenger terminal (state & local),slice:aviation,total,nsa,2026-09,1495
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2016-01,4697
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2016-02,5094
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2016-03,5182
@@ -11133,8 +11219,9 @@ bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2026-
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2026-04,15967
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2026-05,16132
 bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2026-06,16609
-bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2026-07,16689
-bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2026-08,16795
+bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2026-07,16803
+bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2026-08,16900
+bd_av_term,Air passenger terminal (state & local),slice:aviation,public,sa,2026-09,16867
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2016-01,4697
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2016-02,5094
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2016-03,5182
@@ -11261,8 +11348,9 @@ bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2026-0
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2026-04,15967
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2026-05,16132
 bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2026-06,16609
-bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2026-07,16689
-bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2026-08,16795
+bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2026-07,16803
+bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2026-08,16900
+bd_av_term,Air passenger terminal (state & local),slice:aviation,total,sa,2026-09,16867
 office_ex_dc,Office (excl. data centers),segment,private,nsa,2016-01,3624
 office_ex_dc,Office (excl. data centers),segment,private,nsa,2016-02,3874
 office_ex_dc,Office (excl. data centers),segment,private,nsa,2016-03,4093
@@ -11389,8 +11477,9 @@ office_ex_dc,Office (excl. data centers),segment,private,nsa,2026-03,3980
 office_ex_dc,Office (excl. data centers),segment,private,nsa,2026-04,4127
 office_ex_dc,Office (excl. data centers),segment,private,nsa,2026-05,4151
 office_ex_dc,Office (excl. data centers),segment,private,nsa,2026-06,4199
-office_ex_dc,Office (excl. data centers),segment,private,nsa,2026-07,4226
-office_ex_dc,Office (excl. data centers),segment,private,nsa,2026-08,4351
+office_ex_dc,Office (excl. data centers),segment,private,nsa,2026-07,4261
+office_ex_dc,Office (excl. data centers),segment,private,nsa,2026-08,4362
+office_ex_dc,Office (excl. data centers),segment,private,nsa,2026-09,4301
 office_ex_dc,Office (excl. data centers),segment,public,nsa,2016-01,565
 office_ex_dc,Office (excl. data centers),segment,public,nsa,2016-02,606
 office_ex_dc,Office (excl. data centers),segment,public,nsa,2016-03,624
@@ -11517,8 +11606,9 @@ office_ex_dc,Office (excl. data centers),segment,public,nsa,2026-03,1330
 office_ex_dc,Office (excl. data centers),segment,public,nsa,2026-04,1385
 office_ex_dc,Office (excl. data centers),segment,public,nsa,2026-05,1414
 office_ex_dc,Office (excl. data centers),segment,public,nsa,2026-06,1461
-office_ex_dc,Office (excl. data centers),segment,public,nsa,2026-07,1469
-office_ex_dc,Office (excl. data centers),segment,public,nsa,2026-08,1486
+office_ex_dc,Office (excl. data centers),segment,public,nsa,2026-07,1453
+office_ex_dc,Office (excl. data centers),segment,public,nsa,2026-08,1484
+office_ex_dc,Office (excl. data centers),segment,public,nsa,2026-09,1501
 office_ex_dc,Office (excl. data centers),segment,total,nsa,2016-01,4189
 office_ex_dc,Office (excl. data centers),segment,total,nsa,2016-02,4480
 office_ex_dc,Office (excl. data centers),segment,total,nsa,2016-03,4717
@@ -11645,8 +11735,9 @@ office_ex_dc,Office (excl. data centers),segment,total,nsa,2026-03,5310
 office_ex_dc,Office (excl. data centers),segment,total,nsa,2026-04,5512
 office_ex_dc,Office (excl. data centers),segment,total,nsa,2026-05,5565
 office_ex_dc,Office (excl. data centers),segment,total,nsa,2026-06,5660
-office_ex_dc,Office (excl. data centers),segment,total,nsa,2026-07,5695
-office_ex_dc,Office (excl. data centers),segment,total,nsa,2026-08,5837
+office_ex_dc,Office (excl. data centers),segment,total,nsa,2026-07,5714
+office_ex_dc,Office (excl. data centers),segment,total,nsa,2026-08,5846
+office_ex_dc,Office (excl. data centers),segment,total,nsa,2026-09,5802
 office_ex_dc,Office (excl. data centers),segment,private,sa,2016-01,47528
 office_ex_dc,Office (excl. data centers),segment,private,sa,2016-02,51031
 office_ex_dc,Office (excl. data centers),segment,private,sa,2016-03,51356
@@ -11773,8 +11864,9 @@ office_ex_dc,Office (excl. data centers),segment,private,sa,2026-03,49043
 office_ex_dc,Office (excl. data centers),segment,private,sa,2026-04,49361
 office_ex_dc,Office (excl. data centers),segment,private,sa,2026-05,49471
 office_ex_dc,Office (excl. data centers),segment,private,sa,2026-06,49245
-office_ex_dc,Office (excl. data centers),segment,private,sa,2026-07,49192
-office_ex_dc,Office (excl. data centers),segment,private,sa,2026-08,49169
+office_ex_dc,Office (excl. data centers),segment,private,sa,2026-07,49490
+office_ex_dc,Office (excl. data centers),segment,private,sa,2026-08,49288
+office_ex_dc,Office (excl. data centers),segment,private,sa,2026-09,49171
 office_ex_dc,Office (excl. data centers),segment,public,sa,2016-01,7725
 office_ex_dc,Office (excl. data centers),segment,public,sa,2016-02,7951
 office_ex_dc,Office (excl. data centers),segment,public,sa,2016-03,7945
@@ -11901,8 +11993,9 @@ office_ex_dc,Office (excl. data centers),segment,public,sa,2026-03,16702
 office_ex_dc,Office (excl. data centers),segment,public,sa,2026-04,16717
 office_ex_dc,Office (excl. data centers),segment,public,sa,2026-05,16483
 office_ex_dc,Office (excl. data centers),segment,public,sa,2026-06,16623
-office_ex_dc,Office (excl. data centers),segment,public,sa,2026-07,16858
-office_ex_dc,Office (excl. data centers),segment,public,sa,2026-08,16550
+office_ex_dc,Office (excl. data centers),segment,public,sa,2026-07,16725
+office_ex_dc,Office (excl. data centers),segment,public,sa,2026-08,16519
+office_ex_dc,Office (excl. data centers),segment,public,sa,2026-09,16666
 office_ex_dc,Office (excl. data centers),segment,total,sa,2016-01,55253
 office_ex_dc,Office (excl. data centers),segment,total,sa,2016-02,58982
 office_ex_dc,Office (excl. data centers),segment,total,sa,2016-03,59301
@@ -12029,8 +12122,9 @@ office_ex_dc,Office (excl. data centers),segment,total,sa,2026-03,65745
 office_ex_dc,Office (excl. data centers),segment,total,sa,2026-04,66078
 office_ex_dc,Office (excl. data centers),segment,total,sa,2026-05,65954
 office_ex_dc,Office (excl. data centers),segment,total,sa,2026-06,65868
-office_ex_dc,Office (excl. data centers),segment,total,sa,2026-07,66050
-office_ex_dc,Office (excl. data centers),segment,total,sa,2026-08,65719
+office_ex_dc,Office (excl. data centers),segment,total,sa,2026-07,66215
+office_ex_dc,Office (excl. data centers),segment,total,sa,2026-08,65807
+office_ex_dc,Office (excl. data centers),segment,total,sa,2026-09,65837
 of_general,General office (private),sub:office_ex_dc,private,nsa,2016-01,3501
 of_general,General office (private),sub:office_ex_dc,private,nsa,2016-02,3709
 of_general,General office (private),sub:office_ex_dc,private,nsa,2016-03,3932
@@ -12157,8 +12251,9 @@ of_general,General office (private),sub:office_ex_dc,private,nsa,2026-03,3714
 of_general,General office (private),sub:office_ex_dc,private,nsa,2026-04,3797
 of_general,General office (private),sub:office_ex_dc,private,nsa,2026-05,3846
 of_general,General office (private),sub:office_ex_dc,private,nsa,2026-06,3899
-of_general,General office (private),sub:office_ex_dc,private,nsa,2026-07,3936
-of_general,General office (private),sub:office_ex_dc,private,nsa,2026-08,4058
+of_general,General office (private),sub:office_ex_dc,private,nsa,2026-07,3966
+of_general,General office (private),sub:office_ex_dc,private,nsa,2026-08,4064
+of_general,General office (private),sub:office_ex_dc,private,nsa,2026-09,4012
 of_general,General office (private),sub:office_ex_dc,total,nsa,2016-01,3501
 of_general,General office (private),sub:office_ex_dc,total,nsa,2016-02,3709
 of_general,General office (private),sub:office_ex_dc,total,nsa,2016-03,3932
@@ -12285,8 +12380,9 @@ of_general,General office (private),sub:office_ex_dc,total,nsa,2026-03,3714
 of_general,General office (private),sub:office_ex_dc,total,nsa,2026-04,3797
 of_general,General office (private),sub:office_ex_dc,total,nsa,2026-05,3846
 of_general,General office (private),sub:office_ex_dc,total,nsa,2026-06,3899
-of_general,General office (private),sub:office_ex_dc,total,nsa,2026-07,3936
-of_general,General office (private),sub:office_ex_dc,total,nsa,2026-08,4058
+of_general,General office (private),sub:office_ex_dc,total,nsa,2026-07,3966
+of_general,General office (private),sub:office_ex_dc,total,nsa,2026-08,4064
+of_general,General office (private),sub:office_ex_dc,total,nsa,2026-09,4012
 of_general,General office (private),sub:office_ex_dc,private,sa,2016-01,45908
 of_general,General office (private),sub:office_ex_dc,private,sa,2016-02,48874
 of_general,General office (private),sub:office_ex_dc,private,sa,2016-03,49305
@@ -12413,8 +12509,9 @@ of_general,General office (private),sub:office_ex_dc,private,sa,2026-03,45697
 of_general,General office (private),sub:office_ex_dc,private,sa,2026-04,45412
 of_general,General office (private),sub:office_ex_dc,private,sa,2026-05,45846
 of_general,General office (private),sub:office_ex_dc,private,sa,2026-06,45667
-of_general,General office (private),sub:office_ex_dc,private,sa,2026-07,45745
-of_general,General office (private),sub:office_ex_dc,private,sa,2026-08,45809
+of_general,General office (private),sub:office_ex_dc,private,sa,2026-07,45999
+of_general,General office (private),sub:office_ex_dc,private,sa,2026-08,45897
+of_general,General office (private),sub:office_ex_dc,private,sa,2026-09,45964
 of_general,General office (private),sub:office_ex_dc,total,sa,2016-01,45908
 of_general,General office (private),sub:office_ex_dc,total,sa,2016-02,48874
 of_general,General office (private),sub:office_ex_dc,total,sa,2016-03,49305
@@ -12541,8 +12638,9 @@ of_general,General office (private),sub:office_ex_dc,total,sa,2026-03,45697
 of_general,General office (private),sub:office_ex_dc,total,sa,2026-04,45412
 of_general,General office (private),sub:office_ex_dc,total,sa,2026-05,45846
 of_general,General office (private),sub:office_ex_dc,total,sa,2026-06,45667
-of_general,General office (private),sub:office_ex_dc,total,sa,2026-07,45745
-of_general,General office (private),sub:office_ex_dc,total,sa,2026-08,45809
+of_general,General office (private),sub:office_ex_dc,total,sa,2026-07,45999
+of_general,General office (private),sub:office_ex_dc,total,sa,2026-08,45897
+of_general,General office (private),sub:office_ex_dc,total,sa,2026-09,45964
 of_financial,Financial (private),sub:office_ex_dc,private,nsa,2016-01,105
 of_financial,Financial (private),sub:office_ex_dc,private,nsa,2016-02,146
 of_financial,Financial (private),sub:office_ex_dc,private,nsa,2016-03,139
@@ -12669,8 +12767,9 @@ of_financial,Financial (private),sub:office_ex_dc,private,nsa,2026-03,231
 of_financial,Financial (private),sub:office_ex_dc,private,nsa,2026-04,289
 of_financial,Financial (private),sub:office_ex_dc,private,nsa,2026-05,265
 of_financial,Financial (private),sub:office_ex_dc,private,nsa,2026-06,258
-of_financial,Financial (private),sub:office_ex_dc,private,nsa,2026-07,248
-of_financial,Financial (private),sub:office_ex_dc,private,nsa,2026-08,252
+of_financial,Financial (private),sub:office_ex_dc,private,nsa,2026-07,257
+of_financial,Financial (private),sub:office_ex_dc,private,nsa,2026-08,261
+of_financial,Financial (private),sub:office_ex_dc,private,nsa,2026-09,259
 of_financial,Financial (private),sub:office_ex_dc,total,nsa,2016-01,105
 of_financial,Financial (private),sub:office_ex_dc,total,nsa,2016-02,146
 of_financial,Financial (private),sub:office_ex_dc,total,nsa,2016-03,139
@@ -12797,8 +12896,9 @@ of_financial,Financial (private),sub:office_ex_dc,total,nsa,2026-03,231
 of_financial,Financial (private),sub:office_ex_dc,total,nsa,2026-04,289
 of_financial,Financial (private),sub:office_ex_dc,total,nsa,2026-05,265
 of_financial,Financial (private),sub:office_ex_dc,total,nsa,2026-06,258
-of_financial,Financial (private),sub:office_ex_dc,total,nsa,2026-07,248
-of_financial,Financial (private),sub:office_ex_dc,total,nsa,2026-08,252
+of_financial,Financial (private),sub:office_ex_dc,total,nsa,2026-07,257
+of_financial,Financial (private),sub:office_ex_dc,total,nsa,2026-08,261
+of_financial,Financial (private),sub:office_ex_dc,total,nsa,2026-09,259
 of_financial,Financial (private),sub:office_ex_dc,private,sa,2016-01,1394
 of_financial,Financial (private),sub:office_ex_dc,private,sa,2016-02,1917
 of_financial,Financial (private),sub:office_ex_dc,private,sa,2016-03,1780
@@ -12925,8 +13025,9 @@ of_financial,Financial (private),sub:office_ex_dc,private,sa,2026-03,2927
 of_financial,Financial (private),sub:office_ex_dc,private,sa,2026-04,3448
 of_financial,Financial (private),sub:office_ex_dc,private,sa,2026-05,3148
 of_financial,Financial (private),sub:office_ex_dc,private,sa,2026-06,3069
-of_financial,Financial (private),sub:office_ex_dc,private,sa,2026-07,2939
-of_financial,Financial (private),sub:office_ex_dc,private,sa,2026-08,2862
+of_financial,Financial (private),sub:office_ex_dc,private,sa,2026-07,3028
+of_financial,Financial (private),sub:office_ex_dc,private,sa,2026-08,2942
+of_financial,Financial (private),sub:office_ex_dc,private,sa,2026-09,2850
 of_financial,Financial (private),sub:office_ex_dc,total,sa,2016-01,1394
 of_financial,Financial (private),sub:office_ex_dc,total,sa,2016-02,1917
 of_financial,Financial (private),sub:office_ex_dc,total,sa,2016-03,1780
@@ -13053,8 +13154,9 @@ of_financial,Financial (private),sub:office_ex_dc,total,sa,2026-03,2927
 of_financial,Financial (private),sub:office_ex_dc,total,sa,2026-04,3448
 of_financial,Financial (private),sub:office_ex_dc,total,sa,2026-05,3148
 of_financial,Financial (private),sub:office_ex_dc,total,sa,2026-06,3069
-of_financial,Financial (private),sub:office_ex_dc,total,sa,2026-07,2939
-of_financial,Financial (private),sub:office_ex_dc,total,sa,2026-08,2862
+of_financial,Financial (private),sub:office_ex_dc,total,sa,2026-07,3028
+of_financial,Financial (private),sub:office_ex_dc,total,sa,2026-08,2942
+of_financial,Financial (private),sub:office_ex_dc,total,sa,2026-09,2850
 of_public,Public office,sub:office_ex_dc,public,nsa,2016-01,565
 of_public,Public office,sub:office_ex_dc,public,nsa,2016-02,606
 of_public,Public office,sub:office_ex_dc,public,nsa,2016-03,624
@@ -13181,8 +13283,9 @@ of_public,Public office,sub:office_ex_dc,public,nsa,2026-03,1330
 of_public,Public office,sub:office_ex_dc,public,nsa,2026-04,1385
 of_public,Public office,sub:office_ex_dc,public,nsa,2026-05,1414
 of_public,Public office,sub:office_ex_dc,public,nsa,2026-06,1461
-of_public,Public office,sub:office_ex_dc,public,nsa,2026-07,1469
-of_public,Public office,sub:office_ex_dc,public,nsa,2026-08,1486
+of_public,Public office,sub:office_ex_dc,public,nsa,2026-07,1453
+of_public,Public office,sub:office_ex_dc,public,nsa,2026-08,1484
+of_public,Public office,sub:office_ex_dc,public,nsa,2026-09,1501
 of_public,Public office,sub:office_ex_dc,total,nsa,2016-01,565
 of_public,Public office,sub:office_ex_dc,total,nsa,2016-02,606
 of_public,Public office,sub:office_ex_dc,total,nsa,2016-03,624
@@ -13309,8 +13412,9 @@ of_public,Public office,sub:office_ex_dc,total,nsa,2026-03,1330
 of_public,Public office,sub:office_ex_dc,total,nsa,2026-04,1385
 of_public,Public office,sub:office_ex_dc,total,nsa,2026-05,1414
 of_public,Public office,sub:office_ex_dc,total,nsa,2026-06,1461
-of_public,Public office,sub:office_ex_dc,total,nsa,2026-07,1469
-of_public,Public office,sub:office_ex_dc,total,nsa,2026-08,1486
+of_public,Public office,sub:office_ex_dc,total,nsa,2026-07,1453
+of_public,Public office,sub:office_ex_dc,total,nsa,2026-08,1484
+of_public,Public office,sub:office_ex_dc,total,nsa,2026-09,1501
 of_public,Public office,sub:office_ex_dc,public,sa,2016-01,7725
 of_public,Public office,sub:office_ex_dc,public,sa,2016-02,7951
 of_public,Public office,sub:office_ex_dc,public,sa,2016-03,7945
@@ -13437,8 +13541,9 @@ of_public,Public office,sub:office_ex_dc,public,sa,2026-03,16702
 of_public,Public office,sub:office_ex_dc,public,sa,2026-04,16717
 of_public,Public office,sub:office_ex_dc,public,sa,2026-05,16483
 of_public,Public office,sub:office_ex_dc,public,sa,2026-06,16623
-of_public,Public office,sub:office_ex_dc,public,sa,2026-07,16858
-of_public,Public office,sub:office_ex_dc,public,sa,2026-08,16550
+of_public,Public office,sub:office_ex_dc,public,sa,2026-07,16725
+of_public,Public office,sub:office_ex_dc,public,sa,2026-08,16519
+of_public,Public office,sub:office_ex_dc,public,sa,2026-09,16666
 of_public,Public office,sub:office_ex_dc,total,sa,2016-01,7725
 of_public,Public office,sub:office_ex_dc,total,sa,2016-02,7951
 of_public,Public office,sub:office_ex_dc,total,sa,2016-03,7945
@@ -13565,8 +13670,9 @@ of_public,Public office,sub:office_ex_dc,total,sa,2026-03,16702
 of_public,Public office,sub:office_ex_dc,total,sa,2026-04,16717
 of_public,Public office,sub:office_ex_dc,total,sa,2026-05,16483
 of_public,Public office,sub:office_ex_dc,total,sa,2026-06,16623
-of_public,Public office,sub:office_ex_dc,total,sa,2026-07,16858
-of_public,Public office,sub:office_ex_dc,total,sa,2026-08,16550
+of_public,Public office,sub:office_ex_dc,total,sa,2026-07,16725
+of_public,Public office,sub:office_ex_dc,total,sa,2026-08,16519
+of_public,Public office,sub:office_ex_dc,total,sa,2026-09,16666
 commercial,Commercial (incl. farm),segment,private,nsa,2016-01,5080
 commercial,Commercial (incl. farm),segment,private,nsa,2016-02,5296
 commercial,Commercial (incl. farm),segment,private,nsa,2016-03,5624
@@ -13693,8 +13799,9 @@ commercial,Commercial (incl. farm),segment,private,nsa,2026-03,9421
 commercial,Commercial (incl. farm),segment,private,nsa,2026-04,9796
 commercial,Commercial (incl. farm),segment,private,nsa,2026-05,9929
 commercial,Commercial (incl. farm),segment,private,nsa,2026-06,10094
-commercial,Commercial (incl. farm),segment,private,nsa,2026-07,9988
-commercial,Commercial (incl. farm),segment,private,nsa,2026-08,10170
+commercial,Commercial (incl. farm),segment,private,nsa,2026-07,10039
+commercial,Commercial (incl. farm),segment,private,nsa,2026-08,10168
+commercial,Commercial (incl. farm),segment,private,nsa,2026-09,10230
 commercial,Commercial (incl. farm),segment,public,nsa,2016-01,212
 commercial,Commercial (incl. farm),segment,public,nsa,2016-02,235
 commercial,Commercial (incl. farm),segment,public,nsa,2016-03,269
@@ -13821,8 +13928,9 @@ commercial,Commercial (incl. farm),segment,public,nsa,2026-03,505
 commercial,Commercial (incl. farm),segment,public,nsa,2026-04,485
 commercial,Commercial (incl. farm),segment,public,nsa,2026-05,496
 commercial,Commercial (incl. farm),segment,public,nsa,2026-06,546
-commercial,Commercial (incl. farm),segment,public,nsa,2026-07,558
-commercial,Commercial (incl. farm),segment,public,nsa,2026-08,536
+commercial,Commercial (incl. farm),segment,public,nsa,2026-07,588
+commercial,Commercial (incl. farm),segment,public,nsa,2026-08,583
+commercial,Commercial (incl. farm),segment,public,nsa,2026-09,659
 commercial,Commercial (incl. farm),segment,total,nsa,2016-01,5292
 commercial,Commercial (incl. farm),segment,total,nsa,2016-02,5531
 commercial,Commercial (incl. farm),segment,total,nsa,2016-03,5893
@@ -13949,8 +14057,9 @@ commercial,Commercial (incl. farm),segment,total,nsa,2026-03,9926
 commercial,Commercial (incl. farm),segment,total,nsa,2026-04,10281
 commercial,Commercial (incl. farm),segment,total,nsa,2026-05,10425
 commercial,Commercial (incl. farm),segment,total,nsa,2026-06,10640
-commercial,Commercial (incl. farm),segment,total,nsa,2026-07,10546
-commercial,Commercial (incl. farm),segment,total,nsa,2026-08,10706
+commercial,Commercial (incl. farm),segment,total,nsa,2026-07,10627
+commercial,Commercial (incl. farm),segment,total,nsa,2026-08,10751
+commercial,Commercial (incl. farm),segment,total,nsa,2026-09,10889
 commercial,Commercial (incl. farm),segment,private,sa,2016-01,69913
 commercial,Commercial (incl. farm),segment,private,sa,2016-02,71270
 commercial,Commercial (incl. farm),segment,private,sa,2016-03,71561
@@ -14077,8 +14186,9 @@ commercial,Commercial (incl. farm),segment,private,sa,2026-03,117726
 commercial,Commercial (incl. farm),segment,private,sa,2026-04,117208
 commercial,Commercial (incl. farm),segment,private,sa,2026-05,117728
 commercial,Commercial (incl. farm),segment,private,sa,2026-06,116906
-commercial,Commercial (incl. farm),segment,private,sa,2026-07,116516
-commercial,Commercial (incl. farm),segment,private,sa,2026-08,116448
+commercial,Commercial (incl. farm),segment,private,sa,2026-07,116864
+commercial,Commercial (incl. farm),segment,private,sa,2026-08,116239
+commercial,Commercial (incl. farm),segment,private,sa,2026-09,115924
 commercial,Commercial (incl. farm),segment,public,sa,2016-01,3000
 commercial,Commercial (incl. farm),segment,public,sa,2016-02,3066
 commercial,Commercial (incl. farm),segment,public,sa,2016-03,3443
@@ -14205,8 +14315,9 @@ commercial,Commercial (incl. farm),segment,public,sa,2026-03,6147
 commercial,Commercial (incl. farm),segment,public,sa,2026-04,5948
 commercial,Commercial (incl. farm),segment,public,sa,2026-05,6059
 commercial,Commercial (incl. farm),segment,public,sa,2026-06,6410
-commercial,Commercial (incl. farm),segment,public,sa,2026-07,6484
-commercial,Commercial (incl. farm),segment,public,sa,2026-08,6362
+commercial,Commercial (incl. farm),segment,public,sa,2026-07,6827
+commercial,Commercial (incl. farm),segment,public,sa,2026-08,6899
+commercial,Commercial (incl. farm),segment,public,sa,2026-09,7018
 commercial,Commercial (incl. farm),segment,total,sa,2016-01,72913
 commercial,Commercial (incl. farm),segment,total,sa,2016-02,74336
 commercial,Commercial (incl. farm),segment,total,sa,2016-03,75004
@@ -14333,8 +14444,9 @@ commercial,Commercial (incl. farm),segment,total,sa,2026-03,123873
 commercial,Commercial (incl. farm),segment,total,sa,2026-04,123156
 commercial,Commercial (incl. farm),segment,total,sa,2026-05,123787
 commercial,Commercial (incl. farm),segment,total,sa,2026-06,123316
-commercial,Commercial (incl. farm),segment,total,sa,2026-07,123000
-commercial,Commercial (incl. farm),segment,total,sa,2026-08,122810
+commercial,Commercial (incl. farm),segment,total,sa,2026-07,123691
+commercial,Commercial (incl. farm),segment,total,sa,2026-08,123138
+commercial,Commercial (incl. farm),segment,total,sa,2026-09,122942
 cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2016-01,1395
 cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2016-02,1470
 cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2016-03,1663
@@ -14461,8 +14573,9 @@ cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2026-03,4366
 cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2026-04,4465
 cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2026-05,4481
 cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2026-06,4516
-cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2026-07,4485
-cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2026-08,4560
+cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2026-07,4464
+cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2026-08,4531
+cm_warehouse,Warehouse (private),sub:commercial,private,nsa,2026-09,4565
 cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2016-01,1395
 cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2016-02,1470
 cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2016-03,1663
@@ -14589,8 +14702,9 @@ cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2026-03,4366
 cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2026-04,4465
 cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2026-05,4481
 cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2026-06,4516
-cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2026-07,4485
-cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2026-08,4560
+cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2026-07,4464
+cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2026-08,4531
+cm_warehouse,Warehouse (private),sub:commercial,total,nsa,2026-09,4565
 cm_warehouse,Warehouse (private),sub:commercial,private,sa,2016-01,19082
 cm_warehouse,Warehouse (private),sub:commercial,private,sa,2016-02,19222
 cm_warehouse,Warehouse (private),sub:commercial,private,sa,2016-03,21130
@@ -14717,8 +14831,9 @@ cm_warehouse,Warehouse (private),sub:commercial,private,sa,2026-03,54582
 cm_warehouse,Warehouse (private),sub:commercial,private,sa,2026-04,53586
 cm_warehouse,Warehouse (private),sub:commercial,private,sa,2026-05,53583
 cm_warehouse,Warehouse (private),sub:commercial,private,sa,2026-06,52464
-cm_warehouse,Warehouse (private),sub:commercial,private,sa,2026-07,52905
-cm_warehouse,Warehouse (private),sub:commercial,private,sa,2026-08,53086
+cm_warehouse,Warehouse (private),sub:commercial,private,sa,2026-07,52539
+cm_warehouse,Warehouse (private),sub:commercial,private,sa,2026-08,52592
+cm_warehouse,Warehouse (private),sub:commercial,private,sa,2026-09,51615
 cm_warehouse,Warehouse (private),sub:commercial,total,sa,2016-01,19082
 cm_warehouse,Warehouse (private),sub:commercial,total,sa,2016-02,19222
 cm_warehouse,Warehouse (private),sub:commercial,total,sa,2016-03,21130
@@ -14845,8 +14960,9 @@ cm_warehouse,Warehouse (private),sub:commercial,total,sa,2026-03,54582
 cm_warehouse,Warehouse (private),sub:commercial,total,sa,2026-04,53586
 cm_warehouse,Warehouse (private),sub:commercial,total,sa,2026-05,53583
 cm_warehouse,Warehouse (private),sub:commercial,total,sa,2026-06,52464
-cm_warehouse,Warehouse (private),sub:commercial,total,sa,2026-07,52905
-cm_warehouse,Warehouse (private),sub:commercial,total,sa,2026-08,53086
+cm_warehouse,Warehouse (private),sub:commercial,total,sa,2026-07,52539
+cm_warehouse,Warehouse (private),sub:commercial,total,sa,2026-08,52592
+cm_warehouse,Warehouse (private),sub:commercial,total,sa,2026-09,51615
 cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2016-01,1477
 cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2016-02,1625
 cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2016-03,1672
@@ -14973,8 +15089,9 @@ cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2026-03,1353
 cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2026-04,1432
 cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2026-05,1475
 cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2026-06,1533
-cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2026-07,1516
-cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2026-08,1544
+cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2026-07,1551
+cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2026-08,1564
+cm_multiretail,Multi-retail (private),sub:commercial,private,nsa,2026-09,1576
 cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2016-01,1477
 cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2016-02,1625
 cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2016-03,1672
@@ -15101,8 +15218,9 @@ cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2026-03,1353
 cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2026-04,1432
 cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2026-05,1475
 cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2026-06,1533
-cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2026-07,1516
-cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2026-08,1544
+cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2026-07,1551
+cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2026-08,1564
+cm_multiretail,Multi-retail (private),sub:commercial,total,nsa,2026-09,1576
 cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2016-01,20554
 cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2016-02,21688
 cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2016-03,20625
@@ -15229,8 +15347,9 @@ cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2026-03,16857
 cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2026-04,16811
 cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2026-05,16976
 cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2026-06,17461
-cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2026-07,17282
-cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2026-08,17122
+cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2026-07,17647
+cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2026-08,17363
+cm_multiretail,Multi-retail (private),sub:commercial,private,sa,2026-09,17713
 cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2016-01,20554
 cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2016-02,21688
 cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2016-03,20625
@@ -15357,8 +15476,9 @@ cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2026-03,16857
 cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2026-04,16811
 cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2026-05,16976
 cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2026-06,17461
-cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2026-07,17282
-cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2026-08,17122
+cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2026-07,17647
+cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2026-08,17363
+cm_multiretail,Multi-retail (private),sub:commercial,total,sa,2026-09,17713
 cm_food,Food/beverage (private),sub:commercial,private,nsa,2016-01,562
 cm_food,Food/beverage (private),sub:commercial,private,nsa,2016-02,583
 cm_food,Food/beverage (private),sub:commercial,private,nsa,2016-03,566
@@ -15485,8 +15605,9 @@ cm_food,Food/beverage (private),sub:commercial,private,nsa,2026-03,1081
 cm_food,Food/beverage (private),sub:commercial,private,nsa,2026-04,1134
 cm_food,Food/beverage (private),sub:commercial,private,nsa,2026-05,1151
 cm_food,Food/beverage (private),sub:commercial,private,nsa,2026-06,1191
-cm_food,Food/beverage (private),sub:commercial,private,nsa,2026-07,1183
-cm_food,Food/beverage (private),sub:commercial,private,nsa,2026-08,1216
+cm_food,Food/beverage (private),sub:commercial,private,nsa,2026-07,1212
+cm_food,Food/beverage (private),sub:commercial,private,nsa,2026-08,1238
+cm_food,Food/beverage (private),sub:commercial,private,nsa,2026-09,1236
 cm_food,Food/beverage (private),sub:commercial,total,nsa,2016-01,562
 cm_food,Food/beverage (private),sub:commercial,total,nsa,2016-02,583
 cm_food,Food/beverage (private),sub:commercial,total,nsa,2016-03,566
@@ -15613,8 +15734,9 @@ cm_food,Food/beverage (private),sub:commercial,total,nsa,2026-03,1081
 cm_food,Food/beverage (private),sub:commercial,total,nsa,2026-04,1134
 cm_food,Food/beverage (private),sub:commercial,total,nsa,2026-05,1151
 cm_food,Food/beverage (private),sub:commercial,total,nsa,2026-06,1191
-cm_food,Food/beverage (private),sub:commercial,total,nsa,2026-07,1183
-cm_food,Food/beverage (private),sub:commercial,total,nsa,2026-08,1216
+cm_food,Food/beverage (private),sub:commercial,total,nsa,2026-07,1212
+cm_food,Food/beverage (private),sub:commercial,total,nsa,2026-08,1238
+cm_food,Food/beverage (private),sub:commercial,total,nsa,2026-09,1236
 cm_food,Food/beverage (private),sub:commercial,private,sa,2016-01,7859
 cm_food,Food/beverage (private),sub:commercial,private,sa,2016-02,8107
 cm_food,Food/beverage (private),sub:commercial,private,sa,2016-03,7552
@@ -15741,8 +15863,9 @@ cm_food,Food/beverage (private),sub:commercial,private,sa,2026-03,13228
 cm_food,Food/beverage (private),sub:commercial,private,sa,2026-04,13373
 cm_food,Food/beverage (private),sub:commercial,private,sa,2026-05,13623
 cm_food,Food/beverage (private),sub:commercial,private,sa,2026-06,13995
-cm_food,Food/beverage (private),sub:commercial,private,sa,2026-07,13684
-cm_food,Food/beverage (private),sub:commercial,private,sa,2026-08,13828
+cm_food,Food/beverage (private),sub:commercial,private,sa,2026-07,13974
+cm_food,Food/beverage (private),sub:commercial,private,sa,2026-08,14054
+cm_food,Food/beverage (private),sub:commercial,private,sa,2026-09,14198
 cm_food,Food/beverage (private),sub:commercial,total,sa,2016-01,7859
 cm_food,Food/beverage (private),sub:commercial,total,sa,2016-02,8107
 cm_food,Food/beverage (private),sub:commercial,total,sa,2016-03,7552
@@ -15869,8 +15992,9 @@ cm_food,Food/beverage (private),sub:commercial,total,sa,2026-03,13228
 cm_food,Food/beverage (private),sub:commercial,total,sa,2026-04,13373
 cm_food,Food/beverage (private),sub:commercial,total,sa,2026-05,13623
 cm_food,Food/beverage (private),sub:commercial,total,sa,2026-06,13995
-cm_food,Food/beverage (private),sub:commercial,total,sa,2026-07,13684
-cm_food,Food/beverage (private),sub:commercial,total,sa,2026-08,13828
+cm_food,Food/beverage (private),sub:commercial,total,sa,2026-07,13974
+cm_food,Food/beverage (private),sub:commercial,total,sa,2026-08,14054
+cm_food,Food/beverage (private),sub:commercial,total,sa,2026-09,14198
 cm_auto,Automotive (private),sub:commercial,private,nsa,2016-01,552
 cm_auto,Automotive (private),sub:commercial,private,nsa,2016-02,533
 cm_auto,Automotive (private),sub:commercial,private,nsa,2016-03,580
@@ -15997,8 +16121,9 @@ cm_auto,Automotive (private),sub:commercial,private,nsa,2026-03,925
 cm_auto,Automotive (private),sub:commercial,private,nsa,2026-04,959
 cm_auto,Automotive (private),sub:commercial,private,nsa,2026-05,963
 cm_auto,Automotive (private),sub:commercial,private,nsa,2026-06,968
-cm_auto,Automotive (private),sub:commercial,private,nsa,2026-07,947
-cm_auto,Automotive (private),sub:commercial,private,nsa,2026-08,966
+cm_auto,Automotive (private),sub:commercial,private,nsa,2026-07,949
+cm_auto,Automotive (private),sub:commercial,private,nsa,2026-08,948
+cm_auto,Automotive (private),sub:commercial,private,nsa,2026-09,959
 cm_auto,Automotive (private),sub:commercial,total,nsa,2016-01,552
 cm_auto,Automotive (private),sub:commercial,total,nsa,2016-02,533
 cm_auto,Automotive (private),sub:commercial,total,nsa,2016-03,580
@@ -16125,8 +16250,9 @@ cm_auto,Automotive (private),sub:commercial,total,nsa,2026-03,925
 cm_auto,Automotive (private),sub:commercial,total,nsa,2026-04,959
 cm_auto,Automotive (private),sub:commercial,total,nsa,2026-05,963
 cm_auto,Automotive (private),sub:commercial,total,nsa,2026-06,968
-cm_auto,Automotive (private),sub:commercial,total,nsa,2026-07,947
-cm_auto,Automotive (private),sub:commercial,total,nsa,2026-08,966
+cm_auto,Automotive (private),sub:commercial,total,nsa,2026-07,949
+cm_auto,Automotive (private),sub:commercial,total,nsa,2026-08,948
+cm_auto,Automotive (private),sub:commercial,total,nsa,2026-09,959
 cm_auto,Automotive (private),sub:commercial,private,sa,2016-01,7618
 cm_auto,Automotive (private),sub:commercial,private,sa,2016-02,7664
 cm_auto,Automotive (private),sub:commercial,private,sa,2016-03,7697
@@ -16253,8 +16379,9 @@ cm_auto,Automotive (private),sub:commercial,private,sa,2026-03,11858
 cm_auto,Automotive (private),sub:commercial,private,sa,2026-04,11574
 cm_auto,Automotive (private),sub:commercial,private,sa,2026-05,11551
 cm_auto,Automotive (private),sub:commercial,private,sa,2026-06,11056
-cm_auto,Automotive (private),sub:commercial,private,sa,2026-07,11091
-cm_auto,Automotive (private),sub:commercial,private,sa,2026-08,10947
+cm_auto,Automotive (private),sub:commercial,private,sa,2026-07,11070
+cm_auto,Automotive (private),sub:commercial,private,sa,2026-08,10743
+cm_auto,Automotive (private),sub:commercial,private,sa,2026-09,10785
 cm_auto,Automotive (private),sub:commercial,total,sa,2016-01,7618
 cm_auto,Automotive (private),sub:commercial,total,sa,2016-02,7664
 cm_auto,Automotive (private),sub:commercial,total,sa,2016-03,7697
@@ -16381,8 +16508,9 @@ cm_auto,Automotive (private),sub:commercial,total,sa,2026-03,11858
 cm_auto,Automotive (private),sub:commercial,total,sa,2026-04,11574
 cm_auto,Automotive (private),sub:commercial,total,sa,2026-05,11551
 cm_auto,Automotive (private),sub:commercial,total,sa,2026-06,11056
-cm_auto,Automotive (private),sub:commercial,total,sa,2026-07,11091
-cm_auto,Automotive (private),sub:commercial,total,sa,2026-08,10947
+cm_auto,Automotive (private),sub:commercial,total,sa,2026-07,11070
+cm_auto,Automotive (private),sub:commercial,total,sa,2026-08,10743
+cm_auto,Automotive (private),sub:commercial,total,sa,2026-09,10785
 cm_other,Other commercial (private),sub:commercial,private,nsa,2016-01,467
 cm_other,Other commercial (private),sub:commercial,private,nsa,2016-02,455
 cm_other,Other commercial (private),sub:commercial,private,nsa,2016-03,499
@@ -16509,8 +16637,9 @@ cm_other,Other commercial (private),sub:commercial,private,nsa,2026-03,637
 cm_other,Other commercial (private),sub:commercial,private,nsa,2026-04,693
 cm_other,Other commercial (private),sub:commercial,private,nsa,2026-05,743
 cm_other,Other commercial (private),sub:commercial,private,nsa,2026-06,743
-cm_other,Other commercial (private),sub:commercial,private,nsa,2026-07,709
-cm_other,Other commercial (private),sub:commercial,private,nsa,2026-08,717
+cm_other,Other commercial (private),sub:commercial,private,nsa,2026-07,716
+cm_other,Other commercial (private),sub:commercial,private,nsa,2026-08,720
+cm_other,Other commercial (private),sub:commercial,private,nsa,2026-09,719
 cm_other,Other commercial (private),sub:commercial,total,nsa,2016-01,467
 cm_other,Other commercial (private),sub:commercial,total,nsa,2016-02,455
 cm_other,Other commercial (private),sub:commercial,total,nsa,2016-03,499
@@ -16637,8 +16766,9 @@ cm_other,Other commercial (private),sub:commercial,total,nsa,2026-03,637
 cm_other,Other commercial (private),sub:commercial,total,nsa,2026-04,693
 cm_other,Other commercial (private),sub:commercial,total,nsa,2026-05,743
 cm_other,Other commercial (private),sub:commercial,total,nsa,2026-06,743
-cm_other,Other commercial (private),sub:commercial,total,nsa,2026-07,709
-cm_other,Other commercial (private),sub:commercial,total,nsa,2026-08,717
+cm_other,Other commercial (private),sub:commercial,total,nsa,2026-07,716
+cm_other,Other commercial (private),sub:commercial,total,nsa,2026-08,720
+cm_other,Other commercial (private),sub:commercial,total,nsa,2026-09,719
 cm_other,Other commercial (private),sub:commercial,private,sa,2016-01,6208
 cm_other,Other commercial (private),sub:commercial,private,sa,2016-02,6200
 cm_other,Other commercial (private),sub:commercial,private,sa,2016-03,6256
@@ -16765,8 +16895,9 @@ cm_other,Other commercial (private),sub:commercial,private,sa,2026-03,7975
 cm_other,Other commercial (private),sub:commercial,private,sa,2026-04,8590
 cm_other,Other commercial (private),sub:commercial,private,sa,2026-05,8842
 cm_other,Other commercial (private),sub:commercial,private,sa,2026-06,8754
-cm_other,Other commercial (private),sub:commercial,private,sa,2026-07,8319
-cm_other,Other commercial (private),sub:commercial,private,sa,2026-08,8183
+cm_other,Other commercial (private),sub:commercial,private,sa,2026-07,8387
+cm_other,Other commercial (private),sub:commercial,private,sa,2026-08,8189
+cm_other,Other commercial (private),sub:commercial,private,sa,2026-09,8210
 cm_other,Other commercial (private),sub:commercial,total,sa,2016-01,6208
 cm_other,Other commercial (private),sub:commercial,total,sa,2016-02,6200
 cm_other,Other commercial (private),sub:commercial,total,sa,2016-03,6256
@@ -16893,8 +17024,9 @@ cm_other,Other commercial (private),sub:commercial,total,sa,2026-03,7975
 cm_other,Other commercial (private),sub:commercial,total,sa,2026-04,8590
 cm_other,Other commercial (private),sub:commercial,total,sa,2026-05,8842
 cm_other,Other commercial (private),sub:commercial,total,sa,2026-06,8754
-cm_other,Other commercial (private),sub:commercial,total,sa,2026-07,8319
-cm_other,Other commercial (private),sub:commercial,total,sa,2026-08,8183
+cm_other,Other commercial (private),sub:commercial,total,sa,2026-07,8387
+cm_other,Other commercial (private),sub:commercial,total,sa,2026-08,8189
+cm_other,Other commercial (private),sub:commercial,total,sa,2026-09,8210
 cm_public,Public commercial,sub:commercial,public,nsa,2016-01,212
 cm_public,Public commercial,sub:commercial,public,nsa,2016-02,235
 cm_public,Public commercial,sub:commercial,public,nsa,2016-03,269
@@ -17021,8 +17153,9 @@ cm_public,Public commercial,sub:commercial,public,nsa,2026-03,505
 cm_public,Public commercial,sub:commercial,public,nsa,2026-04,485
 cm_public,Public commercial,sub:commercial,public,nsa,2026-05,496
 cm_public,Public commercial,sub:commercial,public,nsa,2026-06,546
-cm_public,Public commercial,sub:commercial,public,nsa,2026-07,558
-cm_public,Public commercial,sub:commercial,public,nsa,2026-08,536
+cm_public,Public commercial,sub:commercial,public,nsa,2026-07,588
+cm_public,Public commercial,sub:commercial,public,nsa,2026-08,583
+cm_public,Public commercial,sub:commercial,public,nsa,2026-09,659
 cm_public,Public commercial,sub:commercial,total,nsa,2016-01,212
 cm_public,Public commercial,sub:commercial,total,nsa,2016-02,235
 cm_public,Public commercial,sub:commercial,total,nsa,2016-03,269
@@ -17149,8 +17282,9 @@ cm_public,Public commercial,sub:commercial,total,nsa,2026-03,505
 cm_public,Public commercial,sub:commercial,total,nsa,2026-04,485
 cm_public,Public commercial,sub:commercial,total,nsa,2026-05,496
 cm_public,Public commercial,sub:commercial,total,nsa,2026-06,546
-cm_public,Public commercial,sub:commercial,total,nsa,2026-07,558
-cm_public,Public commercial,sub:commercial,total,nsa,2026-08,536
+cm_public,Public commercial,sub:commercial,total,nsa,2026-07,588
+cm_public,Public commercial,sub:commercial,total,nsa,2026-08,583
+cm_public,Public commercial,sub:commercial,total,nsa,2026-09,659
 cm_public,Public commercial,sub:commercial,public,sa,2016-01,3000
 cm_public,Public commercial,sub:commercial,public,sa,2016-02,3066
 cm_public,Public commercial,sub:commercial,public,sa,2016-03,3443
@@ -17277,8 +17411,9 @@ cm_public,Public commercial,sub:commercial,public,sa,2026-03,6147
 cm_public,Public commercial,sub:commercial,public,sa,2026-04,5948
 cm_public,Public commercial,sub:commercial,public,sa,2026-05,6059
 cm_public,Public commercial,sub:commercial,public,sa,2026-06,6410
-cm_public,Public commercial,sub:commercial,public,sa,2026-07,6484
-cm_public,Public commercial,sub:commercial,public,sa,2026-08,6362
+cm_public,Public commercial,sub:commercial,public,sa,2026-07,6827
+cm_public,Public commercial,sub:commercial,public,sa,2026-08,6899
+cm_public,Public commercial,sub:commercial,public,sa,2026-09,7018
 cm_public,Public commercial,sub:commercial,total,sa,2016-01,3000
 cm_public,Public commercial,sub:commercial,total,sa,2016-02,3066
 cm_public,Public commercial,sub:commercial,total,sa,2016-03,3443
@@ -17405,8 +17540,9 @@ cm_public,Public commercial,sub:commercial,total,sa,2026-03,6147
 cm_public,Public commercial,sub:commercial,total,sa,2026-04,5948
 cm_public,Public commercial,sub:commercial,total,sa,2026-05,6059
 cm_public,Public commercial,sub:commercial,total,sa,2026-06,6410
-cm_public,Public commercial,sub:commercial,total,sa,2026-07,6484
-cm_public,Public commercial,sub:commercial,total,sa,2026-08,6362
+cm_public,Public commercial,sub:commercial,total,sa,2026-07,6827
+cm_public,Public commercial,sub:commercial,total,sa,2026-08,6899
+cm_public,Public commercial,sub:commercial,total,sa,2026-09,7018
 manufacturing,Manufacturing,segment,private,nsa,2016-01,5942
 manufacturing,Manufacturing,segment,private,nsa,2016-02,6073
 manufacturing,Manufacturing,segment,private,nsa,2016-03,6489
@@ -17533,8 +17669,9 @@ manufacturing,Manufacturing,segment,private,nsa,2026-03,14665
 manufacturing,Manufacturing,segment,private,nsa,2026-04,14374
 manufacturing,Manufacturing,segment,private,nsa,2026-05,14265
 manufacturing,Manufacturing,segment,private,nsa,2026-06,14293
-manufacturing,Manufacturing,segment,private,nsa,2026-07,14216
-manufacturing,Manufacturing,segment,private,nsa,2026-08,14443
+manufacturing,Manufacturing,segment,private,nsa,2026-07,14172
+manufacturing,Manufacturing,segment,private,nsa,2026-08,14400
+manufacturing,Manufacturing,segment,private,nsa,2026-09,14401
 manufacturing,Manufacturing,segment,total,nsa,2016-01,5942
 manufacturing,Manufacturing,segment,total,nsa,2016-02,6073
 manufacturing,Manufacturing,segment,total,nsa,2016-03,6489
@@ -17661,8 +17798,9 @@ manufacturing,Manufacturing,segment,total,nsa,2026-03,14665
 manufacturing,Manufacturing,segment,total,nsa,2026-04,14374
 manufacturing,Manufacturing,segment,total,nsa,2026-05,14265
 manufacturing,Manufacturing,segment,total,nsa,2026-06,14293
-manufacturing,Manufacturing,segment,total,nsa,2026-07,14216
-manufacturing,Manufacturing,segment,total,nsa,2026-08,14443
+manufacturing,Manufacturing,segment,total,nsa,2026-07,14172
+manufacturing,Manufacturing,segment,total,nsa,2026-08,14400
+manufacturing,Manufacturing,segment,total,nsa,2026-09,14401
 manufacturing,Manufacturing,segment,private,sa,2016-01,77111
 manufacturing,Manufacturing,segment,private,sa,2016-02,79181
 manufacturing,Manufacturing,segment,private,sa,2016-03,80125
@@ -17789,8 +17927,9 @@ manufacturing,Manufacturing,segment,private,sa,2026-03,178488
 manufacturing,Manufacturing,segment,private,sa,2026-04,175033
 manufacturing,Manufacturing,segment,private,sa,2026-05,171381
 manufacturing,Manufacturing,segment,private,sa,2026-06,168924
-manufacturing,Manufacturing,segment,private,sa,2026-07,168220
-manufacturing,Manufacturing,segment,private,sa,2026-08,168209
+manufacturing,Manufacturing,segment,private,sa,2026-07,167742
+manufacturing,Manufacturing,segment,private,sa,2026-08,167675
+manufacturing,Manufacturing,segment,private,sa,2026-09,167226
 manufacturing,Manufacturing,segment,total,sa,2016-01,77111
 manufacturing,Manufacturing,segment,total,sa,2016-02,79181
 manufacturing,Manufacturing,segment,total,sa,2016-03,80125
@@ -17917,8 +18056,9 @@ manufacturing,Manufacturing,segment,total,sa,2026-03,178488
 manufacturing,Manufacturing,segment,total,sa,2026-04,175033
 manufacturing,Manufacturing,segment,total,sa,2026-05,171381
 manufacturing,Manufacturing,segment,total,sa,2026-06,168924
-manufacturing,Manufacturing,segment,total,sa,2026-07,168220
-manufacturing,Manufacturing,segment,total,sa,2026-08,168209
+manufacturing,Manufacturing,segment,total,sa,2026-07,167742
+manufacturing,Manufacturing,segment,total,sa,2026-08,167675
+manufacturing,Manufacturing,segment,total,sa,2026-09,167226
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2016-01,198
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2016-02,198
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2016-03,152
@@ -18045,8 +18185,9 @@ mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2026-03
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2026-04,4682
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2026-05,4494
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2026-06,4347
-mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2026-07,4373
-mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2026-08,4521
+mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2026-07,4391
+mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2026-08,4477
+mf_computer,Computer/electronic/electrical,sub:manufacturing,private,nsa,2026-09,4453
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2016-01,198
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2016-02,198
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2016-03,152
@@ -18173,8 +18314,9 @@ mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2026-03,5
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2026-04,4682
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2026-05,4494
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2026-06,4347
-mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2026-07,4373
-mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2026-08,4521
+mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2026-07,4391
+mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2026-08,4477
+mf_computer,Computer/electronic/electrical,sub:manufacturing,total,nsa,2026-09,4453
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2016-01,2611
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2016-02,2535
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2016-03,1872
@@ -18301,8 +18443,9 @@ mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2026-03,
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2026-04,57885
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2026-05,54756
 mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2026-06,52134
-mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2026-07,52126
-mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2026-08,52298
+mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2026-07,52458
+mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2026-08,52086
+mf_computer,Computer/electronic/electrical,sub:manufacturing,private,sa,2026-09,52591
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2016-01,2611
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2016-02,2535
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2016-03,1872
@@ -18429,8 +18572,9 @@ mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2026-03,61
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2026-04,57885
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2026-05,54756
 mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2026-06,52134
-mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2026-07,52126
-mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2026-08,52298
+mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2026-07,52458
+mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2026-08,52086
+mf_computer,Computer/electronic/electrical,sub:manufacturing,total,sa,2026-09,52591
 mf_chemical,Chemical,sub:manufacturing,private,nsa,2016-01,2657
 mf_chemical,Chemical,sub:manufacturing,private,nsa,2016-02,2651
 mf_chemical,Chemical,sub:manufacturing,private,nsa,2016-03,2939
@@ -18557,8 +18701,9 @@ mf_chemical,Chemical,sub:manufacturing,private,nsa,2026-03,3627
 mf_chemical,Chemical,sub:manufacturing,private,nsa,2026-04,3624
 mf_chemical,Chemical,sub:manufacturing,private,nsa,2026-05,3635
 mf_chemical,Chemical,sub:manufacturing,private,nsa,2026-06,3669
-mf_chemical,Chemical,sub:manufacturing,private,nsa,2026-07,3649
-mf_chemical,Chemical,sub:manufacturing,private,nsa,2026-08,3684
+mf_chemical,Chemical,sub:manufacturing,private,nsa,2026-07,3624
+mf_chemical,Chemical,sub:manufacturing,private,nsa,2026-08,3694
+mf_chemical,Chemical,sub:manufacturing,private,nsa,2026-09,3740
 mf_chemical,Chemical,sub:manufacturing,total,nsa,2016-01,2657
 mf_chemical,Chemical,sub:manufacturing,total,nsa,2016-02,2651
 mf_chemical,Chemical,sub:manufacturing,total,nsa,2016-03,2939
@@ -18685,8 +18830,9 @@ mf_chemical,Chemical,sub:manufacturing,total,nsa,2026-03,3627
 mf_chemical,Chemical,sub:manufacturing,total,nsa,2026-04,3624
 mf_chemical,Chemical,sub:manufacturing,total,nsa,2026-05,3635
 mf_chemical,Chemical,sub:manufacturing,total,nsa,2026-06,3669
-mf_chemical,Chemical,sub:manufacturing,total,nsa,2026-07,3649
-mf_chemical,Chemical,sub:manufacturing,total,nsa,2026-08,3684
+mf_chemical,Chemical,sub:manufacturing,total,nsa,2026-07,3624
+mf_chemical,Chemical,sub:manufacturing,total,nsa,2026-08,3694
+mf_chemical,Chemical,sub:manufacturing,total,nsa,2026-09,3740
 mf_chemical,Chemical,sub:manufacturing,private,sa,2016-01,33750
 mf_chemical,Chemical,sub:manufacturing,private,sa,2016-02,32972
 mf_chemical,Chemical,sub:manufacturing,private,sa,2016-03,36206
@@ -18813,8 +18959,9 @@ mf_chemical,Chemical,sub:manufacturing,private,sa,2026-03,44271
 mf_chemical,Chemical,sub:manufacturing,private,sa,2026-04,43815
 mf_chemical,Chemical,sub:manufacturing,private,sa,2026-05,43677
 mf_chemical,Chemical,sub:manufacturing,private,sa,2026-06,43210
-mf_chemical,Chemical,sub:manufacturing,private,sa,2026-07,43360
-mf_chemical,Chemical,sub:manufacturing,private,sa,2026-08,43671
+mf_chemical,Chemical,sub:manufacturing,private,sa,2026-07,43074
+mf_chemical,Chemical,sub:manufacturing,private,sa,2026-08,43591
+mf_chemical,Chemical,sub:manufacturing,private,sa,2026-09,42980
 mf_chemical,Chemical,sub:manufacturing,total,sa,2016-01,33750
 mf_chemical,Chemical,sub:manufacturing,total,sa,2016-02,32972
 mf_chemical,Chemical,sub:manufacturing,total,sa,2016-03,36206
@@ -18941,8 +19088,9 @@ mf_chemical,Chemical,sub:manufacturing,total,sa,2026-03,44271
 mf_chemical,Chemical,sub:manufacturing,total,sa,2026-04,43815
 mf_chemical,Chemical,sub:manufacturing,total,sa,2026-05,43677
 mf_chemical,Chemical,sub:manufacturing,total,sa,2026-06,43210
-mf_chemical,Chemical,sub:manufacturing,total,sa,2026-07,43360
-mf_chemical,Chemical,sub:manufacturing,total,sa,2026-08,43671
+mf_chemical,Chemical,sub:manufacturing,total,sa,2026-07,43074
+mf_chemical,Chemical,sub:manufacturing,total,sa,2026-08,43591
+mf_chemical,Chemical,sub:manufacturing,total,sa,2026-09,42980
 mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2016-01,1038
 mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2016-02,1073
 mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2016-03,1190
@@ -19069,8 +19217,9 @@ mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2026-03,1188
 mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2026-04,1298
 mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2026-05,1357
 mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2026-06,1465
-mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2026-07,1466
-mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2026-08,1499
+mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2026-07,1490
+mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2026-08,1525
+mf_transport,Transportation equipment,sub:manufacturing,private,nsa,2026-09,1545
 mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2016-01,1038
 mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2016-02,1073
 mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2016-03,1190
@@ -19197,8 +19346,9 @@ mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2026-03,1188
 mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2026-04,1298
 mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2026-05,1357
 mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2026-06,1465
-mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2026-07,1466
-mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2026-08,1499
+mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2026-07,1490
+mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2026-08,1525
+mf_transport,Transportation equipment,sub:manufacturing,total,nsa,2026-09,1545
 mf_transport,Transportation equipment,sub:manufacturing,private,sa,2016-01,13538
 mf_transport,Transportation equipment,sub:manufacturing,private,sa,2016-02,14074
 mf_transport,Transportation equipment,sub:manufacturing,private,sa,2016-03,14291
@@ -19325,8 +19475,9 @@ mf_transport,Transportation equipment,sub:manufacturing,private,sa,2026-03,13996
 mf_transport,Transportation equipment,sub:manufacturing,private,sa,2026-04,15164
 mf_transport,Transportation equipment,sub:manufacturing,private,sa,2026-05,15752
 mf_transport,Transportation equipment,sub:manufacturing,private,sa,2026-06,17067
-mf_transport,Transportation equipment,sub:manufacturing,private,sa,2026-07,17001
-mf_transport,Transportation equipment,sub:manufacturing,private,sa,2026-08,17119
+mf_transport,Transportation equipment,sub:manufacturing,private,sa,2026-07,17291
+mf_transport,Transportation equipment,sub:manufacturing,private,sa,2026-08,17450
+mf_transport,Transportation equipment,sub:manufacturing,private,sa,2026-09,17880
 mf_transport,Transportation equipment,sub:manufacturing,total,sa,2016-01,13538
 mf_transport,Transportation equipment,sub:manufacturing,total,sa,2016-02,14074
 mf_transport,Transportation equipment,sub:manufacturing,total,sa,2016-03,14291
@@ -19453,8 +19604,9 @@ mf_transport,Transportation equipment,sub:manufacturing,total,sa,2026-03,13996
 mf_transport,Transportation equipment,sub:manufacturing,total,sa,2026-04,15164
 mf_transport,Transportation equipment,sub:manufacturing,total,sa,2026-05,15752
 mf_transport,Transportation equipment,sub:manufacturing,total,sa,2026-06,17067
-mf_transport,Transportation equipment,sub:manufacturing,total,sa,2026-07,17001
-mf_transport,Transportation equipment,sub:manufacturing,total,sa,2026-08,17119
+mf_transport,Transportation equipment,sub:manufacturing,total,sa,2026-07,17291
+mf_transport,Transportation equipment,sub:manufacturing,total,sa,2026-08,17450
+mf_transport,Transportation equipment,sub:manufacturing,total,sa,2026-09,17880
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2016-01,494
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2016-02,551
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2016-03,594
@@ -19581,8 +19733,9 @@ mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2026-03,1339
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2026-04,1341
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2026-05,1345
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2026-06,1346
-mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2026-07,1335
-mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2026-08,1352
+mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2026-07,1324
+mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2026-08,1336
+mf_food,Food/beverage/tobacco,sub:manufacturing,private,nsa,2026-09,1320
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2016-01,494
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2016-02,551
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2016-03,594
@@ -19709,8 +19862,9 @@ mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2026-03,1339
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2026-04,1341
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2026-05,1345
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2026-06,1346
-mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2026-07,1335
-mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2026-08,1352
+mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2026-07,1324
+mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2026-08,1336
+mf_food,Food/beverage/tobacco,sub:manufacturing,total,nsa,2026-09,1320
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2016-01,6493
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2016-02,7231
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2016-03,7463
@@ -19837,8 +19991,9 @@ mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2026-03,16524
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2026-04,16540
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2026-05,16236
 mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2026-06,15943
-mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2026-07,15716
-mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2026-08,15551
+mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2026-07,15531
+mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2026-08,15314
+mf_food,Food/beverage/tobacco,sub:manufacturing,private,sa,2026-09,15167
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2016-01,6493
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2016-02,7231
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2016-03,7463
@@ -19965,8 +20120,9 @@ mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2026-03,16524
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2026-04,16540
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2026-05,16236
 mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2026-06,15943
-mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2026-07,15716
-mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2026-08,15551
+mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2026-07,15531
+mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2026-08,15314
+mf_food,Food/beverage/tobacco,sub:manufacturing,total,sa,2026-09,15167
 educational,Educational,segment,private,nsa,2016-01,1349
 educational,Educational,segment,private,nsa,2016-02,1439
 educational,Educational,segment,private,nsa,2016-03,1529
@@ -20093,8 +20249,9 @@ educational,Educational,segment,private,nsa,2026-03,2035
 educational,Educational,segment,private,nsa,2026-04,2121
 educational,Educational,segment,private,nsa,2026-05,2168
 educational,Educational,segment,private,nsa,2026-06,2258
-educational,Educational,segment,private,nsa,2026-07,2212
-educational,Educational,segment,private,nsa,2026-08,2173
+educational,Educational,segment,private,nsa,2026-07,2217
+educational,Educational,segment,private,nsa,2026-08,2198
+educational,Educational,segment,private,nsa,2026-09,2061
 educational,Educational,segment,public,nsa,2016-01,4619
 educational,Educational,segment,public,nsa,2016-02,4819
 educational,Educational,segment,public,nsa,2016-03,5154
@@ -20221,8 +20378,9 @@ educational,Educational,segment,public,nsa,2026-03,8347
 educational,Educational,segment,public,nsa,2026-04,9060
 educational,Educational,segment,public,nsa,2026-05,9772
 educational,Educational,segment,public,nsa,2026-06,11060
-educational,Educational,segment,public,nsa,2026-07,11227
-educational,Educational,segment,public,nsa,2026-08,11029
+educational,Educational,segment,public,nsa,2026-07,11215
+educational,Educational,segment,public,nsa,2026-08,11017
+educational,Educational,segment,public,nsa,2026-09,9945
 educational,Educational,segment,total,nsa,2016-01,5968
 educational,Educational,segment,total,nsa,2016-02,6258
 educational,Educational,segment,total,nsa,2016-03,6683
@@ -20349,8 +20507,9 @@ educational,Educational,segment,total,nsa,2026-03,10382
 educational,Educational,segment,total,nsa,2026-04,11181
 educational,Educational,segment,total,nsa,2026-05,11940
 educational,Educational,segment,total,nsa,2026-06,13318
-educational,Educational,segment,total,nsa,2026-07,13439
-educational,Educational,segment,total,nsa,2026-08,13202
+educational,Educational,segment,total,nsa,2026-07,13432
+educational,Educational,segment,total,nsa,2026-08,13215
+educational,Educational,segment,total,nsa,2026-09,12006
 educational,Educational,segment,private,sa,2016-01,18385
 educational,Educational,segment,private,sa,2016-02,18905
 educational,Educational,segment,private,sa,2016-03,19132
@@ -20477,8 +20636,9 @@ educational,Educational,segment,private,sa,2026-03,25223
 educational,Educational,segment,private,sa,2026-04,25222
 educational,Educational,segment,private,sa,2026-05,24862
 educational,Educational,segment,private,sa,2026-06,24662
-educational,Educational,segment,private,sa,2026-07,24598
-educational,Educational,segment,private,sa,2026-08,24396
+educational,Educational,segment,private,sa,2026-07,24684
+educational,Educational,segment,private,sa,2026-08,24678
+educational,Educational,segment,private,sa,2026-09,24519
 educational,Educational,segment,public,sa,2016-01,69600
 educational,Educational,segment,public,sa,2016-02,69891
 educational,Educational,segment,public,sa,2016-03,71066
@@ -20605,8 +20765,9 @@ educational,Educational,segment,public,sa,2026-03,112351
 educational,Educational,segment,public,sa,2026-04,112724
 educational,Educational,segment,public,sa,2026-05,113080
 educational,Educational,segment,public,sa,2026-06,112810
-educational,Educational,segment,public,sa,2026-07,112939
-educational,Educational,segment,public,sa,2026-08,113073
+educational,Educational,segment,public,sa,2026-07,112868
+educational,Educational,segment,public,sa,2026-08,113078
+educational,Educational,segment,public,sa,2026-09,113069
 educational,Educational,segment,total,sa,2016-01,87985
 educational,Educational,segment,total,sa,2016-02,88796
 educational,Educational,segment,total,sa,2016-03,90198
@@ -20733,8 +20894,9 @@ educational,Educational,segment,total,sa,2026-03,137574
 educational,Educational,segment,total,sa,2026-04,137946
 educational,Educational,segment,total,sa,2026-05,137942
 educational,Educational,segment,total,sa,2026-06,137472
-educational,Educational,segment,total,sa,2026-07,137537
-educational,Educational,segment,total,sa,2026-08,137469
+educational,Educational,segment,total,sa,2026-07,137552
+educational,Educational,segment,total,sa,2026-08,137756
+educational,Educational,segment,total,sa,2026-09,137588
 ed_higher,Higher education (private),sub:educational,private,nsa,2016-01,899
 ed_higher,Higher education (private),sub:educational,private,nsa,2016-02,972
 ed_higher,Higher education (private),sub:educational,private,nsa,2016-03,1040
@@ -20861,8 +21023,9 @@ ed_higher,Higher education (private),sub:educational,private,nsa,2026-03,1027
 ed_higher,Higher education (private),sub:educational,private,nsa,2026-04,1041
 ed_higher,Higher education (private),sub:educational,private,nsa,2026-05,1074
 ed_higher,Higher education (private),sub:educational,private,nsa,2026-06,1121
-ed_higher,Higher education (private),sub:educational,private,nsa,2026-07,1104
-ed_higher,Higher education (private),sub:educational,private,nsa,2026-08,1085
+ed_higher,Higher education (private),sub:educational,private,nsa,2026-07,1098
+ed_higher,Higher education (private),sub:educational,private,nsa,2026-08,1091
+ed_higher,Higher education (private),sub:educational,private,nsa,2026-09,1001
 ed_higher,Higher education (private),sub:educational,total,nsa,2016-01,899
 ed_higher,Higher education (private),sub:educational,total,nsa,2016-02,972
 ed_higher,Higher education (private),sub:educational,total,nsa,2016-03,1040
@@ -20989,8 +21152,9 @@ ed_higher,Higher education (private),sub:educational,total,nsa,2026-03,1027
 ed_higher,Higher education (private),sub:educational,total,nsa,2026-04,1041
 ed_higher,Higher education (private),sub:educational,total,nsa,2026-05,1074
 ed_higher,Higher education (private),sub:educational,total,nsa,2026-06,1121
-ed_higher,Higher education (private),sub:educational,total,nsa,2026-07,1104
-ed_higher,Higher education (private),sub:educational,total,nsa,2026-08,1085
+ed_higher,Higher education (private),sub:educational,total,nsa,2026-07,1098
+ed_higher,Higher education (private),sub:educational,total,nsa,2026-08,1091
+ed_higher,Higher education (private),sub:educational,total,nsa,2026-09,1001
 ed_higher,Higher education (private),sub:educational,private,sa,2016-01,12105
 ed_higher,Higher education (private),sub:educational,private,sa,2016-02,12662
 ed_higher,Higher education (private),sub:educational,private,sa,2016-03,12878
@@ -21117,8 +21281,9 @@ ed_higher,Higher education (private),sub:educational,private,sa,2026-03,12633
 ed_higher,Higher education (private),sub:educational,private,sa,2026-04,12437
 ed_higher,Higher education (private),sub:educational,private,sa,2026-05,12305
 ed_higher,Higher education (private),sub:educational,private,sa,2026-06,12273
-ed_higher,Higher education (private),sub:educational,private,sa,2026-07,12425
-ed_higher,Higher education (private),sub:educational,private,sa,2026-08,12305
+ed_higher,Higher education (private),sub:educational,private,sa,2026-07,12419
+ed_higher,Higher education (private),sub:educational,private,sa,2026-08,12408
+ed_higher,Higher education (private),sub:educational,private,sa,2026-09,12019
 ed_higher,Higher education (private),sub:educational,total,sa,2016-01,12105
 ed_higher,Higher education (private),sub:educational,total,sa,2016-02,12662
 ed_higher,Higher education (private),sub:educational,total,sa,2016-03,12878
@@ -21245,8 +21410,9 @@ ed_higher,Higher education (private),sub:educational,total,sa,2026-03,12633
 ed_higher,Higher education (private),sub:educational,total,sa,2026-04,12437
 ed_higher,Higher education (private),sub:educational,total,sa,2026-05,12305
 ed_higher,Higher education (private),sub:educational,total,sa,2026-06,12273
-ed_higher,Higher education (private),sub:educational,total,sa,2026-07,12425
-ed_higher,Higher education (private),sub:educational,total,sa,2026-08,12305
+ed_higher,Higher education (private),sub:educational,total,sa,2026-07,12419
+ed_higher,Higher education (private),sub:educational,total,sa,2026-08,12408
+ed_higher,Higher education (private),sub:educational,total,sa,2026-09,12019
 ed_k12,Primary/secondary (private),sub:educational,private,nsa,2016-01,248
 ed_k12,Primary/secondary (private),sub:educational,private,nsa,2016-02,254
 ed_k12,Primary/secondary (private),sub:educational,private,nsa,2016-03,286
@@ -21373,8 +21539,9 @@ ed_k12,Primary/secondary (private),sub:educational,private,nsa,2026-03,508
 ed_k12,Primary/secondary (private),sub:educational,private,nsa,2026-04,548
 ed_k12,Primary/secondary (private),sub:educational,private,nsa,2026-05,564
 ed_k12,Primary/secondary (private),sub:educational,private,nsa,2026-06,587
-ed_k12,Primary/secondary (private),sub:educational,private,nsa,2026-07,561
-ed_k12,Primary/secondary (private),sub:educational,private,nsa,2026-08,553
+ed_k12,Primary/secondary (private),sub:educational,private,nsa,2026-07,579
+ed_k12,Primary/secondary (private),sub:educational,private,nsa,2026-08,563
+ed_k12,Primary/secondary (private),sub:educational,private,nsa,2026-09,532
 ed_k12,Primary/secondary (private),sub:educational,total,nsa,2016-01,248
 ed_k12,Primary/secondary (private),sub:educational,total,nsa,2016-02,254
 ed_k12,Primary/secondary (private),sub:educational,total,nsa,2016-03,286
@@ -21501,8 +21668,9 @@ ed_k12,Primary/secondary (private),sub:educational,total,nsa,2026-03,508
 ed_k12,Primary/secondary (private),sub:educational,total,nsa,2026-04,548
 ed_k12,Primary/secondary (private),sub:educational,total,nsa,2026-05,564
 ed_k12,Primary/secondary (private),sub:educational,total,nsa,2026-06,587
-ed_k12,Primary/secondary (private),sub:educational,total,nsa,2026-07,561
-ed_k12,Primary/secondary (private),sub:educational,total,nsa,2026-08,553
+ed_k12,Primary/secondary (private),sub:educational,total,nsa,2026-07,579
+ed_k12,Primary/secondary (private),sub:educational,total,nsa,2026-08,563
+ed_k12,Primary/secondary (private),sub:educational,total,nsa,2026-09,532
 ed_k12,Primary/secondary (private),sub:educational,private,sa,2016-01,3626
 ed_k12,Primary/secondary (private),sub:educational,private,sa,2016-02,3587
 ed_k12,Primary/secondary (private),sub:educational,private,sa,2016-03,3774
@@ -21629,8 +21797,9 @@ ed_k12,Primary/secondary (private),sub:educational,private,sa,2026-03,6353
 ed_k12,Primary/secondary (private),sub:educational,private,sa,2026-04,6315
 ed_k12,Primary/secondary (private),sub:educational,private,sa,2026-05,6205
 ed_k12,Primary/secondary (private),sub:educational,private,sa,2026-06,6036
-ed_k12,Primary/secondary (private),sub:educational,private,sa,2026-07,5887
-ed_k12,Primary/secondary (private),sub:educational,private,sa,2026-08,6006
+ed_k12,Primary/secondary (private),sub:educational,private,sa,2026-07,6065
+ed_k12,Primary/secondary (private),sub:educational,private,sa,2026-08,6127
+ed_k12,Primary/secondary (private),sub:educational,private,sa,2026-09,6444
 ed_k12,Primary/secondary (private),sub:educational,total,sa,2016-01,3626
 ed_k12,Primary/secondary (private),sub:educational,total,sa,2016-02,3587
 ed_k12,Primary/secondary (private),sub:educational,total,sa,2016-03,3774
@@ -21757,8 +21926,9 @@ ed_k12,Primary/secondary (private),sub:educational,total,sa,2026-03,6353
 ed_k12,Primary/secondary (private),sub:educational,total,sa,2026-04,6315
 ed_k12,Primary/secondary (private),sub:educational,total,sa,2026-05,6205
 ed_k12,Primary/secondary (private),sub:educational,total,sa,2026-06,6036
-ed_k12,Primary/secondary (private),sub:educational,total,sa,2026-07,5887
-ed_k12,Primary/secondary (private),sub:educational,total,sa,2026-08,6006
+ed_k12,Primary/secondary (private),sub:educational,total,sa,2026-07,6065
+ed_k12,Primary/secondary (private),sub:educational,total,sa,2026-08,6127
+ed_k12,Primary/secondary (private),sub:educational,total,sa,2026-09,6444
 ed_public,Public educational,sub:educational,public,nsa,2016-01,4619
 ed_public,Public educational,sub:educational,public,nsa,2016-02,4819
 ed_public,Public educational,sub:educational,public,nsa,2016-03,5154
@@ -21885,8 +22055,9 @@ ed_public,Public educational,sub:educational,public,nsa,2026-03,8347
 ed_public,Public educational,sub:educational,public,nsa,2026-04,9060
 ed_public,Public educational,sub:educational,public,nsa,2026-05,9772
 ed_public,Public educational,sub:educational,public,nsa,2026-06,11060
-ed_public,Public educational,sub:educational,public,nsa,2026-07,11227
-ed_public,Public educational,sub:educational,public,nsa,2026-08,11029
+ed_public,Public educational,sub:educational,public,nsa,2026-07,11215
+ed_public,Public educational,sub:educational,public,nsa,2026-08,11017
+ed_public,Public educational,sub:educational,public,nsa,2026-09,9945
 ed_public,Public educational,sub:educational,total,nsa,2016-01,4619
 ed_public,Public educational,sub:educational,total,nsa,2016-02,4819
 ed_public,Public educational,sub:educational,total,nsa,2016-03,5154
@@ -22013,8 +22184,9 @@ ed_public,Public educational,sub:educational,total,nsa,2026-03,8347
 ed_public,Public educational,sub:educational,total,nsa,2026-04,9060
 ed_public,Public educational,sub:educational,total,nsa,2026-05,9772
 ed_public,Public educational,sub:educational,total,nsa,2026-06,11060
-ed_public,Public educational,sub:educational,total,nsa,2026-07,11227
-ed_public,Public educational,sub:educational,total,nsa,2026-08,11029
+ed_public,Public educational,sub:educational,total,nsa,2026-07,11215
+ed_public,Public educational,sub:educational,total,nsa,2026-08,11017
+ed_public,Public educational,sub:educational,total,nsa,2026-09,9945
 ed_public,Public educational,sub:educational,public,sa,2016-01,69600
 ed_public,Public educational,sub:educational,public,sa,2016-02,69891
 ed_public,Public educational,sub:educational,public,sa,2016-03,71066
@@ -22141,8 +22313,9 @@ ed_public,Public educational,sub:educational,public,sa,2026-03,112351
 ed_public,Public educational,sub:educational,public,sa,2026-04,112724
 ed_public,Public educational,sub:educational,public,sa,2026-05,113080
 ed_public,Public educational,sub:educational,public,sa,2026-06,112810
-ed_public,Public educational,sub:educational,public,sa,2026-07,112939
-ed_public,Public educational,sub:educational,public,sa,2026-08,113073
+ed_public,Public educational,sub:educational,public,sa,2026-07,112868
+ed_public,Public educational,sub:educational,public,sa,2026-08,113078
+ed_public,Public educational,sub:educational,public,sa,2026-09,113069
 ed_public,Public educational,sub:educational,total,sa,2016-01,69600
 ed_public,Public educational,sub:educational,total,sa,2016-02,69891
 ed_public,Public educational,sub:educational,total,sa,2016-03,71066
@@ -22269,8 +22442,9 @@ ed_public,Public educational,sub:educational,total,sa,2026-03,112351
 ed_public,Public educational,sub:educational,total,sa,2026-04,112724
 ed_public,Public educational,sub:educational,total,sa,2026-05,113080
 ed_public,Public educational,sub:educational,total,sa,2026-06,112810
-ed_public,Public educational,sub:educational,total,sa,2026-07,112939
-ed_public,Public educational,sub:educational,total,sa,2026-08,113073
+ed_public,Public educational,sub:educational,total,sa,2026-07,112868
+ed_public,Public educational,sub:educational,total,sa,2026-08,113078
+ed_public,Public educational,sub:educational,total,sa,2026-09,113069
 bd_ed_p_high,Higher education,slice:educational,private,nsa,2016-01,899
 bd_ed_p_high,Higher education,slice:educational,private,nsa,2016-02,972
 bd_ed_p_high,Higher education,slice:educational,private,nsa,2016-03,1040
@@ -22397,8 +22571,9 @@ bd_ed_p_high,Higher education,slice:educational,private,nsa,2026-03,1027
 bd_ed_p_high,Higher education,slice:educational,private,nsa,2026-04,1041
 bd_ed_p_high,Higher education,slice:educational,private,nsa,2026-05,1074
 bd_ed_p_high,Higher education,slice:educational,private,nsa,2026-06,1121
-bd_ed_p_high,Higher education,slice:educational,private,nsa,2026-07,1104
-bd_ed_p_high,Higher education,slice:educational,private,nsa,2026-08,1085
+bd_ed_p_high,Higher education,slice:educational,private,nsa,2026-07,1098
+bd_ed_p_high,Higher education,slice:educational,private,nsa,2026-08,1091
+bd_ed_p_high,Higher education,slice:educational,private,nsa,2026-09,1001
 bd_ed_p_high,Higher education,slice:educational,total,nsa,2016-01,899
 bd_ed_p_high,Higher education,slice:educational,total,nsa,2016-02,972
 bd_ed_p_high,Higher education,slice:educational,total,nsa,2016-03,1040
@@ -22525,8 +22700,9 @@ bd_ed_p_high,Higher education,slice:educational,total,nsa,2026-03,1027
 bd_ed_p_high,Higher education,slice:educational,total,nsa,2026-04,1041
 bd_ed_p_high,Higher education,slice:educational,total,nsa,2026-05,1074
 bd_ed_p_high,Higher education,slice:educational,total,nsa,2026-06,1121
-bd_ed_p_high,Higher education,slice:educational,total,nsa,2026-07,1104
-bd_ed_p_high,Higher education,slice:educational,total,nsa,2026-08,1085
+bd_ed_p_high,Higher education,slice:educational,total,nsa,2026-07,1098
+bd_ed_p_high,Higher education,slice:educational,total,nsa,2026-08,1091
+bd_ed_p_high,Higher education,slice:educational,total,nsa,2026-09,1001
 bd_ed_p_high,Higher education,slice:educational,private,sa,2016-01,12105
 bd_ed_p_high,Higher education,slice:educational,private,sa,2016-02,12662
 bd_ed_p_high,Higher education,slice:educational,private,sa,2016-03,12878
@@ -22653,8 +22829,9 @@ bd_ed_p_high,Higher education,slice:educational,private,sa,2026-03,12633
 bd_ed_p_high,Higher education,slice:educational,private,sa,2026-04,12437
 bd_ed_p_high,Higher education,slice:educational,private,sa,2026-05,12305
 bd_ed_p_high,Higher education,slice:educational,private,sa,2026-06,12273
-bd_ed_p_high,Higher education,slice:educational,private,sa,2026-07,12425
-bd_ed_p_high,Higher education,slice:educational,private,sa,2026-08,12305
+bd_ed_p_high,Higher education,slice:educational,private,sa,2026-07,12419
+bd_ed_p_high,Higher education,slice:educational,private,sa,2026-08,12408
+bd_ed_p_high,Higher education,slice:educational,private,sa,2026-09,12019
 bd_ed_p_high,Higher education,slice:educational,total,sa,2016-01,12105
 bd_ed_p_high,Higher education,slice:educational,total,sa,2016-02,12662
 bd_ed_p_high,Higher education,slice:educational,total,sa,2016-03,12878
@@ -22781,8 +22958,9 @@ bd_ed_p_high,Higher education,slice:educational,total,sa,2026-03,12633
 bd_ed_p_high,Higher education,slice:educational,total,sa,2026-04,12437
 bd_ed_p_high,Higher education,slice:educational,total,sa,2026-05,12305
 bd_ed_p_high,Higher education,slice:educational,total,sa,2026-06,12273
-bd_ed_p_high,Higher education,slice:educational,total,sa,2026-07,12425
-bd_ed_p_high,Higher education,slice:educational,total,sa,2026-08,12305
+bd_ed_p_high,Higher education,slice:educational,total,sa,2026-07,12419
+bd_ed_p_high,Higher education,slice:educational,total,sa,2026-08,12408
+bd_ed_p_high,Higher education,slice:educational,total,sa,2026-09,12019
 bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2016-01,248
 bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2016-02,254
 bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2016-03,286
@@ -22909,8 +23087,9 @@ bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2026-03,508
 bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2026-04,548
 bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2026-05,564
 bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2026-06,587
-bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2026-07,561
-bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2026-08,553
+bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2026-07,579
+bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2026-08,563
+bd_ed_p_k12,Primary/secondary,slice:educational,private,nsa,2026-09,532
 bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2016-01,248
 bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2016-02,254
 bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2016-03,286
@@ -23037,8 +23216,9 @@ bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2026-03,508
 bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2026-04,548
 bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2026-05,564
 bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2026-06,587
-bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2026-07,561
-bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2026-08,553
+bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2026-07,579
+bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2026-08,563
+bd_ed_p_k12,Primary/secondary,slice:educational,total,nsa,2026-09,532
 bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2016-01,3626
 bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2016-02,3587
 bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2016-03,3774
@@ -23165,8 +23345,9 @@ bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2026-03,6353
 bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2026-04,6315
 bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2026-05,6205
 bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2026-06,6036
-bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2026-07,5887
-bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2026-08,6006
+bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2026-07,6065
+bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2026-08,6127
+bd_ed_p_k12,Primary/secondary,slice:educational,private,sa,2026-09,6444
 bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2016-01,3626
 bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2016-02,3587
 bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2016-03,3774
@@ -23293,8 +23474,9 @@ bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2026-03,6353
 bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2026-04,6315
 bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2026-05,6205
 bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2026-06,6036
-bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2026-07,5887
-bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2026-08,6006
+bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2026-07,6065
+bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2026-08,6127
+bd_ed_p_k12,Primary/secondary,slice:educational,total,sa,2026-09,6444
 bd_ed_p_oth,Other educational,slice:educational,private,nsa,2016-01,202
 bd_ed_p_oth,Other educational,slice:educational,private,nsa,2016-02,213
 bd_ed_p_oth,Other educational,slice:educational,private,nsa,2016-03,203
@@ -23421,8 +23603,9 @@ bd_ed_p_oth,Other educational,slice:educational,private,nsa,2026-03,500
 bd_ed_p_oth,Other educational,slice:educational,private,nsa,2026-04,532
 bd_ed_p_oth,Other educational,slice:educational,private,nsa,2026-05,530
 bd_ed_p_oth,Other educational,slice:educational,private,nsa,2026-06,550
-bd_ed_p_oth,Other educational,slice:educational,private,nsa,2026-07,547
-bd_ed_p_oth,Other educational,slice:educational,private,nsa,2026-08,535
+bd_ed_p_oth,Other educational,slice:educational,private,nsa,2026-07,540
+bd_ed_p_oth,Other educational,slice:educational,private,nsa,2026-08,544
+bd_ed_p_oth,Other educational,slice:educational,private,nsa,2026-09,528
 bd_ed_p_oth,Other educational,slice:educational,total,nsa,2016-01,202
 bd_ed_p_oth,Other educational,slice:educational,total,nsa,2016-02,213
 bd_ed_p_oth,Other educational,slice:educational,total,nsa,2016-03,203
@@ -23549,8 +23732,9 @@ bd_ed_p_oth,Other educational,slice:educational,total,nsa,2026-03,500
 bd_ed_p_oth,Other educational,slice:educational,total,nsa,2026-04,532
 bd_ed_p_oth,Other educational,slice:educational,total,nsa,2026-05,530
 bd_ed_p_oth,Other educational,slice:educational,total,nsa,2026-06,550
-bd_ed_p_oth,Other educational,slice:educational,total,nsa,2026-07,547
-bd_ed_p_oth,Other educational,slice:educational,total,nsa,2026-08,535
+bd_ed_p_oth,Other educational,slice:educational,total,nsa,2026-07,540
+bd_ed_p_oth,Other educational,slice:educational,total,nsa,2026-08,544
+bd_ed_p_oth,Other educational,slice:educational,total,nsa,2026-09,528
 bd_ed_p_oth,Other educational,slice:educational,private,sa,2016-01,2654
 bd_ed_p_oth,Other educational,slice:educational,private,sa,2016-02,2656
 bd_ed_p_oth,Other educational,slice:educational,private,sa,2016-03,2480
@@ -23677,8 +23861,9 @@ bd_ed_p_oth,Other educational,slice:educational,private,sa,2026-03,6237
 bd_ed_p_oth,Other educational,slice:educational,private,sa,2026-04,6470
 bd_ed_p_oth,Other educational,slice:educational,private,sa,2026-05,6352
 bd_ed_p_oth,Other educational,slice:educational,private,sa,2026-06,6353
-bd_ed_p_oth,Other educational,slice:educational,private,sa,2026-07,6286
-bd_ed_p_oth,Other educational,slice:educational,private,sa,2026-08,6085
+bd_ed_p_oth,Other educational,slice:educational,private,sa,2026-07,6200
+bd_ed_p_oth,Other educational,slice:educational,private,sa,2026-08,6143
+bd_ed_p_oth,Other educational,slice:educational,private,sa,2026-09,6056
 bd_ed_p_oth,Other educational,slice:educational,total,sa,2016-01,2654
 bd_ed_p_oth,Other educational,slice:educational,total,sa,2016-02,2656
 bd_ed_p_oth,Other educational,slice:educational,total,sa,2016-03,2480
@@ -23805,8 +23990,9 @@ bd_ed_p_oth,Other educational,slice:educational,total,sa,2026-03,6237
 bd_ed_p_oth,Other educational,slice:educational,total,sa,2026-04,6470
 bd_ed_p_oth,Other educational,slice:educational,total,sa,2026-05,6352
 bd_ed_p_oth,Other educational,slice:educational,total,sa,2026-06,6353
-bd_ed_p_oth,Other educational,slice:educational,total,sa,2026-07,6286
-bd_ed_p_oth,Other educational,slice:educational,total,sa,2026-08,6085
+bd_ed_p_oth,Other educational,slice:educational,total,sa,2026-07,6200
+bd_ed_p_oth,Other educational,slice:educational,total,sa,2026-08,6143
+bd_ed_p_oth,Other educational,slice:educational,total,sa,2026-09,6056
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2016-01,2524
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2016-02,2667
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2016-03,2876
@@ -23933,8 +24119,9 @@ bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2026-
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2026-04,5774
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2026-05,6255
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2026-06,7176
-bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2026-07,7328
-bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2026-08,7197
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2026-07,7311
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2026-08,7186
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,nsa,2026-09,6379
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2016-01,2524
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2016-02,2667
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2016-03,2876
@@ -24061,8 +24248,9 @@ bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2026-0
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2026-04,5774
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2026-05,6255
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2026-06,7176
-bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2026-07,7328
-bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2026-08,7197
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2026-07,7311
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2026-08,7186
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,nsa,2026-09,6379
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2016-01,40347
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2016-02,41604
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2016-03,41791
@@ -24189,8 +24377,9 @@ bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2026-0
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2026-04,72926
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2026-05,72138
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2026-06,71024
-bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2026-07,70485
-bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2026-08,70716
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2026-07,70447
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2026-08,70767
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,public,sa,2026-09,71775
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2016-01,40347
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2016-02,41604
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2016-03,41791
@@ -24317,8 +24506,9 @@ bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2026-03
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2026-04,72926
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2026-05,72138
 bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2026-06,71024
-bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2026-07,70485
-bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2026-08,70716
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2026-07,70447
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2026-08,70767
+bd_ed_s_k12,Primary/secondary (state & local),slice:educational,total,sa,2026-09,71775
 bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2016-01,1821
 bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2016-02,1784
 bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2016-03,1925
@@ -24445,8 +24635,9 @@ bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2026-
 bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2026-04,2528
 bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2026-05,2723
 bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2026-06,3056
-bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2026-07,3075
-bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2026-08,3027
+bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2026-07,3086
+bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2026-08,3035
+bd_ed_s_high,Higher education (state & local),slice:educational,public,nsa,2026-09,2788
 bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2016-01,1821
 bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2016-02,1784
 bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2016-03,1925
@@ -24573,8 +24764,9 @@ bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2026-0
 bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2026-04,2528
 bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2026-05,2723
 bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2026-06,3056
-bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2026-07,3075
-bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2026-08,3027
+bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2026-07,3086
+bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2026-08,3035
+bd_ed_s_high,Higher education (state & local),slice:educational,total,nsa,2026-09,2788
 bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2016-01,25438
 bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2016-02,23668
 bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2016-03,24953
@@ -24701,8 +24893,9 @@ bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2026-0
 bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2026-04,30819
 bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2026-05,31446
 bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2026-06,32000
-bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2026-07,32761
-bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2026-08,32856
+bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2026-07,32827
+bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2026-08,32926
+bd_ed_s_high,Higher education (state & local),slice:educational,public,sa,2026-09,32425
 bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2016-01,25438
 bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2016-02,23668
 bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2016-03,24953
@@ -24829,8 +25022,9 @@ bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2026-03
 bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2026-04,30819
 bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2026-05,31446
 bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2026-06,32000
-bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2026-07,32761
-bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2026-08,32856
+bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2026-07,32827
+bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2026-08,32926
+bd_ed_s_high,Higher education (state & local),slice:educational,total,sa,2026-09,32425
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2016-01,134
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2016-02,222
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2016-03,206
@@ -24957,8 +25151,9 @@ bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2026-
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2026-04,543
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2026-05,569
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2026-06,604
-bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2026-07,603
-bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2026-08,574
+bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2026-07,599
+bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2026-08,582
+bd_ed_s_oth,Other educational (state & local),slice:educational,public,nsa,2026-09,535
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2016-01,134
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2016-02,222
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2016-03,206
@@ -25085,8 +25280,9 @@ bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2026-0
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2026-04,543
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2026-05,569
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2026-06,604
-bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2026-07,603
-bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2026-08,574
+bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2026-07,599
+bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2026-08,582
+bd_ed_s_oth,Other educational (state & local),slice:educational,total,nsa,2026-09,535
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2016-01,1807
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2016-02,2754
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2016-03,2592
@@ -25213,8 +25409,9 @@ bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2026-0
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2026-04,6530
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2026-05,6704
 bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2026-06,7211
-bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2026-07,7033
-bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2026-08,6745
+bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2026-07,6994
+bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2026-08,6821
+bd_ed_s_oth,Other educational (state & local),slice:educational,public,sa,2026-09,6333
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2016-01,1807
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2016-02,2754
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2016-03,2592
@@ -25341,8 +25538,9 @@ bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2026-03
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2026-04,6530
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2026-05,6704
 bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2026-06,7211
-bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2026-07,7033
-bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2026-08,6745
+bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2026-07,6994
+bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2026-08,6821
+bd_ed_s_oth,Other educational (state & local),slice:educational,total,sa,2026-09,6333
 bd_ed_fed,Federal,slice:educational,public,nsa,2016-01,140
 bd_ed_fed,Federal,slice:educational,public,nsa,2016-02,146
 bd_ed_fed,Federal,slice:educational,public,nsa,2016-03,147
@@ -25469,8 +25667,9 @@ bd_ed_fed,Federal,slice:educational,public,nsa,2026-03,189
 bd_ed_fed,Federal,slice:educational,public,nsa,2026-04,215
 bd_ed_fed,Federal,slice:educational,public,nsa,2026-05,225
 bd_ed_fed,Federal,slice:educational,public,nsa,2026-06,224
-bd_ed_fed,Federal,slice:educational,public,nsa,2026-07,221
-bd_ed_fed,Federal,slice:educational,public,nsa,2026-08,231
+bd_ed_fed,Federal,slice:educational,public,nsa,2026-07,219
+bd_ed_fed,Federal,slice:educational,public,nsa,2026-08,214
+bd_ed_fed,Federal,slice:educational,public,nsa,2026-09,243
 bd_ed_fed,Federal,slice:educational,total,nsa,2016-01,140
 bd_ed_fed,Federal,slice:educational,total,nsa,2016-02,146
 bd_ed_fed,Federal,slice:educational,total,nsa,2016-03,147
@@ -25597,8 +25796,9 @@ bd_ed_fed,Federal,slice:educational,total,nsa,2026-03,189
 bd_ed_fed,Federal,slice:educational,total,nsa,2026-04,215
 bd_ed_fed,Federal,slice:educational,total,nsa,2026-05,225
 bd_ed_fed,Federal,slice:educational,total,nsa,2026-06,224
-bd_ed_fed,Federal,slice:educational,total,nsa,2026-07,221
-bd_ed_fed,Federal,slice:educational,total,nsa,2026-08,231
+bd_ed_fed,Federal,slice:educational,total,nsa,2026-07,219
+bd_ed_fed,Federal,slice:educational,total,nsa,2026-08,214
+bd_ed_fed,Federal,slice:educational,total,nsa,2026-09,243
 bd_ed_fed,Federal,slice:educational,public,sa,2016-01,2008
 bd_ed_fed,Federal,slice:educational,public,sa,2016-02,1865
 bd_ed_fed,Federal,slice:educational,public,sa,2016-03,1730
@@ -25725,8 +25925,9 @@ bd_ed_fed,Federal,slice:educational,public,sa,2026-03,2205
 bd_ed_fed,Federal,slice:educational,public,sa,2026-04,2449
 bd_ed_fed,Federal,slice:educational,public,sa,2026-05,2792
 bd_ed_fed,Federal,slice:educational,public,sa,2026-06,2575
-bd_ed_fed,Federal,slice:educational,public,sa,2026-07,2660
-bd_ed_fed,Federal,slice:educational,public,sa,2026-08,2756
+bd_ed_fed,Federal,slice:educational,public,sa,2026-07,2600
+bd_ed_fed,Federal,slice:educational,public,sa,2026-08,2564
+bd_ed_fed,Federal,slice:educational,public,sa,2026-09,2536
 bd_ed_fed,Federal,slice:educational,total,sa,2016-01,2008
 bd_ed_fed,Federal,slice:educational,total,sa,2016-02,1865
 bd_ed_fed,Federal,slice:educational,total,sa,2016-03,1730
@@ -25853,8 +26054,9 @@ bd_ed_fed,Federal,slice:educational,total,sa,2026-03,2205
 bd_ed_fed,Federal,slice:educational,total,sa,2026-04,2449
 bd_ed_fed,Federal,slice:educational,total,sa,2026-05,2792
 bd_ed_fed,Federal,slice:educational,total,sa,2026-06,2575
-bd_ed_fed,Federal,slice:educational,total,sa,2026-07,2660
-bd_ed_fed,Federal,slice:educational,total,sa,2026-08,2756
+bd_ed_fed,Federal,slice:educational,total,sa,2026-07,2600
+bd_ed_fed,Federal,slice:educational,total,sa,2026-08,2564
+bd_ed_fed,Federal,slice:educational,total,sa,2026-09,2536
 amusement,Amusement & recreation,segment,private,nsa,2016-01,807
 amusement,Amusement & recreation,segment,private,nsa,2016-02,859
 amusement,Amusement & recreation,segment,private,nsa,2016-03,928
@@ -25981,8 +26183,9 @@ amusement,Amusement & recreation,segment,private,nsa,2026-03,1812
 amusement,Amusement & recreation,segment,private,nsa,2026-04,1954
 amusement,Amusement & recreation,segment,private,nsa,2026-05,1979
 amusement,Amusement & recreation,segment,private,nsa,2026-06,2014
-amusement,Amusement & recreation,segment,private,nsa,2026-07,2033
-amusement,Amusement & recreation,segment,private,nsa,2026-08,2045
+amusement,Amusement & recreation,segment,private,nsa,2026-07,2052
+amusement,Amusement & recreation,segment,private,nsa,2026-08,2052
+amusement,Amusement & recreation,segment,private,nsa,2026-09,2007
 amusement,Amusement & recreation,segment,public,nsa,2016-01,699
 amusement,Amusement & recreation,segment,public,nsa,2016-02,736
 amusement,Amusement & recreation,segment,public,nsa,2016-03,819
@@ -26109,8 +26312,9 @@ amusement,Amusement & recreation,segment,public,nsa,2026-03,1972
 amusement,Amusement & recreation,segment,public,nsa,2026-04,2134
 amusement,Amusement & recreation,segment,public,nsa,2026-05,2243
 amusement,Amusement & recreation,segment,public,nsa,2026-06,2328
-amusement,Amusement & recreation,segment,public,nsa,2026-07,2325
-amusement,Amusement & recreation,segment,public,nsa,2026-08,2362
+amusement,Amusement & recreation,segment,public,nsa,2026-07,2321
+amusement,Amusement & recreation,segment,public,nsa,2026-08,2377
+amusement,Amusement & recreation,segment,public,nsa,2026-09,2368
 amusement,Amusement & recreation,segment,total,nsa,2016-01,1506
 amusement,Amusement & recreation,segment,total,nsa,2016-02,1595
 amusement,Amusement & recreation,segment,total,nsa,2016-03,1747
@@ -26237,8 +26441,9 @@ amusement,Amusement & recreation,segment,total,nsa,2026-03,3784
 amusement,Amusement & recreation,segment,total,nsa,2026-04,4088
 amusement,Amusement & recreation,segment,total,nsa,2026-05,4222
 amusement,Amusement & recreation,segment,total,nsa,2026-06,4342
-amusement,Amusement & recreation,segment,total,nsa,2026-07,4358
-amusement,Amusement & recreation,segment,total,nsa,2026-08,4407
+amusement,Amusement & recreation,segment,total,nsa,2026-07,4373
+amusement,Amusement & recreation,segment,total,nsa,2026-08,4429
+amusement,Amusement & recreation,segment,total,nsa,2026-09,4375
 amusement,Amusement & recreation,segment,private,sa,2016-01,10535
 amusement,Amusement & recreation,segment,private,sa,2016-02,10951
 amusement,Amusement & recreation,segment,private,sa,2016-03,11543
@@ -26365,8 +26570,9 @@ amusement,Amusement & recreation,segment,private,sa,2026-03,22909
 amusement,Amusement & recreation,segment,private,sa,2026-04,23121
 amusement,Amusement & recreation,segment,private,sa,2026-05,23335
 amusement,Amusement & recreation,segment,private,sa,2026-06,23629
-amusement,Amusement & recreation,segment,private,sa,2026-07,23517
-amusement,Amusement & recreation,segment,private,sa,2026-08,23438
+amusement,Amusement & recreation,segment,private,sa,2026-07,23672
+amusement,Amusement & recreation,segment,private,sa,2026-08,23505
+amusement,Amusement & recreation,segment,private,sa,2026-09,23200
 amusement,Amusement & recreation,segment,public,sa,2016-01,10335
 amusement,Amusement & recreation,segment,public,sa,2016-02,10659
 amusement,Amusement & recreation,segment,public,sa,2016-03,10906
@@ -26493,8 +26699,9 @@ amusement,Amusement & recreation,segment,public,sa,2026-03,25654
 amusement,Amusement & recreation,segment,public,sa,2026-04,25332
 amusement,Amusement & recreation,segment,public,sa,2026-05,25579
 amusement,Amusement & recreation,segment,public,sa,2026-06,25843
-amusement,Amusement & recreation,segment,public,sa,2026-07,25974
-amusement,Amusement & recreation,segment,public,sa,2026-08,25997
+amusement,Amusement & recreation,segment,public,sa,2026-07,25948
+amusement,Amusement & recreation,segment,public,sa,2026-08,26093
+amusement,Amusement & recreation,segment,public,sa,2026-09,25826
 amusement,Amusement & recreation,segment,total,sa,2016-01,20870
 amusement,Amusement & recreation,segment,total,sa,2016-02,21610
 amusement,Amusement & recreation,segment,total,sa,2016-03,22449
@@ -26621,8 +26828,9 @@ amusement,Amusement & recreation,segment,total,sa,2026-03,48563
 amusement,Amusement & recreation,segment,total,sa,2026-04,48453
 amusement,Amusement & recreation,segment,total,sa,2026-05,48914
 amusement,Amusement & recreation,segment,total,sa,2026-06,49472
-amusement,Amusement & recreation,segment,total,sa,2026-07,49491
-amusement,Amusement & recreation,segment,total,sa,2026-08,49435
+amusement,Amusement & recreation,segment,total,sa,2026-07,49620
+amusement,Amusement & recreation,segment,total,sa,2026-08,49598
+amusement,Amusement & recreation,segment,total,sa,2026-09,49026
 lodging,Lodging,segment,private,nsa,2016-01,1795
 lodging,Lodging,segment,private,nsa,2016-02,1881
 lodging,Lodging,segment,private,nsa,2016-03,2161
@@ -26749,8 +26957,9 @@ lodging,Lodging,segment,private,nsa,2026-03,1933
 lodging,Lodging,segment,private,nsa,2026-04,1951
 lodging,Lodging,segment,private,nsa,2026-05,1971
 lodging,Lodging,segment,private,nsa,2026-06,1983
-lodging,Lodging,segment,private,nsa,2026-07,1962
-lodging,Lodging,segment,private,nsa,2026-08,1988
+lodging,Lodging,segment,private,nsa,2026-07,1976
+lodging,Lodging,segment,private,nsa,2026-08,2005
+lodging,Lodging,segment,private,nsa,2026-09,2006
 lodging,Lodging,segment,total,nsa,2016-01,1795
 lodging,Lodging,segment,total,nsa,2016-02,1881
 lodging,Lodging,segment,total,nsa,2016-03,2161
@@ -26877,8 +27086,9 @@ lodging,Lodging,segment,total,nsa,2026-03,1933
 lodging,Lodging,segment,total,nsa,2026-04,1951
 lodging,Lodging,segment,total,nsa,2026-05,1971
 lodging,Lodging,segment,total,nsa,2026-06,1983
-lodging,Lodging,segment,total,nsa,2026-07,1962
-lodging,Lodging,segment,total,nsa,2026-08,1988
+lodging,Lodging,segment,total,nsa,2026-07,1976
+lodging,Lodging,segment,total,nsa,2026-08,2005
+lodging,Lodging,segment,total,nsa,2026-09,2006
 lodging,Lodging,segment,private,sa,2016-01,23196
 lodging,Lodging,segment,private,sa,2016-02,23884
 lodging,Lodging,segment,private,sa,2016-03,26054
@@ -27005,8 +27215,9 @@ lodging,Lodging,segment,private,sa,2026-03,23175
 lodging,Lodging,segment,private,sa,2026-04,23051
 lodging,Lodging,segment,private,sa,2026-05,23088
 lodging,Lodging,segment,private,sa,2026-06,23329
-lodging,Lodging,segment,private,sa,2026-07,23354
-lodging,Lodging,segment,private,sa,2026-08,23328
+lodging,Lodging,segment,private,sa,2026-07,23527
+lodging,Lodging,segment,private,sa,2026-08,23533
+lodging,Lodging,segment,private,sa,2026-09,23593
 lodging,Lodging,segment,total,sa,2016-01,23196
 lodging,Lodging,segment,total,sa,2016-02,23884
 lodging,Lodging,segment,total,sa,2016-03,26054
@@ -27133,8 +27344,9 @@ lodging,Lodging,segment,total,sa,2026-03,23175
 lodging,Lodging,segment,total,sa,2026-04,23051
 lodging,Lodging,segment,total,sa,2026-05,23088
 lodging,Lodging,segment,total,sa,2026-06,23329
-lodging,Lodging,segment,total,sa,2026-07,23354
-lodging,Lodging,segment,total,sa,2026-08,23328
+lodging,Lodging,segment,total,sa,2026-07,23527
+lodging,Lodging,segment,total,sa,2026-08,23533
+lodging,Lodging,segment,total,sa,2026-09,23593
 public_safety,Public safety,segment,public,nsa,2016-01,623
 public_safety,Public safety,segment,public,nsa,2016-02,616
 public_safety,Public safety,segment,public,nsa,2016-03,615
@@ -27261,8 +27473,9 @@ public_safety,Public safety,segment,public,nsa,2026-03,1655
 public_safety,Public safety,segment,public,nsa,2026-04,1758
 public_safety,Public safety,segment,public,nsa,2026-05,1823
 public_safety,Public safety,segment,public,nsa,2026-06,1867
-public_safety,Public safety,segment,public,nsa,2026-07,1793
-public_safety,Public safety,segment,public,nsa,2026-08,1867
+public_safety,Public safety,segment,public,nsa,2026-07,1802
+public_safety,Public safety,segment,public,nsa,2026-08,1864
+public_safety,Public safety,segment,public,nsa,2026-09,1903
 public_safety,Public safety,segment,total,nsa,2016-01,623
 public_safety,Public safety,segment,total,nsa,2016-02,616
 public_safety,Public safety,segment,total,nsa,2016-03,615
@@ -27389,8 +27602,9 @@ public_safety,Public safety,segment,total,nsa,2026-03,1655
 public_safety,Public safety,segment,total,nsa,2026-04,1758
 public_safety,Public safety,segment,total,nsa,2026-05,1823
 public_safety,Public safety,segment,total,nsa,2026-06,1867
-public_safety,Public safety,segment,total,nsa,2026-07,1793
-public_safety,Public safety,segment,total,nsa,2026-08,1867
+public_safety,Public safety,segment,total,nsa,2026-07,1802
+public_safety,Public safety,segment,total,nsa,2026-08,1864
+public_safety,Public safety,segment,total,nsa,2026-09,1903
 public_safety,Public safety,segment,public,sa,2016-01,8202
 public_safety,Public safety,segment,public,sa,2016-02,8081
 public_safety,Public safety,segment,public,sa,2016-03,7712
@@ -27517,8 +27731,9 @@ public_safety,Public safety,segment,public,sa,2026-03,20792
 public_safety,Public safety,segment,public,sa,2026-04,21156
 public_safety,Public safety,segment,public,sa,2026-05,21312
 public_safety,Public safety,segment,public,sa,2026-06,21044
-public_safety,Public safety,segment,public,sa,2026-07,21034
-public_safety,Public safety,segment,public,sa,2026-08,21360
+public_safety,Public safety,segment,public,sa,2026-07,21118
+public_safety,Public safety,segment,public,sa,2026-08,21298
+public_safety,Public safety,segment,public,sa,2026-09,21046
 public_safety,Public safety,segment,total,sa,2016-01,8202
 public_safety,Public safety,segment,total,sa,2016-02,8081
 public_safety,Public safety,segment,total,sa,2016-03,7712
@@ -27645,8 +27860,9 @@ public_safety,Public safety,segment,total,sa,2026-03,20792
 public_safety,Public safety,segment,total,sa,2026-04,21156
 public_safety,Public safety,segment,total,sa,2026-05,21312
 public_safety,Public safety,segment,total,sa,2026-06,21044
-public_safety,Public safety,segment,total,sa,2026-07,21034
-public_safety,Public safety,segment,total,sa,2026-08,21360
+public_safety,Public safety,segment,total,sa,2026-07,21118
+public_safety,Public safety,segment,total,sa,2026-08,21298
+public_safety,Public safety,segment,total,sa,2026-09,21046
 religious,Religious,segment,private,nsa,2016-01,249
 religious,Religious,segment,private,nsa,2016-02,254
 religious,Religious,segment,private,nsa,2016-03,284
@@ -27773,8 +27989,9 @@ religious,Religious,segment,private,nsa,2026-03,511
 religious,Religious,segment,private,nsa,2026-04,527
 religious,Religious,segment,private,nsa,2026-05,554
 religious,Religious,segment,private,nsa,2026-06,568
-religious,Religious,segment,private,nsa,2026-07,559
-religious,Religious,segment,private,nsa,2026-08,582
+religious,Religious,segment,private,nsa,2026-07,572
+religious,Religious,segment,private,nsa,2026-08,594
+religious,Religious,segment,private,nsa,2026-09,610
 religious,Religious,segment,total,nsa,2016-01,249
 religious,Religious,segment,total,nsa,2016-02,254
 religious,Religious,segment,total,nsa,2016-03,284
@@ -27901,8 +28118,9 @@ religious,Religious,segment,total,nsa,2026-03,511
 religious,Religious,segment,total,nsa,2026-04,527
 religious,Religious,segment,total,nsa,2026-05,554
 religious,Religious,segment,total,nsa,2026-06,568
-religious,Religious,segment,total,nsa,2026-07,559
-religious,Religious,segment,total,nsa,2026-08,582
+religious,Religious,segment,total,nsa,2026-07,572
+religious,Religious,segment,total,nsa,2026-08,594
+religious,Religious,segment,total,nsa,2026-09,610
 religious,Religious,segment,private,sa,2016-01,3482
 religious,Religious,segment,private,sa,2016-02,3425
 religious,Religious,segment,private,sa,2016-03,3627
@@ -28029,8 +28247,9 @@ religious,Religious,segment,private,sa,2026-03,6280
 religious,Religious,segment,private,sa,2026-04,6279
 religious,Religious,segment,private,sa,2026-05,6712
 religious,Religious,segment,private,sa,2026-06,6732
-religious,Religious,segment,private,sa,2026-07,6620
-religious,Religious,segment,private,sa,2026-08,6810
+religious,Religious,segment,private,sa,2026-07,6770
+religious,Religious,segment,private,sa,2026-08,6938
+religious,Religious,segment,private,sa,2026-09,7015
 religious,Religious,segment,total,sa,2016-01,3482
 religious,Religious,segment,total,sa,2016-02,3425
 religious,Religious,segment,total,sa,2016-03,3627
@@ -28157,5 +28376,6 @@ religious,Religious,segment,total,sa,2026-03,6280
 religious,Religious,segment,total,sa,2026-04,6279
 religious,Religious,segment,total,sa,2026-05,6712
 religious,Religious,segment,total,sa,2026-06,6732
-religious,Religious,segment,total,sa,2026-07,6620
-religious,Religious,segment,total,sa,2026-08,6810
+religious,Religious,segment,total,sa,2026-07,6770
+religious,Religious,segment,total,sa,2026-08,6938
+religious,Religious,segment,total,sa,2026-09,7015

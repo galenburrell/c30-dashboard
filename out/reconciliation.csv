@@ -125,8 +125,9 @@ data_center: segment − Σ pie slices,nsa,2026-03,4781,4781,0
 data_center: segment − Σ pie slices,nsa,2026-04,5198,5198,0
 data_center: segment − Σ pie slices,nsa,2026-05,5627,5627,0
 data_center: segment − Σ pie slices,nsa,2026-06,6244,6244,0
-data_center: segment − Σ pie slices,nsa,2026-07,6898,6898,0
-data_center: segment − Σ pie slices,nsa,2026-08,7535,7535,0
+data_center: segment − Σ pie slices,nsa,2026-07,6988,6988,0
+data_center: segment − Σ pie slices,nsa,2026-08,7909,7909,0
+data_center: segment − Σ pie slices,nsa,2026-09,8517,8517,0
 health_care: segment − Σ pie slices,nsa,2016-01,2902,2902,0
 health_care: segment − Σ pie slices,nsa,2016-02,3091,3091,0
 health_care: segment − Σ pie slices,nsa,2016-03,3307,3307,0
@@ -253,8 +254,9 @@ health_care: segment − Σ pie slices,nsa,2026-03,6084,6084,0
 health_care: segment − Σ pie slices,nsa,2026-04,6244,6244,0
 health_care: segment − Σ pie slices,nsa,2026-05,6306,6306,0
 health_care: segment − Σ pie slices,nsa,2026-06,6505,6505,0
-health_care: segment − Σ pie slices,nsa,2026-07,6397,6397,0
-health_care: segment − Σ pie slices,nsa,2026-08,6449,6449,0
+health_care: segment − Σ pie slices,nsa,2026-07,6479,6479,0
+health_care: segment − Σ pie slices,nsa,2026-08,6539,6539,0
+health_care: segment − Σ pie slices,nsa,2026-09,6640,6640,0
 health_care: parent − Σ subsegments,nsa,2016-01,2902,2903,-1
 health_care: parent − Σ subsegments,nsa,2016-02,3091,3091,0
 health_care: parent − Σ subsegments,nsa,2016-03,3307,3308,-1
@@ -381,8 +383,9 @@ health_care: parent − Σ subsegments,nsa,2026-03,6084,6084,0
 health_care: parent − Σ subsegments,nsa,2026-04,6244,6244,0
 health_care: parent − Σ subsegments,nsa,2026-05,6306,6306,0
 health_care: parent − Σ subsegments,nsa,2026-06,6505,6506,-1
-health_care: parent − Σ subsegments,nsa,2026-07,6397,6398,-1
-health_care: parent − Σ subsegments,nsa,2026-08,6449,6449,0
+health_care: parent − Σ subsegments,nsa,2026-07,6479,6479,0
+health_care: parent − Σ subsegments,nsa,2026-08,6539,6540,-1
+health_care: parent − Σ subsegments,nsa,2026-09,6640,6641,-1
 aviation: segment − Σ pie slices,nsa,2016-01,431,431,0
 aviation: segment − Σ pie slices,nsa,2016-02,478,478,0
 aviation: segment − Σ pie slices,nsa,2016-03,510,510,0
@@ -509,8 +512,9 @@ aviation: segment − Σ pie slices,nsa,2026-03,1717,1717,0
 aviation: segment − Σ pie slices,nsa,2026-04,1823,1823,0
 aviation: segment − Σ pie slices,nsa,2026-05,1921,1921,0
 aviation: segment − Σ pie slices,nsa,2026-06,1978,1978,0
-aviation: segment − Σ pie slices,nsa,2026-07,1955,1955,0
-aviation: segment − Σ pie slices,nsa,2026-08,2023,2023,0
+aviation: segment − Σ pie slices,nsa,2026-07,1956,1956,0
+aviation: segment − Σ pie slices,nsa,2026-08,2024,2024,0
+aviation: segment − Σ pie slices,nsa,2026-09,2011,2011,0
 aviation: parent − Σ subsegments,nsa,2016-01,431,431,0
 aviation: parent − Σ subsegments,nsa,2016-02,478,478,0
 aviation: parent − Σ subsegments,nsa,2016-03,510,510,0
@@ -637,8 +641,9 @@ aviation: parent − Σ subsegments,nsa,2026-03,1717,1717,0
 aviation: parent − Σ subsegments,nsa,2026-04,1823,1823,0
 aviation: parent − Σ subsegments,nsa,2026-05,1921,1921,0
 aviation: parent − Σ subsegments,nsa,2026-06,1978,1978,0
-aviation: parent − Σ subsegments,nsa,2026-07,1955,1955,0
-aviation: parent − Σ subsegments,nsa,2026-08,2023,2023,0
+aviation: parent − Σ subsegments,nsa,2026-07,1956,1956,0
+aviation: parent − Σ subsegments,nsa,2026-08,2024,2024,0
+aviation: parent − Σ subsegments,nsa,2026-09,2011,2011,0
 office_ex_dc: parent − Σ subsegments,nsa,2016-01,4189,4171,18
 office_ex_dc: parent − Σ subsegments,nsa,2016-02,4480,4461,19
 office_ex_dc: parent − Σ subsegments,nsa,2016-03,4717,4695,22
@@ -765,8 +770,9 @@ office_ex_dc: parent − Σ subsegments,nsa,2026-03,5310,5275,35
 office_ex_dc: parent − Σ subsegments,nsa,2026-04,5512,5471,41
 office_ex_dc: parent − Σ subsegments,nsa,2026-05,5565,5525,40
 office_ex_dc: parent − Σ subsegments,nsa,2026-06,5660,5618,42
-office_ex_dc: parent − Σ subsegments,nsa,2026-07,5695,5653,42
-office_ex_dc: parent − Σ subsegments,nsa,2026-08,5837,5796,41
+office_ex_dc: parent − Σ subsegments,nsa,2026-07,5714,5676,38
+office_ex_dc: parent − Σ subsegments,nsa,2026-08,5846,5809,37
+office_ex_dc: parent − Σ subsegments,nsa,2026-09,5802,5772,30
 commercial: parent − Σ subsegments,nsa,2016-01,5292,4665,627
 commercial: parent − Σ subsegments,nsa,2016-02,5531,4901,630
 commercial: parent − Σ subsegments,nsa,2016-03,5893,5249,644
@@ -893,8 +899,9 @@ commercial: parent − Σ subsegments,nsa,2026-03,9926,8867,1059
 commercial: parent − Σ subsegments,nsa,2026-04,10281,9168,1113
 commercial: parent − Σ subsegments,nsa,2026-05,10425,9309,1116
 commercial: parent − Σ subsegments,nsa,2026-06,10640,9497,1143
-commercial: parent − Σ subsegments,nsa,2026-07,10546,9398,1148
-commercial: parent − Σ subsegments,nsa,2026-08,10706,9539,1167
+commercial: parent − Σ subsegments,nsa,2026-07,10627,9480,1147
+commercial: parent − Σ subsegments,nsa,2026-08,10751,9584,1167
+commercial: parent − Σ subsegments,nsa,2026-09,10889,9714,1175
 manufacturing: parent − Σ subsegments,nsa,2016-01,5942,4387,1555
 manufacturing: parent − Σ subsegments,nsa,2016-02,6073,4473,1600
 manufacturing: parent − Σ subsegments,nsa,2016-03,6489,4875,1614
@@ -1021,8 +1028,9 @@ manufacturing: parent − Σ subsegments,nsa,2026-03,14665,11202,3463
 manufacturing: parent − Σ subsegments,nsa,2026-04,14374,10945,3429
 manufacturing: parent − Σ subsegments,nsa,2026-05,14265,10831,3434
 manufacturing: parent − Σ subsegments,nsa,2026-06,14293,10827,3466
-manufacturing: parent − Σ subsegments,nsa,2026-07,14216,10823,3393
-manufacturing: parent − Σ subsegments,nsa,2026-08,14443,11056,3387
+manufacturing: parent − Σ subsegments,nsa,2026-07,14172,10829,3343
+manufacturing: parent − Σ subsegments,nsa,2026-08,14400,11032,3368
+manufacturing: parent − Σ subsegments,nsa,2026-09,14401,11058,3343
 educational: segment − Σ pie slices,nsa,2016-01,5968,5968,0
 educational: segment − Σ pie slices,nsa,2016-02,6258,6258,0
 educational: segment − Σ pie slices,nsa,2016-03,6683,6683,0
@@ -1149,8 +1157,9 @@ educational: segment − Σ pie slices,nsa,2026-03,10382,10382,0
 educational: segment − Σ pie slices,nsa,2026-04,11181,11181,0
 educational: segment − Σ pie slices,nsa,2026-05,11940,11940,0
 educational: segment − Σ pie slices,nsa,2026-06,13318,13318,0
-educational: segment − Σ pie slices,nsa,2026-07,13439,13439,0
-educational: segment − Σ pie slices,nsa,2026-08,13202,13202,0
+educational: segment − Σ pie slices,nsa,2026-07,13432,13432,0
+educational: segment − Σ pie slices,nsa,2026-08,13215,13215,0
+educational: segment − Σ pie slices,nsa,2026-09,12006,12006,0
 educational: parent − Σ subsegments,nsa,2016-01,5968,5766,202
 educational: parent − Σ subsegments,nsa,2016-02,6258,6045,213
 educational: parent − Σ subsegments,nsa,2016-03,6683,6480,203
@@ -1277,8 +1286,9 @@ educational: parent − Σ subsegments,nsa,2026-03,10382,9882,500
 educational: parent − Σ subsegments,nsa,2026-04,11181,10649,532
 educational: parent − Σ subsegments,nsa,2026-05,11940,11410,530
 educational: parent − Σ subsegments,nsa,2026-06,13318,12768,550
-educational: parent − Σ subsegments,nsa,2026-07,13439,12892,547
-educational: parent − Σ subsegments,nsa,2026-08,13202,12667,535
+educational: parent − Σ subsegments,nsa,2026-07,13432,12892,540
+educational: parent − Σ subsegments,nsa,2026-08,13215,12671,544
+educational: parent − Σ subsegments,nsa,2026-09,12006,11478,528
 Federal Health care: (Public − state & local) vs Census 'Federal Health care',nsa,2016-01,193,194,-1
 Federal Health care: (Public − state & local) vs Census 'Federal Health care',nsa,2016-02,235,235,0
 Federal Health care: (Public − state & local) vs Census 'Federal Health care',nsa,2016-03,271,271,0
@@ -1405,8 +1415,9 @@ Federal Health care: (Public − state & local) vs Census 'Federal Health care',
 Federal Health care: (Public − state & local) vs Census 'Federal Health care',nsa,2026-04,365,365,0
 Federal Health care: (Public − state & local) vs Census 'Federal Health care',nsa,2026-05,346,346,0
 Federal Health care: (Public − state & local) vs Census 'Federal Health care',nsa,2026-06,390,390,0
-Federal Health care: (Public − state & local) vs Census 'Federal Health care',nsa,2026-07,394,394,0
-Federal Health care: (Public − state & local) vs Census 'Federal Health care',nsa,2026-08,356,356,0
+Federal Health care: (Public − state & local) vs Census 'Federal Health care',nsa,2026-07,387,386,1
+Federal Health care: (Public − state & local) vs Census 'Federal Health care',nsa,2026-08,366,366,0
+Federal Health care: (Public − state & local) vs Census 'Federal Health care',nsa,2026-09,424,424,0
 Federal Educational: (Public − state & local) vs Census 'Federal Educational',nsa,2016-01,140,140,0
 Federal Educational: (Public − state & local) vs Census 'Federal Educational',nsa,2016-02,146,146,0
 Federal Educational: (Public − state & local) vs Census 'Federal Educational',nsa,2016-03,147,147,0
@@ -1533,8 +1544,9 @@ Federal Educational: (Public − state & local) vs Census 'Federal Educational',
 Federal Educational: (Public − state & local) vs Census 'Federal Educational',nsa,2026-04,215,215,0
 Federal Educational: (Public − state & local) vs Census 'Federal Educational',nsa,2026-05,225,225,0
 Federal Educational: (Public − state & local) vs Census 'Federal Educational',nsa,2026-06,224,224,0
-Federal Educational: (Public − state & local) vs Census 'Federal Educational',nsa,2026-07,221,221,0
-Federal Educational: (Public − state & local) vs Census 'Federal Educational',nsa,2026-08,230,231,-1
+Federal Educational: (Public − state & local) vs Census 'Federal Educational',nsa,2026-07,220,219,1
+Federal Educational: (Public − state & local) vs Census 'Federal Educational',nsa,2026-08,214,214,0
+Federal Educational: (Public − state & local) vs Census 'Federal Educational',nsa,2026-09,242,243,-1
 private: buildings vs Census 'Nonresidential',nsa,2016-01,30384,21443,8941
 private: buildings vs Census 'Nonresidential',nsa,2016-02,31352,22455,8897
 private: buildings vs Census 'Nonresidential',nsa,2016-03,33534,24104,9430
@@ -1661,8 +1673,9 @@ private: buildings vs Census 'Nonresidential',nsa,2026-03,60870,44247,16623
 private: buildings vs Census 'Nonresidential',nsa,2026-04,62046,45270,16776
 private: buildings vs Census 'Nonresidential',nsa,2026-05,62977,45942,17035
 private: buildings vs Census 'Nonresidential',nsa,2026-06,64609,47025,17584
-private: buildings vs Census 'Nonresidential',nsa,2026-07,65080,47370,17710
-private: buildings vs Census 'Nonresidential',nsa,2026-08,66591,48643,17948
+private: buildings vs Census 'Nonresidential',nsa,2026-07,65623,47622,18001
+private: buildings vs Census 'Nonresidential',nsa,2026-08,67465,49095,18370
+private: buildings vs Census 'Nonresidential',nsa,2026-09,68358,49610,18748
 public: buildings vs Census 'Public Nonresidential',nsa,2016-01,18211,7695,10516
 public: buildings vs Census 'Public Nonresidential',nsa,2016-02,18922,8090,10832
 public: buildings vs Census 'Public Nonresidential',nsa,2016-03,20379,8630,11749
@@ -1789,5 +1802,6 @@ public: buildings vs Census 'Public Nonresidential',nsa,2026-03,37528,16501,2102
 public: buildings vs Census 'Public Nonresidential',nsa,2026-04,42050,17667,24383
 public: buildings vs Census 'Public Nonresidential',nsa,2026-05,46232,18677,27555
 public: buildings vs Census 'Public Nonresidential',nsa,2026-06,50517,20373,30144
-public: buildings vs Census 'Public Nonresidential',nsa,2026-07,51599,20448,31151
-public: buildings vs Census 'Public Nonresidential',nsa,2026-08,52541,20396,32145
+public: buildings vs Census 'Public Nonresidential',nsa,2026-07,51546,20469,31077
+public: buildings vs Census 'Public Nonresidential',nsa,2026-08,52483,20481,32002
+public: buildings vs Census 'Public Nonresidential',nsa,2026-09,51269,19550,31719

@@ -1,1 +1,23 @@
 segment_id,segment,month,prev_vintage,prev_value,new_vintage,new_value,change
+data_center,Data centers,2026-07,2026-10-01,6898.0,2026-11-02,6988,90.0
+data_center,Data centers,2026-08,2026-10-01,7535.0,2026-11-02,7909,374.0
+health_care,Health care,2026-07,2026-10-01,6397.0,2026-11-02,6479,82.0
+health_care,Health care,2026-08,2026-10-01,6449.0,2026-11-02,6539,90.0
+aviation,Aviation,2026-07,2026-10-01,1955.0,2026-11-02,1956,1.0
+aviation,Aviation,2026-08,2026-10-01,2023.0,2026-11-02,2024,1.0
+office_ex_dc,Office (excl. data centers),2026-07,2026-10-01,5695.0,2026-11-02,5714,19.0
+office_ex_dc,Office (excl. data centers),2026-08,2026-10-01,5837.0,2026-11-02,5846,9.0
+commercial,Commercial (incl. farm),2026-07,2026-10-01,10546.0,2026-11-02,10627,81.0
+commercial,Commercial (incl. farm),2026-08,2026-10-01,10706.0,2026-11-02,10751,45.0
+manufacturing,Manufacturing,2026-07,2026-10-01,14216.0,2026-11-02,14172,-44.0
+manufacturing,Manufacturing,2026-08,2026-10-01,14443.0,2026-11-02,14400,-43.0
+educational,Educational,2026-07,2026-10-01,13439.0,2026-11-02,13432,-7.0
+educational,Educational,2026-08,2026-10-01,13202.0,2026-11-02,13215,13.0
+amusement,Amusement & recreation,2026-07,2026-10-01,4358.0,2026-11-02,4373,15.0
+amusement,Amusement & recreation,2026-08,2026-10-01,4407.0,2026-11-02,4429,22.0
+lodging,Lodging,2026-07,2026-10-01,1962.0,2026-11-02,1976,14.0
+lodging,Lodging,2026-08,2026-10-01,1988.0,2026-11-02,2005,17.0
+public_safety,Public safety,2026-07,2026-10-01,1793.0,2026-11-02,1802,9.0
+public_safety,Public safety,2026-08,2026-10-01,1867.0,2026-11-02,1864,-3.0
+religious,Religious,2026-07,2026-10-01,559.0,2026-11-02,572,13.0
+religious,Religious,2026-08,2026-10-01,582.0,2026-11-02,594,12.0

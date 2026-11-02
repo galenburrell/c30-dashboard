@@ -1,0 +1,12 @@
+{
+  "release": "2026-11-02",
+  "latest_month": "2026-09",
+  "sha256": {
+    "privtime.xlsx": "0db814f73b6248312f4423a61361141ff9405ae9852f6708ea83fa9aa5caf402",
+    "privsatime.xlsx": "e11e6cd8c5a66b2e647d010b54ba606b73c3e41cde5f757cf90fcc3ec77b066a",
+    "pubtime.xlsx": "a97f2be918382818a7d01d6ebedf017a0df4e4b0f9ae4d657e8db1a833145989",
+    "pubsatime.xlsx": "969b9177f2fdd31ed46fa8890340e3ba945e0b13dbaef05e5891a1603326401e",
+    "sltime.xlsx": "bc4e19dd55c70d8a659694d041642ae75db08bd1b365039748b9df39824dd58e",
+    "slsatime.xlsx": "8eeb21599b3a7b0ac23c93418f60d664c384b6dd88d7d01a6c4630290dd3c308"
+  }
+}
